@@ -11,9 +11,13 @@ const CORE_BACKEND_URL = config.coreBackend.url;
 /** Fire-and-forget HTTP POST to core-backend. Never throws. */
 async function postToCore(path: string, body: object): Promise<void> {
   try {
+    const headers: Record<string, string> = { "Content-Type": "application/json" };
+    if (config.internalApiKey) {
+      headers["X-Internal-Api-Key"] = config.internalApiKey;
+    }
     await fetch(`${CORE_BACKEND_URL}${path}`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers,
       body: JSON.stringify(body),
     });
   } catch (err) {
@@ -181,16 +185,38 @@ export function handleBrowserConnection(browserWs: WebSocket): void {
 
   function handleConfig(msg: any): void {
     try {
+      // Handle double-serialized questionPlan (string instead of object)
+      if (msg.questionPlan && typeof msg.questionPlan === "string") {
+        try {
+          msg.questionPlan = JSON.parse(msg.questionPlan);
+          logger.info("Parsed double-serialized questionPlan from string");
+        } catch {
+          logger.warn("Failed to parse questionPlan string, will use defaults");
+          delete msg.questionPlan;
+        }
+      }
+
       const parsed = SessionConfigSchema.parse(msg);
       sessionId = parsed.sessionId;
 
-      logger.info({ sessionId }, "Starting interview session");
+      const hasCustomQuestions =
+        parsed.questionPlan?.questions && parsed.questionPlan.questions.length > 0;
+
+      logger.info(
+        {
+          sessionId,
+          hasQuestionPlan: !!parsed.questionPlan,
+          questionCount: parsed.questionPlan?.questions?.length ?? 0,
+          usingDefaults: !hasCustomQuestions,
+          targetRole: parsed.questionPlan?.targetRole ?? "none",
+        },
+        "Starting interview session",
+      );
 
       // Build question list
-      const questions: ParsedQuestion[] =
-        parsed.questionPlan?.questions && parsed.questionPlan.questions.length > 0
-          ? parsed.questionPlan.questions
-          : DEFAULT_QUESTIONS;
+      const questions: ParsedQuestion[] = hasCustomQuestions
+        ? parsed.questionPlan!.questions!
+        : DEFAULT_QUESTIONS;
 
       const questionList = questions
         .map((q, i) => {
@@ -211,32 +237,52 @@ export function handleBrowserConnection(browserWs: WebSocket): void {
               "Bạn là một HR Interviewer chuyên nghiệp đang phỏng vấn 1:1 bằng tiếng Việt.",
               "Tên bạn là Minh, từ phòng Nhân sự của công ty InterviewPro.",
               "",
+              "=== NGUYÊN TẮC QUAN TRỌNG NHẤT ===",
+              "- PHẢI ĐỢI ứng viên trả lời XONG rồi mới nói tiếp. TUYỆT ĐỐI KHÔNG hỏi câu tiếp khi ứng viên chưa trả lời.",
+              "- Sau khi hỏi một câu, IM LẶNG và CHỜ cho đến khi ứng viên trả lời xong hoàn toàn.",
+              "- Nếu ứng viên im lặng lâu (>5 giây), nhẹ nhàng nhắc: 'Bạn cứ từ từ suy nghĩ nhé' — KHÔNG hỏi câu khác.",
+              "",
               "=== PHONG CÁCH ===",
-              "- Giọng nói thân thiện nhưng chuyên nghiệp, không quá trang trọng cũng không quá suồng sã.",
-              '- Lắng nghe kỹ trước khi phản hồi.',
-              '- Khi ứng viên trả lời tốt: khen ngắn gọn (VD: "Hay đấy", "Cảm ơn bạn đã chia sẻ chi tiết").',
-              '- Khi ứng viên trả lời chung chung: hỏi follow-up để đào sâu (VD: "Bạn có thể cho ví dụ cụ thể hơn không?", "Kết quả cụ thể là gì?").',
-              "- Mỗi câu hỏi chỉ follow-up tối đa 1-2 lần rồi chuyển câu tiếp.",
+              "- Giọng nói thân thiện nhưng chuyên nghiệp.",
+              '- Lắng nghe kỹ TOÀN BỘ câu trả lời trước khi phản hồi.',
+              '- Khi ứng viên trả lời tốt: khen ngắn gọn (VD: "Hay đấy", "Cảm ơn bạn đã chia sẻ").',
               "- KHÔNG giảng giải dài dòng. KHÔNG đưa ra đáp án mẫu.",
               "",
+              "=== CÁCH ĐÀO SÂU KINH NGHIỆM ===",
+              "Khi ứng viên kể về kinh nghiệm hoặc dự án, BẮT BUỘC phải đào sâu bằng cách:",
+              "1. Đưa ra TÌNH HUỐNG CỤ THỂ dựa trên kinh nghiệm họ vừa nói.",
+              '   VD: Ứng viên nói "Em làm về REST API" → Hỏi "Giả sử API của bạn đang xử lý 1000 request/giây và bắt đầu timeout, bạn sẽ xử lý thế nào?"',
+              '   VD: Ứng viên nói "Em dùng React" → Hỏi "Nếu component render lại liên tục gây lag, bạn sẽ debug và optimize bằng cách nào?"',
+              '   VD: Ứng viên nói "Em làm team lead" → Hỏi "Nếu có 2 thành viên trong team xung đột về cách thiết kế database, bạn sẽ giải quyết ra sao?"',
+              "2. Hỏi về KẾT QUẢ CỤ THỂ: số liệu, impact, bài học rút ra.",
+              "3. Hỏi về KHÓ KHĂN gặp phải và cách GIẢI QUYẾT.",
+              "4. Chỉ chuyển sang câu tiếp khi đã khai thác đủ sâu (2-3 follow-up).",
+              "",
               "=== KỊCH BẢN PHỎNG VẤN ===",
-              "Hỏi lần lượt các câu sau (chuyển câu khi đã đủ thông tin):",
+              "Hỏi lần lượt các câu sau:",
               questionList,
               "",
               "=== QUY TẮC ===",
-              '1. Bắt đầu bằng lời chào và giới thiệu ngắn: "Xin chào, mình là Minh từ InterviewPro..."',
-              "2. Sau mỗi câu trả lời, phản hồi ngắn (1-2 câu) rồi hỏi câu tiếp theo.",
-              "3. Nếu ứng viên hỏi lại, trả lời ngắn gọn rồi quay lại kịch bản.",
-              "4. Khi hết câu hỏi, tổng kết: cảm ơn ứng viên, nói rằng kết quả sẽ được gửi sớm.",
-              "5. Giữ nhịp tự nhiên — không đọc câu hỏi như robot.",
-              "6. Thời lượng mỗi câu: khoảng 2-3 phút.",
-              "7. Sử dụng follow-up gợi ý khi ứng viên trả lời chưa đủ chi tiết.",
+              '1. Bắt đầu bằng lời chào ngắn: "Xin chào, mình là Minh từ InterviewPro. Hôm nay mình sẽ trao đổi với bạn khoảng 15-20 phút nhé. Bạn sẵn sàng chưa?"',
+              "2. CHỜ ứng viên xác nhận sẵn sàng rồi mới bắt đầu câu hỏi đầu tiên.",
+              "3. Mỗi câu hỏi: HỎI → CHỜ TRẢ LỜI → ĐÀO SÂU bằng tình huống → CHỜ TRẢ LỜI → rồi mới chuyển câu.",
+              "4. KHÔNG BAO GIỜ hỏi 2 câu liên tiếp mà không chờ trả lời.",
+              "5. Khi hết câu hỏi, tổng kết: cảm ơn và nói kết quả sẽ gửi sớm.",
+              "6. Giữ nhịp tự nhiên — không đọc câu hỏi như robot.",
             ].join("\n")
           : [
               "You are a professional HR interviewer conducting a 1:1 interview.",
+              "",
+              "CRITICAL RULES:",
+              "- ALWAYS wait for the candidate to finish answering before asking the next question.",
+              "- NEVER ask two questions in a row without waiting for an answer.",
+              "- When the candidate shares experience, dig deeper with SCENARIO-BASED follow-ups based on what they said.",
+              "- Example: Candidate says 'I worked with microservices' → Ask 'If one of your microservices starts failing and cascading to others, how would you handle it?'",
+              "",
               "Ask the following questions in order:",
               questionList,
-              "Follow up if answers are vague. Be friendly but professional.",
+              "",
+              "For each answer: LISTEN → ACKNOWLEDGE → DIG DEEPER with a scenario → WAIT → then move to next question.",
             ].join("\n");
 
       // Create Gemini Live session
@@ -259,23 +305,43 @@ export function handleBrowserConnection(browserWs: WebSocket): void {
             });
           }
 
-          // Speech metrics for user transcripts
+          // Speech metrics for user transcripts — calculate per-turn and POST to core-backend
           if (speaker === "user" && isFinal && text.trim()) {
+            // Calculate per-turn utterance duration
+            let turnUtterance = utteranceSeconds;
+            if (lastUserSpeechStart) {
+              turnUtterance = (Date.now() - lastUserSpeechStart) / 1000;
+              lastUserSpeechStart = null;
+              utteranceSeconds = 0;
+            }
+
             const words = text.trim().split(/\s+/).filter(Boolean);
             const wpm =
-              utteranceSeconds > 0 ? (words.length / utteranceSeconds) * 60 : null;
+              turnUtterance > 0 ? (words.length / turnUtterance) * 60 : null;
             const filler = countVietnameseFillers(text);
 
             logger.info(
-              JSON.stringify({
+              {
                 type: "SPEECH_METRICS",
                 sessionId,
+                turnIndex: currentTurn,
                 wpm,
                 filler,
-                utteranceSeconds,
-                transcript: text,
-              }),
+                utteranceSeconds: turnUtterance,
+              },
+              "Speech metrics for turn",
             );
+
+            // POST to core-backend for storage
+            if (sessionId) {
+              postToCore("/internal/speech-metrics", {
+                sessionId,
+                turnIndex: currentTurn,
+                wpm,
+                fillerCounts: filler,
+                utteranceSeconds: turnUtterance,
+              });
+            }
           }
         },
         onError: (message) => {

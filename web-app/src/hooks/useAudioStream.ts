@@ -5,6 +5,8 @@ import { useState, useCallback, useRef, useEffect } from "react";
 const VOICE_AGENT_WS_URL =
   process.env.NEXT_PUBLIC_VOICE_AGENT_WS_URL || "ws://localhost:8081";
 
+const MAX_RECONNECT_ATTEMPTS = 3;
+
 interface AudioStreamMessage {
   type: "audio" | "transcript" | "status" | "error";
   data?: string;
@@ -22,7 +24,7 @@ interface TranscriptEntry {
 
 interface UseAudioStreamOptions {
   sessionId: string;
-  onTranscript?: (speaker: "ai" | "user", text: string) => void;
+  onTranscript?: (speaker: "ai" | "user", text: string, isFinal: boolean) => void;
   onStatusChange?: (state: string) => void;
   onError?: (message: string) => void;
 }
@@ -47,6 +49,9 @@ export function useAudioStream({
   const playbackContextRef = useRef<AudioContext | null>(null);
   const playbackQueueRef = useRef<AudioBuffer[]>([]);
   const isPlayingRef = useRef(false);
+  const reconnectAttemptsRef = useRef(0);
+  const lastMetadataRef = useRef<object | undefined>();
+  const intentionalCloseRef = useRef(false);
 
   // Playback audio queue
   const playNextInQueue = useCallback(() => {
@@ -70,14 +75,12 @@ export function useAudioStream({
       const ctx = playbackContextRef.current;
       if (!ctx) return;
 
-      // Decode base64 to PCM bytes
       const binaryStr = atob(base64Pcm);
       const bytes = new Uint8Array(binaryStr.length);
       for (let i = 0; i < binaryStr.length; i++) {
         bytes[i] = binaryStr.charCodeAt(i);
       }
 
-      // Convert PCM 16-bit LE to Float32 (24kHz mono from Gemini)
       const int16 = new Int16Array(bytes.buffer);
       const float32 = new Float32Array(int16.length);
       for (let i = 0; i < int16.length; i++) {
@@ -100,6 +103,8 @@ export function useAudioStream({
     async (metadata?: object) => {
       if (wsRef.current) return;
 
+      lastMetadataRef.current = metadata;
+      intentionalCloseRef.current = false;
       setConnectionState("connecting");
 
       try {
@@ -131,6 +136,7 @@ export function useAudioStream({
         ws.onopen = () => {
           setIsConnected(true);
           setConnectionState("connected");
+          reconnectAttemptsRef.current = 0;
           onStatusChange?.("connected");
 
           // Send config message with session info
@@ -148,14 +154,12 @@ export function useAudioStream({
             if (ws.readyState !== WebSocket.OPEN) return;
 
             const inputData = e.inputBuffer.getChannelData(0);
-            // Convert Float32 to PCM 16-bit LE
             const pcm16 = new Int16Array(inputData.length);
             for (let i = 0; i < inputData.length; i++) {
               const s = Math.max(-1, Math.min(1, inputData[i]));
               pcm16[i] = s < 0 ? s * 0x8000 : s * 0x7fff;
             }
 
-            // Convert to base64
             const bytes = new Uint8Array(pcm16.buffer);
             let binary = "";
             for (let i = 0; i < bytes.length; i++) {
@@ -179,7 +183,7 @@ export function useAudioStream({
               break;
             case "transcript":
               if (msg.speaker && msg.text) {
-                onTranscript?.(msg.speaker, msg.text);
+                onTranscript?.(msg.speaker, msg.text, msg.isFinal ?? false);
                 if (msg.isFinal) {
                   setTranscripts((prev) => [
                     ...prev,
@@ -206,12 +210,34 @@ export function useAudioStream({
         ws.onclose = () => {
           setIsConnected(false);
           setConnectionState("disconnected");
+          wsRef.current = null;
+
+          // Auto-reconnect with exponential backoff
+          if (
+            !intentionalCloseRef.current &&
+            reconnectAttemptsRef.current < MAX_RECONNECT_ATTEMPTS
+          ) {
+            const delay = Math.pow(2, reconnectAttemptsRef.current) * 1000;
+            reconnectAttemptsRef.current++;
+            console.log(
+              `[useAudioStream] Reconnecting in ${delay}ms (attempt ${reconnectAttemptsRef.current}/${MAX_RECONNECT_ATTEMPTS})`,
+            );
+            // Clean up before reconnecting
+            processorRef.current?.disconnect();
+            audioContextRef.current?.close().catch(() => {});
+            streamRef.current?.getTracks().forEach((t) => t.stop());
+            processorRef.current = null;
+            audioContextRef.current = null;
+            streamRef.current = null;
+
+            setTimeout(() => {
+              connect(lastMetadataRef.current);
+            }, delay);
+          }
         };
 
         ws.onerror = () => {
           onError?.("WebSocket connection failed");
-          setIsConnected(false);
-          setConnectionState("disconnected");
         };
       } catch (err: any) {
         onError?.(err.message || "Failed to start audio");
@@ -223,6 +249,8 @@ export function useAudioStream({
 
   // Disconnect and clean up
   const disconnect = useCallback(() => {
+    intentionalCloseRef.current = true;
+
     // Send end message
     if (wsRef.current?.readyState === WebSocket.OPEN) {
       wsRef.current.send(JSON.stringify({ type: "end" }));
@@ -238,15 +266,17 @@ export function useAudioStream({
     audioContextRef.current?.close();
     audioContextRef.current = null;
 
-    // Stop mic stream
+    // Stop mic stream AND camera
     streamRef.current?.getTracks().forEach((t) => t.stop());
     streamRef.current = null;
 
-    // Stop playback
+    // Stop playback IMMEDIATELY - flush queue so AI stops talking
     playbackQueueRef.current = [];
     isPlayingRef.current = false;
-    playbackContextRef.current?.close();
-    playbackContextRef.current = null;
+    if (playbackContextRef.current) {
+      playbackContextRef.current.close().catch(() => {});
+      playbackContextRef.current = null;
+    }
 
     setIsConnected(false);
     setConnectionState("disconnected");
@@ -267,6 +297,7 @@ export function useAudioStream({
   // Cleanup on unmount
   useEffect(() => {
     return () => {
+      intentionalCloseRef.current = true;
       disconnect();
     };
   }, [disconnect]);

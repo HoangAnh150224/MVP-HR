@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+import Link from "next/link";
 import { useAuthStore } from "@/store/authStore";
 
 export default function DashboardLayout({
@@ -10,6 +11,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   const router = useRouter();
+  const pathname = usePathname();
   const { isAuthenticated, user, logout, hydrate } = useAuthStore();
   const [hydrated, setHydrated] = useState(false);
 
@@ -28,11 +30,39 @@ export default function DashboardLayout({
     return null;
   }
 
+  const navLinks = [
+    { href: "/dashboard", label: "Dashboard" },
+    { href: "/profile", label: "Hồ sơ" },
+  ];
+
+  if (user?.role === "ADMIN") {
+    navLinks.push({ href: "/admin", label: "Admin" });
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <h1 className="text-lg font-bold text-gray-900">InterviewPro</h1>
+          <div className="flex items-center gap-6">
+            <Link href="/dashboard" className="text-lg font-bold text-gray-900">
+              InterviewPro
+            </Link>
+            <nav className="hidden sm:flex items-center gap-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`text-sm font-medium ${
+                    pathname === link.href
+                      ? "text-blue-600"
+                      : "text-gray-600 hover:text-gray-900"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-600">{user?.name}</span>
             <button

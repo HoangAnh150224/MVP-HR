@@ -30,6 +30,7 @@ export default function RegisterPage() {
         id: data.userId,
         email: data.email,
         name: data.name,
+        role: data.role || "USER",
       });
       router.push("/dashboard");
     } catch (err: unknown) {

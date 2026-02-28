@@ -36,7 +36,7 @@ router.post("/internal/scoring/turn", async (req, res, next) => {
 
 router.post("/internal/scoring/final", async (req, res, next) => {
   try {
-    const { targetRole, turns } = req.body;
+    const { targetRole, turns, speechMetrics, visionMetrics } = req.body;
 
     if (!targetRole || !turns) {
       res.status(400).json({
@@ -45,7 +45,7 @@ router.post("/internal/scoring/final", async (req, res, next) => {
       return;
     }
 
-    const prompt = finalReportPrompt(targetRole, turns);
+    const prompt = finalReportPrompt(targetRole, turns, speechMetrics, visionMetrics);
     const raw = await callGemini(prompt);
     const parsed = parseJsonResponse(raw);
     const report = reportSchema.parse(parsed);

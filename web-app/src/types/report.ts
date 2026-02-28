@@ -5,8 +5,10 @@ export interface Report {
   turnScores: TurnScore[];
   strengths: string[];
   improvements: ActionableImprovement[];
-  starAnalysis: STARAnalysis[];
-  confidenceTrend: number[];
+  speechMetrics?: SpeechMetricsSummary;
+  visionMetrics?: VisionMetricsSummary;
+  speechFeedback?: string;
+  visionFeedback?: string;
   generatedAt: string;
 }
 
@@ -29,6 +31,11 @@ export interface TurnScore {
     action: boolean;
     result: boolean;
   };
+  starAnalysis?: {
+    missing: string[];
+    suggestion: string;
+  };
+  sampleAnswer?: string;
 }
 
 export interface ActionableImprovement {
@@ -42,4 +49,18 @@ export interface STARAnalysis {
   question: string;
   missing: string[];
   suggestion: string;
+}
+
+export interface SpeechMetricsSummary {
+  avgWpm: number;
+  totalFillers: number;
+  topFillers: Record<string, number>;
+  totalUtteranceSeconds: number;
+}
+
+export interface VisionMetricsSummary {
+  eyeContactPercent: number;
+  postureWarnings: number;
+  avgSentiment: number;
+  totalFrames: number;
 }

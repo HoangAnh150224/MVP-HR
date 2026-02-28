@@ -8,6 +8,8 @@ import type {
   ScoreCategory,
   TurnScore,
   ActionableImprovement,
+  SpeechMetricsSummary,
+  VisionMetricsSummary,
 } from "@/types/report";
 
 function getScoreColor(score: number, max = 100): string {
@@ -64,7 +66,78 @@ function CategoryScores({ categories }: { categories: ScoreCategory[] }) {
   );
 }
 
+function SpeechMetricsSection({ metrics }: { metrics: SpeechMetricsSummary }) {
+  const wpmLabel =
+    metrics.avgWpm >= 140 && metrics.avgWpm <= 170
+      ? "Tốt"
+      : metrics.avgWpm < 140
+        ? "Hơi chậm"
+        : "Hơi nhanh";
+  const wpmColor =
+    metrics.avgWpm >= 140 && metrics.avgWpm <= 170
+      ? "text-green-600"
+      : "text-yellow-600";
+
+  return (
+    <div className="rounded-xl bg-white p-6 shadow">
+      <h3 className="text-lg font-semibold text-gray-900 mb-4">Chỉ số giọng nói</h3>
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className="text-2xl font-bold text-gray-900">{metrics.avgWpm}</p>
+          <p className="text-xs text-gray-500">Từ/phút</p>
+          <p className={`text-xs font-medium ${wpmColor}`}>{wpmLabel}</p>
+        </div>
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className="text-2xl font-bold text-gray-900">{metrics.totalFillers}</p>
+          <p className="text-xs text-gray-500">Từ đệm</p>
+        </div>
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className="text-2xl font-bold text-gray-900">
+            {Math.floor(metrics.totalUtteranceSeconds / 60)}:{String(Math.round(metrics.totalUtteranceSeconds % 60)).padStart(2, "0")}
+          </p>
+          <p className="text-xs text-gray-500">Thời gian nói</p>
+        </div>
+        <div className="rounded-lg bg-gray-50 p-4">
+          <p className="text-xs text-gray-500 mb-1">Top từ đệm</p>
+          {Object.entries(metrics.topFillers || {}).slice(0, 3).map(([word, count]) => (
+            <p key={word} className="text-sm text-gray-700">
+              &ldquo;{word}&rdquo;: {count}x
+            </p>
+          ))}
+          {Object.keys(metrics.topFillers || {}).length === 0 && (
+            <p className="text-sm text-green-600">Không có</p>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function VisionMetricsSection({ metrics }: { metrics: VisionMetricsSummary }) {
+  const eyeColor = metrics.eyeContactPercent >= 70 ? "text-green-600" : metrics.eyeContactPercent >= 50 ? "text-yellow-600" : "text-red-600";
+  return (
+    <div className="rounded-xl bg-white p-6 shadow">
+      <h3 className="text-lg font-semibold text-gray-900 mb-4">Ngôn ngữ cơ thể</h3>
+      <div className="grid grid-cols-3 gap-4">
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className={`text-2xl font-bold ${eyeColor}`}>{metrics.eyeContactPercent}%</p>
+          <p className="text-xs text-gray-500">Giao tiếp mắt</p>
+        </div>
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className="text-2xl font-bold text-gray-900">{metrics.postureWarnings}</p>
+          <p className="text-xs text-gray-500">Cảnh báo tư thế</p>
+        </div>
+        <div className="rounded-lg bg-gray-50 p-4 text-center">
+          <p className="text-2xl font-bold text-gray-900">{(metrics.avgSentiment * 100).toFixed(0)}%</p>
+          <p className="text-xs text-gray-500">Biểu cảm tích cực</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function TurnScoreCard({ turn, index }: { turn: TurnScore; index: number }) {
+  const [showSample, setShowSample] = useState(false);
   const starLabels = ["S", "T", "A", "R"];
   const starKeys = ["situation", "task", "action", "result"] as const;
 
@@ -80,6 +153,8 @@ function TurnScoreCard({ turn, index }: { turn: TurnScore; index: number }) {
         </span>
       </div>
       <p className="mt-3 text-sm text-gray-600">{turn.feedback}</p>
+
+      {/* STAR Components */}
       <div className="mt-3 flex gap-2">
         {starKeys.map((key, i) => (
           <span
@@ -87,13 +162,40 @@ function TurnScoreCard({ turn, index }: { turn: TurnScore; index: number }) {
             className={`inline-flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold ${
               turn.starComponents[key]
                 ? "bg-green-100 text-green-700"
-                : "bg-gray-100 text-gray-400"
+                : "bg-red-100 text-red-500"
             }`}
           >
             {starLabels[i]}
           </span>
         ))}
       </div>
+
+      {/* STAR Analysis */}
+      {turn.starAnalysis && turn.starAnalysis.missing.length > 0 && (
+        <div className="mt-3 rounded-md bg-amber-50 p-3">
+          <p className="text-xs font-medium text-amber-800">
+            Thiếu: {turn.starAnalysis.missing.join(", ")}
+          </p>
+          <p className="mt-1 text-xs text-amber-700">{turn.starAnalysis.suggestion}</p>
+        </div>
+      )}
+
+      {/* Sample Answer Toggle */}
+      {turn.sampleAnswer && (
+        <div className="mt-3">
+          <button
+            onClick={() => setShowSample(!showSample)}
+            className="text-sm font-medium text-blue-600 hover:text-blue-800"
+          >
+            {showSample ? "Ẩn câu trả lời mẫu" : "Xem câu trả lời mẫu"}
+          </button>
+          {showSample && (
+            <div className="mt-2 rounded-md bg-blue-50 p-3">
+              <p className="text-sm text-blue-900 whitespace-pre-line">{turn.sampleAnswer}</p>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -134,8 +236,6 @@ export default function ReportPage() {
     async function fetchReport() {
       try {
         const data = await api.get(`/api/v1/reports/session/${sessionId}`);
-        // The API returns { sessionId, overallScore, reportData, createdAt }
-        // reportData is the JSON string with the full report
         const reportData = typeof data.reportData === "string"
           ? JSON.parse(data.reportData)
           : data.reportData;
@@ -147,8 +247,10 @@ export default function ReportPage() {
           turnScores: reportData.turnScores ?? [],
           strengths: reportData.strengths ?? [],
           improvements: reportData.improvements ?? [],
-          starAnalysis: reportData.starAnalysis ?? [],
-          confidenceTrend: reportData.confidenceTrend ?? [],
+          speechMetrics: reportData.speechMetrics ?? undefined,
+          visionMetrics: reportData.visionMetrics ?? undefined,
+          speechFeedback: reportData.speechFeedback ?? undefined,
+          visionFeedback: reportData.visionFeedback ?? undefined,
           generatedAt: data.createdAt,
         });
       } catch {
@@ -203,7 +305,7 @@ export default function ReportPage() {
             onClick={() => router.push("/dashboard")}
             className="text-sm text-blue-600 hover:text-blue-800"
           >
-            ← Về Dashboard
+            &larr; Về Dashboard
           </button>
         </div>
 
@@ -211,6 +313,29 @@ export default function ReportPage() {
           <ScoreOverview score={report.overallScore} />
 
           <CategoryScores categories={report.categories} />
+
+          {/* Speech Metrics */}
+          {report.speechMetrics && report.speechMetrics.avgWpm > 0 && (
+            <SpeechMetricsSection metrics={report.speechMetrics} />
+          )}
+
+          {/* Vision Metrics */}
+          {report.visionMetrics && report.visionMetrics.totalFrames > 0 && (
+            <VisionMetricsSection metrics={report.visionMetrics} />
+          )}
+
+          {/* Speech/Vision Feedback */}
+          {(report.speechFeedback || report.visionFeedback) && (
+            <div className="rounded-xl bg-white p-6 shadow">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Nhận xét giao tiếp</h3>
+              {report.speechFeedback && (
+                <p className="text-sm text-gray-700 mb-2">{report.speechFeedback}</p>
+              )}
+              {report.visionFeedback && (
+                <p className="text-sm text-gray-700">{report.visionFeedback}</p>
+              )}
+            </div>
+          )}
 
           {report.strengths.length > 0 && (
             <div className="rounded-xl bg-white p-6 shadow">

@@ -29,6 +29,7 @@ export default function InterviewControls({
 
   const handleEnd = useCallback(async () => {
     setEnding(true);
+    setCameraEnabled(false);
     onEnd();
   }, [onEnd]);
 

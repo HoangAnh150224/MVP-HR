@@ -15,6 +15,7 @@ app.add_middleware(
 )
 
 app.include_router(landmarks.router, prefix="/ws")
+app.include_router(landmarks.router, prefix="/internal")
 
 
 @app.get("/health")

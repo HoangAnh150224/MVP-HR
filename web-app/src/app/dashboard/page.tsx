@@ -4,10 +4,20 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { api } from "@/lib/api";
 import type { Session } from "@/types/session";
+import StatCards from "@/components/dashboard/StatCards";
+import ScoreTrendChart from "@/components/dashboard/ScoreTrendChart";
+
+interface Stats {
+  totalSessions: number;
+  averageScore: number;
+  bestScore: number;
+  scoreHistory: number[];
+}
 
 export default function DashboardPage() {
   const router = useRouter();
   const [sessions, setSessions] = useState<Session[]>([]);
+  const [stats, setStats] = useState<Stats | null>(null);
   const [targetRole, setTargetRole] = useState("");
   const [difficulty, setDifficulty] = useState<"entry" | "mid" | "senior">("mid");
   const [creating, setCreating] = useState(false);
@@ -17,10 +27,14 @@ export default function DashboardPage() {
   const [errorMsg, setErrorMsg] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const loadSessions = useCallback(async () => {
+  const loadData = useCallback(async () => {
     try {
-      const data = await api.get("/api/v1/sessions");
-      setSessions(data);
+      const [sessionsData, statsData] = await Promise.all([
+        api.get("/api/v1/sessions"),
+        api.get("/api/v1/sessions/stats").catch(() => null),
+      ]);
+      setSessions(sessionsData);
+      if (statsData) setStats(statsData);
     } catch {
       // ignore
     } finally {
@@ -29,8 +43,8 @@ export default function DashboardPage() {
   }, []);
 
   useEffect(() => {
-    loadSessions();
-  }, [loadSessions]);
+    loadData();
+  }, [loadData]);
 
   const handleCreate = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -70,15 +84,19 @@ export default function DashboardPage() {
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0] || null;
-    setCvFile(file);
+    setCvFile(e.target.files?.[0] || null);
   };
 
   const clearFile = () => {
     setCvFile(null);
-    if (fileInputRef.current) {
-      fileInputRef.current.value = "";
-    }
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
+  const getScoreColor = (score: number | undefined) => {
+    if (!score) return "bg-gray-100 text-gray-500";
+    if (score >= 80) return "bg-green-100 text-green-700";
+    if (score >= 60) return "bg-yellow-100 text-yellow-700";
+    return "bg-red-100 text-red-700";
   };
 
   const stateLabel: Record<string, string> = {
@@ -94,9 +112,32 @@ export default function DashboardPage() {
     REPORT_READY: "Có báo cáo",
   };
 
+  const getTrend = (): "up" | "down" | "same" => {
+    if (!stats?.scoreHistory || stats.scoreHistory.length < 2) return "same";
+    const last = stats.scoreHistory[stats.scoreHistory.length - 1];
+    const prev = stats.scoreHistory[stats.scoreHistory.length - 2];
+    if (last > prev) return "up";
+    if (last < prev) return "down";
+    return "same";
+  };
+
   return (
     <div className="space-y-8">
-      <div>
+      {/* Stats Section */}
+      {stats && stats.totalSessions > 0 && (
+        <>
+          <StatCards
+            totalSessions={stats.totalSessions}
+            averageScore={stats.averageScore}
+            bestScore={stats.bestScore}
+            trend={getTrend()}
+          />
+          <ScoreTrendChart scores={stats.scoreHistory} />
+        </>
+      )}
+
+      {/* Create New Interview */}
+      <div className="rounded-xl bg-white p-6 shadow">
         <h2 className="text-xl font-bold text-gray-900">Bắt đầu phỏng vấn mới</h2>
         <form onSubmit={handleCreate} className="mt-4 space-y-4">
           <div className="flex flex-wrap items-end gap-4">
@@ -114,7 +155,6 @@ export default function DashboardPage() {
                 placeholder="VD: Frontend Developer"
               />
             </div>
-
             <div>
               <label htmlFor="difficulty" className="block text-sm font-medium text-gray-700">
                 Độ khó
@@ -148,11 +188,7 @@ export default function DashboardPage() {
                 className="block text-sm text-gray-500 file:mr-3 file:rounded-md file:border-0 file:bg-blue-50 file:px-4 file:py-2 file:text-sm file:font-medium file:text-blue-700 hover:file:bg-blue-100"
               />
               {cvFile && (
-                <button
-                  type="button"
-                  onClick={clearFile}
-                  className="text-sm text-red-600 hover:text-red-800"
-                >
+                <button type="button" onClick={clearFile} className="text-sm text-red-600 hover:text-red-800">
                   Xóa
                 </button>
               )}
@@ -172,16 +208,13 @@ export default function DashboardPage() {
             >
               {creating ? "Đang xử lý..." : "Bắt đầu phỏng vấn"}
             </button>
-            {progressMsg && (
-              <span className="text-sm text-blue-600">{progressMsg}</span>
-            )}
-            {errorMsg && (
-              <span className="text-sm text-red-600">{errorMsg}</span>
-            )}
+            {progressMsg && <span className="text-sm text-blue-600">{progressMsg}</span>}
+            {errorMsg && <span className="text-sm text-red-600">{errorMsg}</span>}
           </div>
         </form>
       </div>
 
+      {/* Session History */}
       <div>
         <h2 className="text-xl font-bold text-gray-900">Lịch sử phỏng vấn</h2>
         {loading ? (
@@ -195,39 +228,56 @@ export default function DashboardPage() {
             {sessions.map((s) => (
               <div
                 key={s.id}
-                className="flex items-center justify-between rounded-md border bg-white p-4"
+                className="flex items-center justify-between rounded-lg border bg-white p-4 hover:shadow-sm transition-shadow cursor-pointer"
+                onClick={() => {
+                  if (s.state === "REPORT_READY") router.push(`/dashboard/sessions/${s.id}`);
+                  else if (s.state === "CREATED" || s.state === "CV_PARSED") router.push(`/interview/${s.id}/consent`);
+                  else if (s.state === "CONSENT_PENDING" || s.state === "JOINING") router.push(`/interview/${s.id}`);
+                }}
               >
-                <div>
-                  <p className="font-medium text-gray-900">{s.targetRole}</p>
-                  <p className="text-sm text-gray-500">
-                    {new Date(s.createdAt).toLocaleDateString("vi-VN")} -{" "}
-                    {stateLabel[s.state] || s.state}
-                  </p>
+                <div className="flex items-center gap-4">
+                  <div>
+                    <p className="font-medium text-gray-900">{s.targetRole}</p>
+                    <p className="text-sm text-gray-500">
+                      {new Date(s.createdAt).toLocaleDateString("vi-VN")} - {stateLabel[s.state] || s.state}
+                    </p>
+                  </div>
                 </div>
-                {(s.state === "CREATED" || s.state === "CV_PARSED") && (
-                  <button
-                    onClick={() => router.push(`/interview/${s.id}/consent`)}
-                    className="rounded-md bg-green-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-green-700"
-                  >
-                    Vào phỏng vấn
-                  </button>
-                )}
-                {(s.state === "CONSENT_PENDING" || s.state === "JOINING") && (
-                  <button
-                    onClick={() => router.push(`/interview/${s.id}`)}
-                    className="rounded-md bg-green-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-green-700"
-                  >
-                    Tiếp tục
-                  </button>
-                )}
-                {s.state === "REPORT_READY" && (
-                  <button
-                    onClick={() => router.push(`/interview/${s.id}/report`)}
-                    className="rounded-md bg-blue-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
-                  >
-                    Xem báo cáo
-                  </button>
-                )}
+                <div className="flex items-center gap-3">
+                  {s.state === "REPORT_READY" && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        router.push(`/interview/${s.id}/report`);
+                      }}
+                      className="rounded-md bg-blue-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+                    >
+                      Xem báo cáo
+                    </button>
+                  )}
+                  {(s.state === "CREATED" || s.state === "CV_PARSED") && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        router.push(`/interview/${s.id}/consent`);
+                      }}
+                      className="rounded-md bg-green-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-green-700"
+                    >
+                      Vào phỏng vấn
+                    </button>
+                  )}
+                  {(s.state === "CONSENT_PENDING" || s.state === "JOINING") && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        router.push(`/interview/${s.id}`);
+                      }}
+                      className="rounded-md bg-green-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-green-700"
+                    >
+                      Tiếp tục
+                    </button>
+                  )}
+                </div>
               </div>
             ))}
           </div>
