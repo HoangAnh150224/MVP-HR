@@ -1,0 +1,10 @@
+{
+  "skills": {
+    "web-app": ".claude/skills/web-app.md",
+    "core-backend": ".claude/skills/core-backend.md",
+    "call-infra": ".claude/skills/call-infra.md",
+    "voice-agent-service": ".claude/skills/voice-agent-service.md",
+    "llm-orchestrator-service": ".claude/skills/llm-orchestrator-service.md",
+    "vision-analytics-service": ".claude/skills/vision-analytics-service.md"
+  }
+}

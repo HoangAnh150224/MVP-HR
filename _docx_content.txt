@@ -1,0 +1,2749 @@
+0: Checkpoint2
+1: 
+2: survey- Quyết
+3: BÁO CÁO KẾT QUẢ KHẢO SÁT
+4: Tên Khảo sát: 
+5: KHẢO SÁT NHU CẦU SỬ DỤNG NỀN TẢNG LUYỆN PHỎNG VẤN BẰNG AI – HR ADVISOR (MENTOR ẢO)
+6: 
+7: Tập trung vào giải pháp “Hr advisor phỏng vấn qua Video Call như người thật”
+8: Thời gian thực hiện: 31/01 – 03/02/2025 
+9: Hình thức: Google Form 
+10: Cỡ mẫu hợp lệ: 123 người tham gia khảo sát
+11: Đối tượng chính: Sinh viên và người trẻ 18–25 tuổi, chủ yếu tại Hà Nội, đang tìm việc hoặc mới ra trường.
+12: Link khảo sát: link
+13: 
+14: 1. MỤC TIÊU KHẢO SÁT
+15: Hiểu rõ khó khăn tâm lý và nội dung khi phỏng vấn của người trẻ Việt Nam.
+16: Đánh giá cách luyện tập hiện tại và mức độ hài lòng với các giải pháp sẵn có.
+17: Đo lường thái độ, nhu cầu cụ thể và mức giá sẵn sàng chi trả cho HR advisor
+18: Thu thập mô tả “Trợ lý phỏng vấn trong mơ” để định hướng phát triển sản phẩm.
+19: 
+20: 2. Cấu trúc Khảo Sát
+21: Khảo sát được thiết kế gồm nhiều câu hỏi chính, được chia thành 4 phần nội dung, với hệ thống câu hỏi sắp xếp theo trình tự logic từ thông tin tổng quát, hành vi và thói quen hiện tại, đánh giá giải pháp đến giá cả và ý định sử dụng.
+22: Bảng hỏi sử dụng kết hợp nhiều dạng câu hỏi nhằm thu thập cả dữ liệu định lượng và định tính, bao gồm: câu hỏi trắc nghiệm một lựa chọn, trắc nghiệm nhiều lựa chọn, cùng với câu hỏi mở nhằm ghi nhận ý kiến chi tiết và đề xuất từ người tham gia khảo sát.
+23: Phần I. Thông tin nhân khẩu học
+24: Mục đích:
+25: Xác định đặc điểm cơ bản của người tham gia khảo sát nhằm phục vụ việc phân loại, phân tích dữ liệu và xây dựng chân dung khách hàng mục tiêu.
+26: Nội dung chính:
+27:  Độ tuổi của bạn là?
+28: Giới tính của bạn là?
+29: Trình độ học vấn cao nhất của bạn là gì?
+30: Nghề nghiệp hiện tại của bạn là gì?
+31: Bạn đang học tập hoặc làm việc trong lĩnh vực nào?
+32: Mức thu nhập hàng tháng của bạn khoảng bao nhiêu? (VND)
+33: Bạn hiện đang sinh sống tại đâu?
+34: Phần II. Hành vi và thói quen phỏng vấn
+35: Mục đích:
+36: Khảo sát kinh nghiệm thực tế, hành vi tìm việc và thói quen luyện tập phỏng vấn của người tham gia, làm cơ sở xác định các điểm đau phổ biến.
+37: Nội dung chính:
+38: Bạn đã từng tham gia bao nhiêu buổi phỏng vấn chính thức?
+39: Bạn thường sử dụng nền tảng nào để tìm việc?
+40: Tần suất bạn cập nhật CV online là bao lâu một lần?
+41: Khi phỏng vấn, bạn thường gặp vấn đề TÂM LÝ hoặc PHẢN ỨNG CƠ THỂ nào?
+42: Khó khăn lớn nhất của bạn về NỘI DUNG trả lời phỏng vấn là gì?
+43: Hiện tại, bạn đang luyện tập phỏng vấn bằng cách nào?
+44: Phần III. Đánh giá giải pháp & Hr advisor
+45: Mục đích:
+46: Đánh giá mức độ nhận biết, thái độ và trải nghiệm của người tham gia với các giải pháp luyện phỏng vấn hiện tại, đồng thời thu thập nhu cầu cụ thể đối với giải pháp Hr advisor qua Video Call.
+47: Nội dung chính:
+48: Bạn đã từng sử dụng giải pháp nào để chuẩn bị phỏng vấn?
+49: Bạn nghĩ sao về việc luyện phỏng vấn với AI qua Video Call?
+50: Bạn gặp khó khăn gì với các công cụ luyện phỏng vấn hiện tại?
+51: Nếu có một “Hr advisor” phỏng vấn bạn qua Video Call như người thật, bạn muốn nó giúp gì nhất?
+52: Phần IV. Giá cả và ý định sử dụng
+53: Mục đích:
+54: Thu thập kỳ vọng về mức giá, mức độ sẵn sàng thanh toán và ý tưởng chi tiết về “Trợ lý phỏng vấn trong mơ” từ góc nhìn của người dùng tiềm năng.
+55: Nội dung chính:
+56: Mức giá nào khiến bạn thấy QUÁ RẺ và nghi ngờ chất lượng?
+57: Mức giá HỢP LÝ NHẤT để bạn sẵn sàng thanh toán ngay cho gói Cấp tốc 3 ngày?
+58: Mức giá nào bạn cho là QUÁ ĐẮT và sẽ không mua?
+59: Nếu có một công cụ AI giúp bạn luyện kỹ năng & phong thái trước phỏng vấn, bạn có sẵn sàng sử dụng không?
+60: Hãy mô tả ngắn gọn “Trợ lý phỏng vấn trong mơ” của bạn.
+61: Bạn có muốn nhận thông tin cập nhật từ chúng mình không?
+62: 3. Phân tích kết quả khảo sát
+63: 3.1. Đặc điểm người tham gia (Persona khách hàng mục tiêu)
+64: 
+65: 
+66: 
+67: Kết luận: Nhóm độ tuổi 18 – 22 chiếm tỷ lệ áp đảo (khoảng 90%) trong tổng số người tham gia khảo sát. Điều này cho thấy nhu cầu luyện tập phỏng vấn cực kỳ lớn đến từ nhóm sinh viên sắp ra trường hoặc vừa tốt nghiệp – những người đang chuẩn bị bước chân vào thị trường lao động và có xu hướng cởi mở với các giải pháp công nghệ mới như AI Mentor.
+68: 
+69: 
+70: Kết luận: Phần lớn người tham gia khảo sát có trình độ Cao đẳng / Đại học (85,4%), trong khi nhóm tốt nghiệp THPT chỉ chiếm 11,4% và chưa tốt nghiệp THPT rất ít (2,4%). Điều này cho thấy nhóm khách hàng mục tiêu chủ yếu là sinh viên đại học hoặc mới ra trường, những người đang ở giai đoạn chuyển tiếp mạnh mẽ vào thị trường lao động và có nhu cầu cao về kỹ năng phỏng vấn chuyên nghiệp để cạnh tranh việc làm.
+71: 
+72: 
+73: Kết Luận: Sinh viên chiếm tỷ lệ áp đảo (85,4%), tiếp theo là nhân viên văn phòng (8,9%), trong khi freelancer và các nhóm khác chỉ chiếm tỷ lệ rất nhỏ (mỗi nhóm ~2,4%). Kết quả phản ánh rằng đối tượng chính của giải pháp luyện phỏng vấn AI là sinh viên đại học – nhóm đang tích cực tìm việc làm thêm, thực tập hoặc việc làm chính thức đầu tiên, với mức độ cấp bách cao về việc cải thiện phong thái và kỹ năng trả lời phỏng vấn.
+74: 
+75: 
+76: 
+77: 
+78: 
+79: 
+80: 
+81: 
+82: 
+83: 
+84: 
+85: Kết Luận: Công nghệ thông tin dẫn đầu với 36,6% (45 người), theo sau là Kinh tế / Kinh doanh (26,8%) và Marketing / Truyền thông (24,4%), trong khi các lĩnh vực khác chiếm 18,7%. Điều này cho thấy nhóm khách hàng tiềm năng tập trung mạnh ở các ngành cạnh tranh cao và yêu cầu kỹ năng mềm tốt (CNTT, Kinh doanh, Marketing), nơi phỏng vấn thường có vòng đánh giá hành vi và kỹ năng giao tiếp khắt khe – đây chính là cơ hội lớn để định vị Hr advisor như một công cụ hỗ trợ cá nhân hóa, giúp người dùng nổi bật trong các ngành “hot” này.
+86: 
+87: 
+88: 
+89: 
+90: Kết Luận: Phần lớn người tham gia khảo sát có thu nhập dưới 5 triệu đồng/tháng (48,1%), tiếp theo là nhóm 5–10 triệu (21,1%) và không muốn trả lời (21,1%), trong khi nhóm trên 10 triệu chỉ chiếm tỷ lệ nhỏ. Điều này phản ánh rằng nhóm khách hàng mục tiêu chủ yếu là sinh viên và người trẻ mới ra trường với khả năng chi trả còn hạn chế, do đó sản phẩm Hr advisor cần được định vị ở phân khúc giá hợp lý (30.000–90.000đ cho gói cấp tốc), tập trung nhấn mạnh giá trị mang lại (giúp đậu việc nhanh, tăng cơ hội thu nhập cao hơn) thay vì định vị cao cấp.
+91: 
+92: 
+93: 
+94: Kết Luận: Hà Nội chiếm tỷ lệ áp đảo với 83,7%, tiếp theo là TP. Hồ Chí Minh (12,2%), trong khi Đà Nẵng và các tỉnh khác chỉ chiếm tỷ lệ rất nhỏ. Kết quả cho thấy nhóm khách hàng tiềm năng tập trung mạnh tại thị trường Hà Nội – nơi có mật độ sinh viên đại học và cơ hội việc làm CNTT/Marketing cao, đồng thời cạnh tranh phỏng vấn khốc liệt. 
+95: 
+96: 3.2. Hành vi tìm việc và kinh nghiệm phỏng vấn
+97: 
+98: Kết Luận : Phần lớn người tham gia khảo sát chỉ có kinh nghiệm 1–3 buổi phỏng vấn chính thức (61,8%), trong khi nhóm chưa từng tham gia chiếm 15,4% và nhóm có kinh nghiệm nhiều (trên 4 lần) chỉ chiếm khoảng 22,7%. Điều này cho thấy đối tượng mục tiêu chủ yếu là người mới bắt đầu hành trình ứng tuyển (sinh viên năm cuối hoặc mới ra trường), với nhu cầu cấp thiết về việc xây dựng sự tự tin và kỹ năng phỏng vấn từ con số 0 – đây là phân khúc mà Hr advisor có lợi thế lớn nhờ khả năng luyện tập lặp lại không giới hạn, mô phỏng tình huống thực tế mà không gây áp lực.
+99: 
+100: 
+101: Kết Luận: TopCV dẫn đầu với 69,1%, theo sát là Facebook/Group việc làm (65%), LinkedIn (36,6%) và VietnamWorks (17,9%). Kết quả phản ánh hành vi tìm việc của nhóm trẻ tại Việt Nam chủ yếu dựa vào các kênh phổ thông, dễ tiếp cận và miễn phí (TopCV + group Facebook). Insight này gợi ý chiến lược tiếp thị hiệu quả nhất là tập trung quảng cáo & seeding nội dung trên TopCV, các group việc làm Facebook lớn (đặc biệt tại Hà Nội), kết hợp demo ngắn trên TikTok/Reels để tiếp cận nhanh nhóm sinh viên.
+102: 
+103: Kết Luận: Hơn ba phần tư người tham gia (77,2%) chỉ cập nhật CV khi cần tìm việc, trong khi tần suất chủ động (hàng tuần/hàng tháng) rất thấp (9,8%). Điều này cho thấy phần lớn đối tượng thiếu thói quen duy trì hồ sơ chuyên nghiệp liên tục, dẫn đến CV thường lỗi thời hoặc chưa tối ưu khi cơ hội việc làm xuất hiện đột xuất. Sản phẩm Hr advisor nên tích hợp tính năng hỗ trợ chỉnh sửa & tối ưu CV nhanh (kết hợp luyện phỏng vấn) để tăng giá trị toàn diện, biến công cụ thành “trợ lý việc làm” chứ không chỉ luyện phỏng vấn.
+104: 
+105: 
+106: 
+107: Kết Luận: Vấn đề phổ biến nhất là tim đập nhanh, hồi hộp, run tay (69,1%), tiếp theo là quên nội dung đã chuẩn bị/đầu óc trống rỗng (47,2%) và ngại nhìn vào mắt nhà tuyển dụng (34,1%). Kết quả khẳng định rào cản tâm lý và phản ứng cơ thể là điểm đau lớn nhất của nhóm trẻ khi phỏng vấn, vượt xa vấn đề kiến thức. Đây là cơ hội vàng để định vị Hr advisor với tính năng luyện tập video call mô phỏng áp lực thực tế, phân tích thời gian thực body language, và kỹ thuật kiểm soát hồi hộp – giúp sản phẩm khác biệt rõ rệt so với Chat GPT hoặc tự luyện trước gương.
+108: 
+109: 
+110: Kết Luận: Khó khăn hàng đầu là dùng từ chưa chuyên nghiệp / nhiều từ đệm (39,8%), theo sau là không biết sắp xếp ý cho logic (30,1%). Hai vấn đề này chiếm gần 70%, trong khi các khó khăn khác (không hiểu ý câu hỏi, không biết hỏi ngược) chỉ chiếm tỷ lệ nhỏ. Insight chỉ ra rằng người dùng cần hỗ trợ mạnh về kỹ năng diễn đạt mạch lạc và ngôn ngữ chuyên nghiệp – do đó Hr advisor nên ưu tiên phát triển tính năng feedback cụ thể về từ ngữ, cấu trúc câu trả lời (STAR method), giảm filler words, và gợi ý cách diễn đạt “pro” ngay sau mỗi lượt trả lời.
+111: 
+112: 
+113: Kết Luận: Phương pháp phổ biến nhất là tìm câu hỏi trên mạng và tự nhẩm (62,6%), tiếp theo là tự nói trước gương (46,3%), trong khi nhờ bạn bè đóng vai chỉ chiếm 22% và không luyện gì chiếm 18,7%. Hầu hết đang sử dụng các cách tự học thụ động, thiếu tương tác thực tế và feedback chất lượng. Điều này tạo khoảng trống thị trường rõ ràng cho Hr advisor video call – công cụ cung cấp trải nghiệm giống phỏng vấn thật, vặn hỏi xoáy sâu, sửa lỗi ngay lập tức, và chấm điểm – giúp khắc phục hoàn toàn hạn chế của các phương pháp hiện tại.
+114: 
+115: 3.3. Thái độ và nhu cầu với Hr advisor
+116: 
+117: 
+118: Kết Luận: Chat GPT / Gemini dẫn đầu với 65% người từng sử dụng để gợi ý câu trả lời hoặc sửa CV, tiếp theo là tự đứng trước gương/quay video (31,7%) và mock interview 1-1 với mentor/người quen (30,1%), trong khi 18,7% chưa từng làm gì. Kết quả cho thấy nhóm mục tiêu chủ yếu dựa vào các công cụ AI text-based miễn phí hoặc tự luyện thụ động, nhưng thiếu trải nghiệm tương tác thực tế – đây chính là khoảng trống lớn để Hr advisor Video Call lấp đầy với lợi thế mô phỏng phỏng vấn thật, feedback trực tiếp và luyện bản lĩnh dưới áp lực.
+119: 
+120: 
+121: Kết Luận: 63,4% người tham gia đánh giá khá thú vị – cần thử, kết hợp với 26,8% rất hứng thú – tiện lợi, tổng cộng 90,2% thái độ tích cực; chỉ một tỷ lệ rất nhỏ (dưới 10%) trung lập hoặc tiêu cực. Insight này khẳng định sự đón nhận cao đối với hình thức luyện phỏng vấn AI qua video call trong nhóm trẻ Việt Nam, tạo nền tảng vững chắc để ra mắt sản phẩm với thông điệp “gần giống phỏng vấn thật nhưng tiện lợi, riêng tư và chi phí thấp”.
+122: 
+123: 
+124: 
+125: Kết Luận: Khó khăn lớn nhất là thiếu tương tác thực tế (56,9%), theo sau là phản hồi chung chung, thiếu chiều sâu (53,7%) và không được sửa lỗi cụ thể (39,8%). Các vấn đề này chiếm ưu thế rõ rệt so với chi phí cao (18,7%). Kết quả chỉ ra rằng người dùng đang không hài lòng với chất lượng feedback từ các giải pháp hiện tại (bao gồm Chat GPT), tạo cơ hội cạnh tranh mạnh mẽ cho Hr advisor nếu tập trung vào phân tích chi tiết thời gian thực (body language, từ đệm, cấu trúc câu), vặn hỏi sâu và sửa lỗi cụ thể – đây sẽ là điểm khác biệt cốt lõi.
+126: 
+127: 
+128: Kết Luận: Top nhu cầu: vặn hỏi xoáy sâu để rèn bản lĩnh (62,6%), chấm điểm & dự đoán tỷ lệ đậu vào công ty cụ thể (60,2%), gợi ý & chỉnh sửa câu trả lời cho chuyên nghiệp hơn (59,3%), và soi lỗi cơ thể (43,1%). Thứ tự này cho thấy người dùng ưu tiên rèn luyện tâm lý + bản lĩnh dưới áp lực hơn là chỉ kiến thức, đồng thời mong muốn kết quả đo lường cụ thể (điểm số, dự đoán đậu). MVP nên ưu tiên phát triển 3 tính năng top: vặn hỏi sâu, feedback body language, và hệ thống chấm điểm + dự báo thực tế.
+129: 
+130: 3.4. Giá cả và ý định sử dụng
+131: 
+132: Kết Luận: 62,6% cho rằng dưới 20.000đ là quá rẻ và nghi ngờ chất lượng, trong khi dưới 30.000đ (17,9%) và dưới 50.000đ (19,5%) cũng được nhắc đến. Insight này chỉ ra ngưỡng tâm lý chất lượng bắt đầu từ khoảng 20.000–30.000đ trở lên – sản phẩm nên tránh định giá quá thấp (dưới 20k) để không bị coi là “rẻ tiền, kém chất lượng”, thay vào đó định vị ở mức hợp lý nhưng chuyên nghiệp để xây dựng lòng tin.
+133: 
+134: 
+135: Kết Luận: Mức giá được chọn nhiều nhất là 30.000 – 50.000đ (34,1%), theo sát là 50.000 – 90.000đ (33,3%) và 20.000 – 30.000đ (22,8%). Tổng cộng 89,2% tập trung trong khoảng 20.000 – 90.000đ, cho thấy sweet spot giá cho gói cấp tốc 3 ngày nằm ở 30.000 – 70.000đ – mức này vừa đủ hấp dẫn với sinh viên/thu nhập thấp, vừa đủ để duy trì nhận thức chất lượng cao. => 49.000đ làm giá anchor chính.
+136: 
+137: 
+138: Kết Luận : Trên 100.000đ được 28,5% coi là quá đắt, trên 200.000đ (23,6%), trên 500.000đ (35%), và trên 50.000đ chỉ 13%. Kết quả cho thấy ngưỡng chịu đựng tối đa của nhóm mục tiêu (chủ yếu sinh viên) nằm khoảng 100.000–150.000đ cho gói cấp tốc hoặc tương đương – bất kỳ gói nào vượt 200k sẽ mất phần lớn khách hàng tiềm năng. Chiến lược giá nên giữ các gói chính dưới 100k, với gói premium (nếu có) không vượt 150–200k để tránh loại trừ đối tượng.
+139: 
+140: 
+141: 
+142: Kết Luận: 93,5% trả lời Có, chỉ 6,5% từ chối. Tỷ lệ chấp nhận cực cao này khẳng định nhu cầu thị trường mạnh mẽ và ý định sử dụng cao đối với giải pháp AI luyện phỏng vấn phong thái – đây là tín hiệu xanh rõ ràng để đẩy mạnh phát triển và marketing sản phẩm, đặc biệt khi kết hợp với các insight về điểm đau tâm lý và mong muốn feedback cụ thể.
+143: 
+144: 
+145: 3.5. Nhận xét câu hỏi mở: “Trợ lý phỏng vấn trong mơ”
+146: 
+147: Nhận xét về câu hỏi mở: “Hãy mô tả ngắn gọn ‘Trợ lý phỏng vấn trong mơ’ của bạn.” 
+148: Từ các ý kiến mở (dù một số ngắn gọn hoặc chung chung), người tham gia khảo sát thể hiện kỳ vọng rõ ràng và nhất quán về một Trợ lý phỏng vấn AI phải gần giống trải nghiệm phỏng vấn thật nhất có thể. Nhiều mô tả tập trung vào việc giao tiếp tự nhiên, giống người thật / giống HR thực tế, sửa lỗi cụ thể & góp ý chi tiết ngay lập tức (sửa từ ngữ, cấu trúc câu trả lời, body language, biểu cảm, ngoại hình), giúp rèn luyện sự tự tin và bản lĩnh dưới áp lực.
+149: Các yếu tố được nhấn mạnh nhiều nhất bao gồm:
+150: Tính chân thực và tương tác: “Giống người thật”, “giao tiếp tự nhiên giống nhà tuyển dụng”, “như phỏng vấn với HR thực tế”, “trả lời ngay lập tức”, “vặn hỏi xoáy sâu”.
+151: Feedback chất lượng cao: “Sửa lỗi/góp ý chuyên sâu”, “chỉ ra điểm mạnh–yếu”, “hiểu điểm yếu của bản thân”, “hiểu mình”, “đánh giá chính xác hiệu quả”, “gợi ý chuyên nghiệp hơn”.
+152: Phong cách hỗ trợ: “Nhẹ nhàng, vui tính nhưng có nhiều kiến thức”, “thông minh, khéo léo”, “trực tiếp, thẳng thắn”, “hiệu quả trong thời gian ngắn”.
+153: Tính cá nhân hóa và thực tế: “Bám sát tình huống thực tế / JD công việc”, “cung cấp thông tin về công ty/lĩnh vực”, “biến mỗi buổi thành cơ hội ghi điểm”.
+154: Một số ý kiến còn mong muốn trợ lý đa năng hơn (hỗ trợ CV, khung trả lời chuẩn, multitasking), hoặc thậm chí cá nhân hóa sâu (“như thằng bạn thân”, “dựa trên nhu cầu và đặc điểm của tôi”). Nhìn chung, các đề xuất cho thấy người dùng không chỉ muốn một công cụ luyện tập đơn thuần, mà kỳ vọng Hr advisor trở thành người bạn đồng hành chuyên nghiệp, gần gũi nhưng hiệu quả cao, giúp họ vượt qua rào cản tâm lý, cải thiện phong thái và tăng tỷ lệ đậu phỏng vấn thực tế – phù hợp hoàn hảo với các insight định lượng về nhu cầu vặn hỏi sâu, soi lỗi cơ thể và chấm điểm dự đoán.
+155: 4. KẾT LUẬN CHUNG 
+156: 
+157: Khảo sát xác nhận thị trường tiềm năng rất lớn cho HR Advisor (Hr advisor Video Call) tại Việt Nam, đặc biệt với nhóm sinh viên 18–22 tuổi tại Hà Nội, ngành CNTT/Kinh doanh/Marketing, thu nhập thấp–trung bình.
+158: Insight cốt lõi:
+159: Điểm đau chính: tâm lý hồi hộp + body language (69%) và thiếu tương tác thực tế trong luyện tập hiện tại.
+160: Giải pháp hiện có (ChatGPT, tự luyện) không đáp ứng => 90%+ tích cực với AI Video Call, 93,5% sẵn sàng dùng.
+161: Nhu cầu hàng đầu: vặn hỏi sâu, feedback body language, chấm điểm/dự đoán đậu, sửa câu trả lời chuyên nghiệp.
+162: Giá chấp nhận: 30–90k cho gói cấp tốc 3 ngày => anchor lý tưởng 49.000đ.
+163: 
+164: 
+165: 
+166: 
+167: 
+168: 
+169: SURVEY REPORT
+170: Survey Title:
+ SURVEY ON DEMAND FOR AI-POWERED INTERVIEW PRACTICE PLATFORM – HR ADVISOR (VIRTUAL MENTOR)
+171: Focus: HR Advisor conducting Video Call interviews like a real recruiter
+ Survey Period: January 31 – February 3, 2025
+ Method: Google Form
+ Valid Sample Size: 123 respondents
+ Target Audience: Students and young adults aged 18–25, mainly in Hanoi, currently job-seeking or recently graduated
+ Survey Link: link
+172: 
+173: 1. SURVEY OBJECTIVES
+174: Understand psychological and content-related interview difficulties among young Vietnamese job seekers.
+
+175: Evaluate current interview preparation methods and satisfaction levels with existing solutions.
+
+176: Measure attitudes, specific needs, and willingness to pay for HR Advisor.
+
+177: Collect descriptions of the “Dream Interview Assistant” to guide product development.
+
+178: 
+179: 2. SURVEY STRUCTURE
+180: The survey consisted of multiple key questions divided into four main sections, arranged logically from general information to behavior, solution evaluation, pricing, and usage intention.
+181: Both quantitative and qualitative data were collected using single-choice questions, multiple-choice questions, and open-ended responses for detailed opinions and suggestions.
+182: 
+183: Section I. Demographic Information
+184: Purpose:
+ Identify key characteristics of respondents to support segmentation, analysis, and target customer profiling.
+185: Main Questions:
+186: What is your age?
+
+187: What is your gender?
+
+188: What is your highest level of education?
+
+189: What is your current occupation?
+
+190: What field are you studying or working in?
+
+191: What is your approximate monthly income (VND)?
+
+192: Where do you currently live?
+
+193: 
+194: Section II. Job-Seeking Behavior & Interview Habits
+195: Purpose:
+ Examine practical interview experience, job-seeking behavior, and current preparation habits to identify common pain points.
+196: Main Questions:
+197: How many official interviews have you attended?
+
+198: Which platforms do you use to search for jobs?
+
+199: How often do you update your online CV?
+
+200: What psychological or physical reactions do you experience during interviews?
+
+201: What is your biggest difficulty regarding interview answer content?
+
+202: How do you currently practice for interviews?
+
+203: 
+204: Section III. Solution Evaluation & HR Advisor
+205: Purpose:
+ Assess awareness, attitudes, and experiences with current interview preparation solutions, and gather specific needs regarding HR Advisor via Video Call.
+206: Main Questions:
+207: What solutions have you used to prepare for interviews?
+
+208: What do you think about practicing interviews with AI via Video Call?
+
+209: What difficulties have you encountered with current tools?
+
+210: If there were an HR Advisor interviewing you via Video Call like a real person, what would you want it to help you with most?
+
+211: 
+212: Section IV. Pricing & Usage Intention
+213: Purpose:
+ Collect pricing expectations, willingness to pay, and detailed ideas about the “Dream Interview Assistant.”
+214: Main Questions:
+215: What price would feel TOO CHEAP and make you doubt quality?
+
+216: What price would be MOST REASONABLE for a 3-day Intensive Package?
+
+217: What price would be TOO EXPENSIVE and prevent purchase?
+
+218: Would you be willing to use an AI tool to improve interview skills and demeanor?
+
+219: Briefly describe your “Dream Interview Assistant.”
+
+220: Would you like to receive updates from us?
+
+221: 
+222: 3. SURVEY RESULT ANALYSIS
+223: 
+224: 3.1. Respondent Profile (Target Persona)
+225: Age:
+ The 18–22 age group accounted for approximately 90% of respondents, showing extremely high demand among students about to graduate or newly entering the job market. This group is open to new technology solutions such as AI mentors.
+226: Education Level:
+ 85.4% hold College/University degrees, while only 11.4% graduated from high school and 2.4% did not complete high school. This confirms the core target market is university students or recent graduates transitioning into the workforce.
+227: Occupation:
+ Students dominate at 85.4%, followed by office employees (8.9%), while freelancers and others represent only small percentages (~2.4% each). This reinforces students as the primary customer segment.
+228: Field of Study:
+ IT leads with 36.6%, followed by Economics/Business (26.8%) and Marketing/Communication (24.4%). These are competitive industries requiring strong soft skills and behavioral interviews, presenting strong positioning opportunities for HR Advisor.
+229: Income:
+ 48.1% earn under 5 million VND/month; 21.1% earn 5–10 million VND. This reflects limited purchasing power, suggesting HR Advisor should be positioned in an affordable range (30,000–90,000 VND).
+230: Location:
+ Hanoi accounts for 83.7% of respondents, confirming strong market concentration in Hanoi.
+231: 
+232: 3.2. Job-Seeking Behavior & Interview Experience
+233: Interview Experience:
+ 61.8% have attended only 1–3 interviews, while 15.4% have never attended any. The majority are beginners needing confidence-building support.
+234: Job Platforms:
+ TopCV (69.1%), Facebook Job Groups (65%), LinkedIn (36.6%). Marketing should focus on these channels.
+235: CV Update Frequency:
+ 77.2% update CV only when needed, showing lack of proactive career preparation.
+236: Psychological Barriers:
+ Fast heartbeat, nervousness (69.1%), blank mind (47.2%), avoiding eye contact (34.1%). Psychological pressure is the biggest pain point.
+237: Content Difficulties:
+ Unprofessional wording/filler words (39.8%) and lack of logical structure (30.1%) dominate.
+238: Current Practice Methods:
+ Searching questions online & self-practice (62.6%), mirror practice (46.3%), role-play with friends (22%). Current methods lack interaction and quality feedback.
+239: 
+240: 3.3. Attitudes & Needs Toward HR Advisor
+241: Current Solutions Used:
+ 65% use ChatGPT/Gemini; 31.7% self-record; 30.1% mock interviews with mentors.
+242: Interest in AI Video Call:
+ 90.2% show positive attitude; only under 10% neutral/negative.
+243: Problems with Current Tools:
+ Lack of real interaction (56.9%), generic feedback (53.7%), no detailed corrections (39.8%).
+244: Top Desired Features:
+245: Deep probing questions (62.6%)
+
+246: Scoring & pass-rate prediction (60.2%)
+
+247: Professional answer correction (59.3%)
+
+248: Body language analysis (43.1%)
+
+249: 
+250: 3.4. Pricing & Usage Intention
+251: Too Cheap Threshold:
+ 62.6% consider under 20,000 VND too cheap and suspicious.
+252: Most Reasonable Price:
+ 30,000–50,000 VND (34.1%) and 50,000–90,000 VND (33.3%).
+ Sweet spot: 30,000–70,000 VND.
+ Suggested anchor price: 49,000 VND.
+253: Too Expensive Threshold:
+ Above 100,000–150,000 VND becomes risky; above 200,000 VND loses most users.
+254: Usage Intention:
+ 93.5% answered YES – indicating extremely strong market demand.
+255: 
+256: 3.5. Open-Ended Insights: “Dream Interview Assistant”
+257: Respondents consistently expect an AI assistant that closely simulates real interviews.
+258: Key expectations include:
+259: Natural, realistic interaction like a real HR
+
+260: Deep, specific feedback (language, structure, body language)
+
+261: Immediate corrections
+
+262: Personalized evaluation based on job description
+
+263: Friendly yet professional mentoring style
+
+264: Users do not want just a practice tool, but a professional companion that builds confidence, corrects weaknesses, and increases real-world success rates.
+265: 
+266: 4. OVERALL CONCLUSION
+267: The survey confirms strong market potential for HR Advisor (Video Call AI Interview) in Vietnam, especially among students aged 18–22 in Hanoi within IT/Business/Marketing fields.
+268: Core Insights:
+269: Main pain point: psychological pressure & body language issues (69%).
+
+270: Current solutions (ChatGPT, self-practice) lack interaction quality.
+
+271: 90%+ positive attitude; 93.5% willing to use.
+
+272: Top needs: deep probing, body language feedback, scoring & prediction.
+
+273: Acceptable price range: 30,000–90,000 VND (ideal anchor: 49,000 VND).
+
+274: 
+275: direc interview
+276: 
+277: c-persona- Hiệp
+278: USER PERSONA: HR SPECIALIST (FPT SOFTWARE)
+279: Background (Thông tin nền)
+280: Name: Linh
+281: Occupation: Chuyên viên Nhân sự (HR Recruitment) tại FPT Software.
+282: Experience: 8 năm làm việc tại FSoft, 3 năm chuyên về mảng Tuyển dụng, Đào tạo & Quan hệ lao động.
+283: Workload: Tuyển dụng trung bình 20-50 vị trí/tháng (từ Fresher đến Senior, các vị trí BA, Developer...).
+284: Needs (Nhu cầu)
+285: Sàng lọc hồ sơ hiệu quả: Cần công cụ phân tích và lọc CV để giảm tải thời gian đọc thủ công.
+286: Đánh giá tư duy: Tìm kiếm ứng viên có tư duy logic, phản biện (critical thinking) và phản xạ tốt, không chỉ thuộc lòng lý thuyết.
+287: Hỗ trợ Technical: Cần công cụ hỗ trợ đánh giá sơ bộ về mặt kỹ thuật (do bản thân HR không chuyên sâu về tech) để khớp với checklist của dự án.
+288: Cải thiện chất lượng ứng viên: Mong muốn ứng viên biết cách trả lời sâu sắc, mở rộng vấn đề thay vì trả lời cộc lốc/thụ động.
+289: Hopes and Dreams (Mong muốn & Kỳ vọng)
+290: Tìm được nhân sự chất lượng: Ứng viên có khả năng xử lý tình huống thực tế, va vấp tốt, không sách vở.
+291: Áp dụng công nghệ: Mong muốn sử dụng AI như một "công cụ đồng hành" (assistant) để hỗ trợ công việc, vì đây là định hướng bắt buộc của công ty.
+292: Nâng cao trải nghiệm phỏng vấn: Ứng viên được luyện tập trước với AI để tự tin hơn, giảm bớt các trường hợp trượt do tâm lý chứ không phải do thiếu năng lực.
+293: Make Their Life Easier (Giải pháp giúp cuộc sống dễ dàng hơn)
+294: Automate Screening: AI giúp phân tích CV và đưa ra đánh giá ban đầu.
+295: Interview Support: Cung cấp báo cáo về độ khớp (matching) giữa câu trả lời của ứng viên và đáp án mong muốn/checklist của FSoft.
+296: Candidate Training: Công cụ giúp ứng viên luyện tập (Mock Interview) để giới thiệu bản thân hấp dẫn hơn và trả lời trôi chảy hơn trước khi gặp HR thật.
+297: Finance (Tài chính)
+298: Income: Nhân viên văn phòng lâu năm (Senior/Specialist level).
+299: Spending: Không chi trả cá nhân cho công cụ tuyển dụng, sử dụng ngân sách hoặc công cụ do công ty trang bị/triển khai thử nghiệm.
+300: Influence Factors (Yếu tố ảnh hưởng)
+301: Bộ phận Technical (Dự án): Chiếm 70% quyết định tuyển dụng (HR chỉ chiếm 30% về mặt đánh giá tư duy/thái độ).
+302: Chính sách công ty: Các checklist tuyển dụng, quy trình chuẩn của FPT Software.
+303: Xu hướng công nghệ: Sự bắt buộc phải áp dụng AI vào quy trình HR từ ban lãnh đạo.
+304: Online Behavior (Hành vi trực tuyến)
+305: Social Media: Sử dụng Facebook, Instagram (thường thấy quảng cáo công cụ AI tại đây).
+306: Tech Adoption: Sẵn sàng dùng thử và trải nghiệm công nghệ mới nếu được cung cấp.
+307: Observation: Quan sát cách ứng viên sử dụng công nghệ (biết về việc ứng viên dùng AI để gian lận/biên dịch live khi phỏng vấn).
+308: Worries and Fears (Lo lắng & E ngại)
+309: Độ tin cậy của AI: Chỉ tin tưởng AI khoảng 50% (đặc biệt là mảng soft skills và thái độ), lo ngại AI thiếu yếu tố "cảm tính" và "con người".
+310: Ứng viên đối phó: Lo sợ ứng viên dùng AI để học thuộc lòng văn mẫu, trả lời dập khuôn thiếu sự linh hoạt.
+311: Gian lận: Lo ngại các công cụ AI giúp ứng viên "nhắc bài" trực tiếp trong quá trình phỏng vấn online.
+312: Rủi ro bỏ sót: Lo ngại AI loại bỏ nhầm những ứng viên giỏi nhưng bị tâm lý khi trả lời.
+313: USER PERSONA: SENIOR STUDENT (INTERNSHIP SEEKER)
+314: Background (Thông tin nền)
+315: Name: Nguyễn Hồng Ngọc
+316: Occupation: Sinh viên năm cuối, chuyên ngành Kế toán.
+317: Status: Đang trong giai đoạn nộp hồ sơ (Apply) tìm kiếm vị trí Thực tập sinh (Intern).
+318: Pain Point: Thường xuyên lo lắng, hồi hộp, run và diễn đạt không trôi chảy khi phỏng vấn thực tế, đặc biệt là với các câu hỏi tình huống bất ngờ.
+319: Needs (Nhu cầu)
+320: Môi trường thực hành: Cần một không gian "giả lập" an toàn để tập dượt, được phép sai và sửa trước khi "ra trận".
+321: Phản hồi khách quan: Cần người/công cụ nhận xét thẳng thắn và sâu sắc (điều mà bạn bè thường nể nang hoặc không đủ chuyên môn để làm).
+322: Cải thiện kỹ năng mềm: Tăng sự tự tin, kiểm soát giọng nói, tốc độ và ngôn ngữ cơ thể (eye contact).
+323: Xử lý tình huống: Luyện tập phản xạ với các câu hỏi hóc búa, không có trong kịch bản chuẩn bị sẵn.
+324: Hopes and Dreams (Mong muốn & Kỳ vọng)
+325: Trải nghiệm chân thật: Mong muốn AI đóng vai trò như một HR thật (có hình ảnh/âm thanh), chứ không chỉ là Chatbot văn bản.
+326: Phong cách Mentor: Kỳ vọng AI giao tiếp chuyên nghiệp nhưng thân thiện, biết khích lệ động viên chứ không khô khan hay "dữ dằn".
+327: Feedback chi tiết: Muốn nhận được báo cáo cụ thể sau buổi phỏng vấn (ví dụ: chỗ nào lạc đề, chỗ nào thiếu giao tiếp mắt, tốc độ nói ra sao...).
+328: Make Their Life Easier (Giải pháp giúp cuộc sống dễ dàng hơn)
+329: Simulation: Tính năng bật camera/micro để phỏng vấn như thật.
+330: Metric & Analytics: Cung cấp các chỉ số đo lường (tốc độ nói, từ đệm, lỗi lặp từ).
+331: Specific Corrections: Chỉ ra lỗi sai cụ thể và gợi ý câu trả lời mẫu tốt hơn (Sample answers).
+332: Auto Report: Báo cáo tổng kết ngắn gọn, highlight điểm mạnh/yếu ngay sau khi kết thúc.
+333: Finance (Tài chính)
+334: Income: Phụ thuộc gia đình hoặc làm thêm (thấp).
+335: Spending: Sẵn sàng chi trả mức phí sinh viên (khoảng 50.000 - 100.000 VNĐ/tháng).
+336: Condition: Chỉ trả tiền sau khi đã dùng thử bản Free (Dùng thử) và thấy hiệu quả thực sự.
+337: Influence Factors (Yếu tố ảnh hưởng)
+338: Social Proof: Tin tưởng vào review trên các hội nhóm Facebook, Video Demo trên YouTube.
+339: Expert Endorsement: Đánh giá từ các chuyên gia HR hoặc Mentor trong ngành.
+340: Peers: Lời giới thiệu từ bạn bè đã sử dụng thấy hiệu quả.
+341: Privacy Policy: Sự minh bạch về bảo mật dữ liệu (camera/micro) của nhà phát triển.
+342: Online Behavior (Hành vi trực tuyến)
+343: Research: Chủ động tìm kiếm Google, đọc review kỹ lưỡng trước khi tải app.
+344: Learning: Thường xem video hướng dẫn phỏng vấn trên YouTube.
+345: Engagement: Sẵn sàng lan tỏa/giới thiệu cho bạn bè nếu sản phẩm tốt.
+346: Worries and Fears (Lo lắng & E ngại)
+347: Chất lượng ảo: Sợ AI nhận xét chung chung, sáo rỗng (vô thưởng vô phạt) không giúp ích được gì.
+348: Trải nghiệm tệ: Lo ngại app bị lag, giao diện rối rắm, giọng nói AI quá máy móc (robotic).
+349: Bảo mật: Sợ bị thu thập dữ liệu hình ảnh/giọng nói trái phép.
+350: Lãng phí: Sợ phải trả tiền cho một công cụ chỉ là "chiêu trò marketing" mà không hiệu quả hơn việc tự học.
+351: USER PERSONA: IT & MARKETING RECRUITER
+352: Background (Thông tin nền)
+353: Name: Thảo.
+354: Occupation: HR Recruitment Specialist (Chuyên viên Tuyển dụng).
+355: Industry: Phụ trách mảng IT (Intern, Dev level 1-5) và Marketing (Content Creator, TikTok).
+356: Experience: Hơn 1 năm kinh nghiệm tại vị trí hiện tại. Từng làm việc tại miền Nam, hiện đã chuyển về làm việc tại miền Trung.
+357: Workload: Tuyển dụng trung bình 5-6 vị trí/tháng (tùy theo timeline dự án).
+358: Needs (Nhu cầu)
+359: Sàng lọc sơ loại (Screening): Cần công cụ giúp loại bỏ bớt những ứng viên không đạt tiêu chuẩn cơ bản (về lương, định hướng, kiến thức nền) để tiết kiệm thời gian.
+360: Đánh giá sự chuẩn bị: Cần ứng viên nghiên cứu kỹ về công ty và vị trí ứng tuyển, tránh tình trạng "lơ ngơ" khi nhận điện thoại.
+361: Kiểm tra tư duy: Cần ứng viên trả lời đúng trọng tâm, có luận điểm, luận cứ và giải pháp rõ ràng thay vì trả lời lan man.
+362: Tính Logic: Mong muốn công cụ không chỉ hỏi theo list có sẵn mà phải biết hỏi câu tiếp theo dựa trên câu trả lời trước đó (câu hỏi đào sâu).
+363: Hopes and Dreams (Mong muốn & Kỳ vọng)
+364: Nâng cao chất lượng đầu vào: Ứng viên khi gặp HR thật (Vòng 2, 3) đã có sự chuẩn bị tốt, tự tin và hiểu việc hơn nhờ đã luyện với AI.
+365: Tiết kiệm thời gian: AI giúp HR "skip" qua vòng lọc hồ sơ và phỏng vấn sơ bộ, chỉ dành thời gian cho những người thực sự tiềm năng.
+366: Trải nghiệm thực tế: Mong muốn AI tạo ra các vòng phỏng vấn sát thực tế (ngắn gọn, súc tích khoảng 6-7 câu chất lượng) thay vì dài dòng 15-20 câu máy móc.
+367: Make Their Life Easier (Giải pháp giúp cuộc sống dễ dàng hơn)
+368: Virtual Interview Room: Một phòng phỏng vấn ảo sàng lọc các tiêu chí basic: Điểm mạnh/yếu, Deal lương, Mong muốn công việc.
+369: Analysis: Phân tích mức độ phù hợp của ứng viên so với tiêu chí đầu vào (Input) của HR.
+370: Unlimited Practice: Giúp ứng viên luyện tập không giới hạn để giảm bớt sự sợ hãi/lúng túng khi gặp HR thật.
+371: Finance (Tài chính)
+372: Position: Nhân viên văn phòng (HR).
+373: Perspective: Quan tâm đến hiệu quả/chi phí. Sẵn sàng đề xuất công ty sử dụng nếu khối lượng tuyển dụng lớn (như ở Sài Gòn 40-50 người/vị trí) hoặc giúp tiết kiệm thời gian đáng kể. Hiện tại ở miền Trung volume nhỏ hơn nên nhu cầu trả phí chưa cấp thiết bằng miền Nam.
+374: Influence Factors (Yếu tố ảnh hưởng)
+375: Quy mô tuyển dụng: Số lượng CV đầu vào càng lớn thì nhu cầu dùng AI càng cao.
+376: Chất lượng ứng viên: Sự "lan man" và thiếu kỹ năng mềm của sinh viên là động lực chính để tìm kiếm giải pháp hỗ trợ.
+377: Công nghệ: Sự phổ biến của ChatGPT/AI khiến HR vừa thích thú vừa cảnh giác (với việc ứng viên học thuộc lòng).
+378: Online Behavior (Hành vi trực tuyến)
+379: Channels: Sử dụng LinkedIn và Facebook để đăng bài tuyển dụng.
+380: Tech Usage: Đã từng trải nghiệm công cụ phỏng vấn ảo (thấy còn mới lạ nhưng chưa hoàn thiện về đánh giá thái độ).
+381: Awareness: Nhận thức rõ về việc ứng viên dùng AI để gian lận hoặc học thuộc lòng câu trả lời.
+382: Worries and Fears (Lo lắng & E ngại)
+383: Sự dập khuôn (Robotic): Lo ngại ứng viên học thuộc lòng câu trả lời từ AI, mất đi tính chân thật và cá nhân.
+384: Thiếu cảm xúc: AI chưa đánh giá được thái độ, tính cách và "cảm giác con người" (điều mà HR tin tưởng hơn ở các vòng sau).
+385: Gian lận: Không kiểm soát được việc ứng viên có trung thực hay nhờ người khác nhắc bài trong lúc phỏng vấn online với AI hay không.
+386: Kết quả ảo: Báo cáo của AI chỉ mang tính tham khảo, chưa đủ tin cậy để thay thế hoàn toàn con người.
+387: USER PERSONA: DIGITAL MARKETING FRESHER
+388: Background (Thông tin nền)
+389: Name: Hà.
+390: Age: 22 tuổi.
+391: Occupation: Sinh viên năm 4, chuyên ngành Digital Marketing.
+392: Status: Đang thực tập hoặc vừa hoàn thành thực tập, đang tích cực tham gia phỏng vấn tìm việc chính thức.
+393: Experience: Đã phỏng vấn 2-3 công ty, tỉ lệ đậu thấp (chỉ 1 nơi).
+394: Pain Point: Hay hồi hộp, run, vấp váp khi nói dù đã chuẩn bị, đặc biệt "đứng hình" trước các câu hỏi tình huống bất ngờ.
+395: Needs (Nhu cầu)
+396: Phản hồi dựa trên số liệu (Data-driven Feedback): Cần các nhận xét định lượng cụ thể (Ví dụ: đếm số từ đệm "ờ, à", đo thời gian chết/im lặng) thay vì những lời khuyên chung chung.
+397: Môi trường giả lập áp lực: Cần luyện tập với cam/mic và giới hạn thời gian (ví dụ: 30s suy nghĩ, 2 phút trả lời) để quen với áp lực thực tế.
+398: Sửa lỗi cụ thể: Cần AI chỉ ra chính xác đoạn nào bị lạc đề, đoạn nào thiếu giao tiếp mắt (eye-contact) và gợi ý cách sửa.
+399: Khách quan: Cần một đánh giá thẳng thắn, không nể nang như bạn bè, nhưng cũng không quá gay gắt như đi thi.
+400: Hopes and Dreams (Mong muốn & Kỳ vọng)
+401: Role-play chân thật: Kỳ vọng AI hoạt động như một người phỏng vấn thật (có tương tác video/giọng nói) chứ không phải chatbot văn bản.
+402: Huấn luyện viên (Coach): Mong muốn cảm giác được huấn luyện để tiến bộ, nhìn thấy sự cải thiện rõ rệt qua các lần tập (ví dụ: giảm lỗi từ đệm từ 10 xuống 4).
+403: Cá nhân hóa: Hy vọng AI đủ thông minh để đánh giá theo tiêu chuẩn riêng của từng ngành nghề (Digital Marketing khác Kế toán...).
+404: Make Their Life Easier (Giải pháp giúp cuộc sống dễ dàng hơn)
+405: Detailed Report: Báo cáo tự động chỉ ra điểm mạnh/yếu ngay sau phiên tập.
+406: Sample Answers: Cung cấp ví dụ minh họa cho câu trả lời tốt hơn.
+407: Virtual Mock Interview: Tính năng phỏng vấn thử với các câu hỏi ngẫu nhiên để rèn phản xạ.
+408: Finance (Tài chính)
+409: Income: Sinh viên/Thực tập sinh (Thu nhập thấp/phụ thuộc).
+410: Spending: Sẵn sàng chi trả 50.000 – 99.000 VNĐ/tháng.
+411: Condition: Bắt buộc phải có bản dùng thử (Free Trial) chất lượng để chứng minh hiệu quả trước khi xuống tiền.
+412: Influence Factors (Yếu tố ảnh hưởng)
+413: Visual Proof: Tin vào các video demo thực tế (quay màn hình quá trình phân tích) trên TikTok/Facebook.
+414: Expert Review: Đánh giá từ chuyên gia HR hoặc Mentor uy tín.
+415: Progress: Động lực lớn nhất là nhìn thấy các chỉ số lỗi giảm đi sau quá trình luyện tập.
+416: Online Behavior (Hành vi trực tuyến)
+417: Research Channels: Ưu tiên TikTok/Facebook để xem review nhanh -> Sau đó mới vào Website để đọc chi tiết.
+418: Content Consumption: Thích xem video chia sẻ kinh nghiệm, tips phỏng vấn ngắn gọn.
+419: Skepticism: Có xu hướng nghi ngờ các quảng cáo "thổi phồng" (marketing gimmick), cần bằng chứng xác thực.
+420: Worries and Fears (Lo lắng & E ngại)
+421: Privacy (Bảo mật): Lo ngại về dữ liệu hình ảnh/giọng nói khi bật Camera.
+422: Generic Feedback: Sợ AI nhận xét chung chung (ví dụ: "Bạn cần tự tin hơn") – đây là yếu tố khiến user rời bỏ ứng dụng ngay lập tức.
+423: Robotic: Sợ AI quá máy móc, không hiểu được cảm xúc hoặc bối cảnh câu trả lời.
+424: Wasted Money: Sợ trả tiền cho một công cụ không vượt trội hơn so với việc tự dùng ChatGPT miễn phí + tự soi gương.
+425: Tên mẫu: Đạt
+426: Background: Sinh viên năm 4 ngành Tài chính, Đại học FPT.
+427: Trạng thái: Đang tìm việc, đã có chút kinh nghiệm phỏng vấn thực tế từ kỳ 6.
+428: 
+429: PHẦN 2: BÀI TOÁN KỸ THUẬT & SẢN PHẨM RÚT RA TỪ ĐẠT
+430: Để thuyết phục được tệp người dùng khó tính và thực tế như Đạt, việc phát triển hệ thống cần chú trọng vào các yếu tố nền tảng cốt lõi sau:
+431: 1. Tính minh bạch (Explainable AI - Tiêu chí đánh giá)
+432: Insight: Đạt thắc mắc "AI dựa vào đâu để đánh giá, dùng form chung hay khách quan?".
+433: Giải pháp: * Trước khi bắt đầu, ứng dụng cần cho phép người dùng chọn tiêu chí đánh giá (Ví dụ: Đánh giá theo Khung năng lực ngành Tài chính, hoặc Đánh giá theo bộ câu hỏi STAR).
+434: Trong báo cáo kết quả, thay vì chỉ chấm điểm, hệ thống phải giải thích lý do (Ví dụ: "Bạn được 7/10 điểm ở câu này vì bạn đã nêu được Tình huống (Situation) nhưng thiếu Kết quả (Result) đo lường được").
+435: 2. Tối ưu Hiệu năng & Giao diện (Performance & UI)
+436: Insight: Đạt nhấn mạnh "quá trình tương tác phải mượt, đừng đơ đơ lag lag". Với sinh viên IT hoặc người dùng đã quen với các hệ thống công nghệ, tốc độ phản hồi là yếu tố sống còn.
+437: Giải pháp: * Cần đặc biệt chú ý đến kiến trúc hệ thống và cách xử lý bất đồng bộ (asynchronous) ở phía backend để thời gian AI phản hồi là nhanh nhất.
+438: Giao diện front-end cần có các hiệu ứng "loading" trực quan, giữ chân người dùng trong lúc chờ AI phân tích video/audio để họ không có cảm giác hệ thống bị treo.
+439: 3. Mô hình Feedback "Sửa lỗi tức thì" (Real-time Correction)
+440: Insight: Đạt ví ứng dụng như "app học tiếng Anh, nói đến đâu sửa đến đấy".
+441: Giải pháp: Bên cạnh báo cáo tổng thể cuối buổi, có thể cân nhắc tính năng "Phỏng vấn nháp" (Mock Interview Lite). Người dùng trả lời xong 1 câu, AI sẽ đưa ra gợi ý sửa lỗi ngay lập tức rồi mới chuyển sang câu tiếp theo, thay vì đợi đến cuối cùng.
+442: 4. Giải quyết rào cản Bảo mật & Chi phí
+443: Bảo mật: Ngay ở màn hình tải CV lên hoặc bật Camera, cần có dòng Disclaimer (Cam kết) ngắn gọn: "Dữ liệu của bạn được mã hóa và không lưu trữ sau khi phiên phỏng vấn kết thúc."
+444: Chi phí: Đạt thuộc nhóm "càng miễn phí càng tốt". Nhóm nên áp dụng mô hình Freemium: Cho phép luyện tập miễn phí 1-2 lần/tuần với báo cáo cơ bản. Muốn xem báo cáo chi tiết chuyên sâu hoặc luyện không giới hạn thì nâng cấp gói trả phí.
+445: 
+446: 
+447: USER PERSONA: HR SPECIALIST (FPT SOFTWARE)
+448: Background
+449: Name: Linh
+ Occupation: HR Recruitment Specialist at FPT Software
+ Experience: 8 years at FSoft, including 3 years specializing in Recruitment, Training & Employee Relations
+ Workload: Recruits an average of 20–50 positions per month (from Fresher to Senior levels, including BA, Developers, etc.)
+450: Needs
+451: Efficient CV Screening: Needs tools to analyze and filter CVs to reduce manual review time.
+
+452: Assessing Critical Thinking: Looks for candidates with logical reasoning, critical thinking, and quick reflexes—not just theoretical knowledge.
+
+453: Technical Support: Needs preliminary technical assessment tools (as HR is not deeply technical) aligned with project checklists.
+
+454: Improve Candidate Quality: Wants candidates to provide in-depth, well-developed answers instead of short or passive responses.
+
+455: Hopes and Dreams
+456: Find High-Quality Talent: Candidates who can handle real-world situations and are practical, not purely academic.
+
+457: Apply Technology: Hopes to use AI as a “companion tool” (assistant) to support work, in alignment with company direction.
+
+458: Enhance Interview Experience: Candidates can practice with AI beforehand to boost confidence and reduce rejections caused by nervousness rather than lack of competence.
+
+459: Make Their Life Easier
+460: Automate Screening: AI analyzes CVs and provides initial evaluations.
+
+461: Interview Support: Reports showing matching levels between candidate answers and FSoft’s expected checklist.
+
+462: Candidate Training: Mock interview tools helping candidates introduce themselves effectively and answer more fluently before meeting real HR.
+
+463: Finance
+464: Income: Senior/Specialist-level office employee.
+
+465: Spending: Does not personally pay for recruitment tools; uses company-provided budget or pilot tools.
+
+466: Influence Factors
+467: Technical Department (Project Team): Holds 70% of hiring decision power (HR accounts for 30% focusing on mindset/attitude).
+
+468: Company Policies: Standard recruitment checklists and procedures at FPT Software.
+
+469: Technology Trends: Mandatory AI adoption in HR processes from leadership.
+
+470: Online Behavior
+471: Social Media: Uses Facebook and Instagram (frequently exposed to AI tool advertisements).
+
+472: Tech Adoption: Willing to try new technologies if provided.
+
+473: Observation: Pays attention to how candidates use technology (aware of AI cheating/live translation during interviews).
+
+474: Worries and Fears
+475: AI Reliability: Trusts AI about 50%, especially skeptical regarding soft skills and attitude evaluation due to lack of human intuition.
+
+476: Template Responses: Fears candidates memorizing AI-generated model answers without flexibility.
+
+477: Cheating: Concerned about AI tools helping candidates receive live prompts during online interviews.
+
+478: False Rejection Risk: Worried AI may mistakenly eliminate strong candidates who are just nervous.
+
+479: 
+480: USER PERSONA: SENIOR STUDENT (INTERNSHIP SEEKER)
+481: Background
+482: Name: Nguyễn Hồng Ngọc
+ Occupation: Final-year Accounting student
+ Status: Applying for Internship positions
+ Pain Point: Frequently nervous, anxious, and not fluent during interviews, especially with unexpected situational questions.
+483: Needs
+484: Safe Practice Environment: A simulated space to practice and make mistakes before real interviews.
+
+485: Objective Feedback: Honest, in-depth feedback (friends are often too lenient or lack expertise).
+
+486: Soft Skills Improvement: Build confidence, control voice, speaking pace, and body language (eye contact).
+
+487: Situational Handling: Practice responding to challenging, unpredictable questions.
+
+488: Hopes and Dreams
+489: Realistic Experience: AI should act like a real HR interviewer (with video/audio), not just text chatbot.
+
+490: Mentor Style: Professional yet friendly, encouraging rather than robotic or intimidating.
+
+491: Detailed Feedback: Specific post-interview reports (off-topic parts, eye-contact issues, speaking speed analysis, etc.).
+
+492: Make Their Life Easier
+493: Simulation: Camera/microphone-enabled mock interviews.
+
+494: Metrics & Analytics: Speech speed, filler words, repetition errors.
+
+495: Specific Corrections: Clear mistakes and improved sample answers.
+
+496: Auto Report: Concise summary highlighting strengths and weaknesses immediately after.
+
+497: Finance
+498: Income: Dependent on family or part-time job (low income).
+
+499: Spending: Willing to pay student pricing (50,000–100,000 VND/month).
+
+500: Condition: Only pays after trying a Free Trial and seeing real effectiveness.
+
+501: Influence Factors
+502: Social Proof: Trusts Facebook group reviews and YouTube demo videos.
+
+503: Expert Endorsement: HR professionals or mentors’ evaluations.
+
+504: Peers: Recommendations from friends.
+
+505: Privacy Policy: Transparency about camera/microphone data security.
+
+506: Online Behavior
+507: Research: Actively searches Google and reads reviews carefully before downloading.
+
+508: Learning: Watches interview preparation videos on YouTube.
+
+509: Engagement: Will recommend to friends if satisfied.
+
+510: Worries and Fears
+511: Superficial Feedback: Fears generic, unhelpful AI comments.
+
+512: Poor Experience: Concerned about laggy app, messy UI, robotic AI voice.
+
+513: Privacy: Worried about unauthorized collection of image/voice data.
+
+514: Wasted Money: Afraid of paying for a marketing gimmick no better than self-study.
+
+515: 
+516: USER PERSONA: IT & MARKETING RECRUITER
+517: Background
+518: Name: Thảo
+ Occupation: HR Recruitment Specialist
+ Industry: IT (Intern, Dev Level 1–5) and Marketing (Content Creator, TikTok)
+ Experience: Over 1 year in current role; previously worked in Southern Vietnam, now in Central Vietnam
+ Workload: 5–6 positions/month (depending on project timeline)
+519: Needs
+520: Preliminary Screening: Eliminate unqualified candidates (salary mismatch, unclear direction, weak fundamentals).
+
+521: Preparation Check: Candidates must research company and role thoroughly.
+
+522: Logical Thinking: Answers should be structured with arguments, evidence, and solutions—not rambling.
+
+523: Dynamic Questioning: AI must ask follow-up questions based on responses (deep probing).
+
+524: Hopes and Dreams
+525: Improve Input Quality: Candidates reaching real HR rounds are better prepared and confident.
+
+526: Save Time: AI handles initial screening so HR focuses on high-potential candidates.
+
+527: Realistic Interviews: 6–7 concise, high-quality questions instead of 15–20 mechanical ones.
+
+528: Make Their Life Easier
+529: Virtual Interview Room: Filters basic criteria (strengths/weaknesses, salary expectations, job goals).
+
+530: Analysis: Fit analysis based on HR-defined criteria.
+
+531: Unlimited Practice: Candidates practice freely to reduce fear.
+
+532: Finance
+533: Position: Office employee (HR).
+
+534: Perspective: Cost-effective solution. More likely to propose company usage if recruitment volume is high (e.g., 40–50 candidates per position in Ho Chi Minh City). Current Central region demand is lower.
+
+535: Influence Factors
+536: Recruitment Volume: Higher CV volume increases AI need.
+
+537: Candidate Quality: Students’ rambling and weak soft skills drive demand.
+
+538: Technology Awareness: Aware of AI (ChatGPT), both interested and cautious.
+
+539: Worries and Fears
+540: Robotic Answers: Candidates memorizing AI scripts.
+
+541: Lack of Emotional Judgment: AI cannot fully assess personality and human intuition.
+
+542: Cheating: Candidates may receive outside assistance during online interviews.
+
+543: Reference-Only Reports: AI reports may not be reliable enough to replace human judgment.
+
+544: 
+545: USER PERSONA: DIGITAL MARKETING FRESHER
+546: Background
+547: Name: Hà
+ Age: 22
+ Occupation: Final-year Digital Marketing student
+ Status: Internship completed or near completion, actively interviewing for full-time roles
+ Experience: 2–3 interviews, low success rate (only passed 1)
+ Pain Point: Nervous, stuttering, freezing during unexpected situational questions.
+548: Needs
+549: Data-Driven Feedback: Quantified feedback (filler word count, silence duration).
+
+550: Pressure Simulation: Cam/mic + time limits (30s thinking, 2 mins answering).
+
+551: Specific Corrections: Identify off-topic answers and poor eye contact with improvement suggestions.
+
+552: Objective Evaluation: Honest but balanced feedback.
+
+553: Hopes and Dreams
+554: Real Role-play: AI acts like real interviewer (video/voice interaction).
+
+555: Coaching Experience: Clear progress tracking (e.g., filler words reduced from 10 to 4).
+
+556: Personalization: Industry-specific evaluation standards.
+
+557: Make Their Life Easier
+558: Detailed Report: Immediate strengths/weakness summary.
+
+559: Sample Answers: Improved model responses.
+
+560: Virtual Mock Interview: Randomized questions for reflex training.
+
+561: Finance
+562: Income: Student/Intern (low income).
+
+563: Spending: Willing to pay 50,000–99,000 VND/month.
+
+564: Condition: Must have effective Free Trial first.
+
+565: Influence Factors
+566: Visual Proof: Real demo videos on TikTok/Facebook.
+
+567: Expert Review: HR/Mentor endorsements.
+
+568: Progress Metrics: Seeing measurable improvement motivates payment.
+
+569: Online Behavior
+570: Research Path: TikTok/Facebook → Website deep reading.
+
+571: Content Preference: Short interview tips videos.
+
+572: Skepticism: Distrusts exaggerated marketing claims.
+
+573: Worries and Fears
+574: Privacy: Camera/voice data security concerns.
+
+575: Generic Feedback: Immediate drop-off if feedback is vague.
+
+576: Robotic AI: Lacks emotional understanding.
+
+577: Wasted Money: If not better than free ChatGPT + self-practice.
+578: 
+579: 1. Điểm chung của nhóm HR (Chị Linh & Chị Thảo)
+580: Mục tiêu cốt lõi: Đều coi AI là công cụ đắc lực để tự động hóa và tiết kiệm thời gian cho vòng sàng lọc hồ sơ (Screening) và phỏng vấn sơ bộ (Vòng 1).
+581: Kỳ vọng ở ứng viên: Đều mong ứng viên sử dụng AI để luyện tập trước ở nhà, nhằm cải thiện sự tự tin, hiểu rõ công ty và bớt "lan man" khi bước vào phỏng vấn thật.
+582: Nỗi lo sợ lớn nhất (Pain Points): * Sợ sự dập khuôn: Lo ngại ứng viên lạm dụng AI để học thuộc "văn mẫu", khiến câu trả lời thiếu tính cá nhân và chân thật.
+583: Sợ gian lận: E ngại ứng viên dùng AI để nhắc bài trực tiếp trong các buổi phỏng vấn online.
+584: Giới hạn niềm tin vào AI: Cả hai chỉ tin tưởng AI trong việc lọc tiêu chí cứng (logic, kỹ năng cơ bản), hoàn toàn không tin AI có thể đánh giá chính xác cảm xúc, thái độ hay "tính con người" (Soft skills). Quyết định cuối cùng vẫn phải do con người thực hiện.
+585: 
+586: 2. Điểm chung của nhóm Sinh viên (Hà, Ngọc, Đạt)
+587: Nỗi đau tâm lý (Pain Points): Cả 3 đều gặp vấn đề lớn về tâm lý: hay hồi hộp, run, nói vấp và "đứng hình" trước áp lực thời gian hoặc các câu hỏi tình huống bất ngờ. Họ thiếu một không gian mô phỏng thực tế để thực hành.
+588: Tiêu chuẩn đánh giá (Kỳ vọng): * Tuyệt đối ghét feedback chung chung: Trải nghiệm tồi tệ nhất với họ là AI nhận xét "bạn làm tốt lắm" hay "cần tự tin hơn".
+589: Cần sự chi tiết & Số liệu: Đòi hỏi báo cáo phải cực kỳ cụ thể (chỉ ra lỗi sai, đếm số từ đệm "ờ, à", đo tốc độ nói) và phải cung cấp câu trả lời mẫu để họ đối chiếu sửa sai.
+590: Yêu cầu về sản phẩm: Đòi hỏi ứng dụng phải mô phỏng giống thật (có Camera/Micro, có giới hạn thời gian trả lời) và hệ thống phải mượt mà, không giật lag.
+591: Rào cản sử dụng (Lo ngại): Cả 3 đều rất nhạy cảm với vấn đề bảo mật dữ liệu cá nhân (sợ rò rỉ hình ảnh, giọng nói, CV).
+592: Hành vi chi tiêu: Ngân sách eo hẹp (chỉ chấp nhận mức phí 50.000đ - 100.000đ/tháng). Bắt buộc phải có bản dùng thử miễn phí (Free Trial) chứng minh được hiệu quả rõ rệt thì mới quyết định trả tiền.
+593: 1. INTERVIEW: LINH (HR DOANH NGHIỆP LỚN)
+594: HỒ SƠ: CHUYÊN VIÊN NHÂN SỰ FPT SOFTWARE (8 NĂM KINH NGHIỆM). TUYỂN 20-50 VỊ TRÍ TECH/THÁNG.
+595: Hành vi: Áp dụng công nghệ mới theo định hướng công ty; kiểm soát chặt chẽ ứng viên dùng AI để gian lận.
+596: Nỗi đau: * Khối lượng công việc: Quá tải vì phải lọc CV thủ công.
+597: Niềm tin: Chỉ tin AI khoảng 50% ở kỹ năng mềm; sợ đánh trượt những ứng viên giỏi nhưng bị tâm lý.
+598: Kỳ vọng: Cần một "trợ lý" AI để tự động hóa việc lọc hồ sơ và đối chiếu câu trả lời của ứng viên với checklist kỹ thuật của FSoft.
+599: Sẵn sàng chi trả: 0đ tiền túi (Hoàn toàn phụ thuộc vào ngân sách công ty/giải pháp B2B). Core insight: HR doanh nghiệp lớn cần AI để lọc hồ sơ số lượng lớn, nhưng yêu cầu công ty chi trả và vẫn rất hoài nghi khả năng AI đánh giá kỹ năng mềm thực sự.
+600: 
+601: 2. INTERVIEW: THẢO (HR AGENCY/SME)
+602: HỒ SƠ: HR TUYỂN DỤNG IT & MKT (1+ NĂM KINH NGHIỆM). TUYỂN 5-6 VỊ TRÍ/THÁNG.
+603: Hành vi: Gọi điện sàng lọc sơ bộ & phỏng vấn 1-1. Quyết định cuối cùng luôn dựa vào con người.
+604: Nỗi đau: * Ứng viên: Chuẩn bị kém, hay run, trả lời lạc đề.
+605: Công cụ AI: Không nhận diện được cảm xúc và dễ khiến ứng viên học thuộc lòng dập khuôn.
+606: Kỳ vọng: Một phòng phỏng vấn ảo để lọc tiêu chí cơ bản (lương, điểm mạnh) và kiểm tra tư duy logic.
+607: Sẵn sàng chi trả: Sẽ đề xuất công ty sử dụng nếu nó thực sự giúp tiết kiệm thời gian sàng lọc. Core insight: HR đánh giá cao AI ở việc tiết kiệm thời gian lọc hồ sơ ban đầu, nhưng kiên quyết dựa vào con người để xác thực độ chân thật và trí tuệ cảm xúc.
+608: 
+609: 3. INTERVIEW: NGỌC (SINH VIÊN KẾ TOÁN)
+610: HỒ SƠ: SINH VIÊN NĂM CUỐI NGÀNH KẾ TOÁN. ĐANG TÍCH CỰC TÌM CHỖ THỰC TẬP.
+611: Hành vi: Tìm hiểu kỹ qua Google và xem video hướng dẫn phỏng vấn trên YouTube.
+612: Nỗi đau: Rất hay lo âu và nói vấp khi gặp câu hỏi tình huống bất ngờ. Thiếu một "không gian an toàn" để tập dượt.
+613: Kỳ vọng: Mô phỏng video-call chân thực (với một mentor AI thân thiện), giúp sửa lỗi cụ thể và cung cấp câu trả lời mẫu.
+614: Sẵn sàng chi trả: 50.000–100.000 VNĐ/tháng (Nhưng chỉ sau khi dùng thử bản Free thấy hiệu quả). Core insight: Sinh viên hay lo âu cần một môi trường mô phỏng "an toàn" với mentor AI thân thiện để xây dựng sự tự tin trước khi gặp HR thật.
+615: 
+616: 4. INTERVIEW: HÀ (SINH VIÊN MARKETING)
+617: HỒ SƠ: SINH VIÊN NĂM 4 NGÀNH DIGITAL MKT. HAY BỊ TÂM LÝ KHI PHỎNG VẤN.
+618: Hành vi: Chuẩn bị nội dung qua TikTok/ChatGPT, nhưng hiếm khi luyện nói thành tiếng.
+619: Nỗi đau: Bị "đứng hình" dưới áp lực. Khó chịu với lời khuyên chung chung từ bạn bè (VD: "cứ tự tin lên").
+620: Kỳ vọng: Phỏng vấn thử có áp lực thời gian với phản hồi dựa trên số liệu (VD: đếm chính xác số từ đệm, thời gian im lặng).
+621: Sẵn sàng chi trả: 50.000–99.000 VNĐ/tháng nếu thấy được tiến bộ rõ rệt qua từng lần tập. Core insight: Sinh viên cần AI phản hồi chính xác, định lượng được (chứ không phải động viên chung chung) để sửa lỗi diễn đạt và theo dõi tiến bộ.
+622: 
+623: 5. INTERVIEW: ĐẠT (SINH VIÊN TÀI CHÍNH)
+624: HỒ SƠ: SINH VIÊN NĂM 4 NGÀNH TÀI CHÍNH. TƯ DUY LOGIC & HOÀI NGHI VỀ AI.
+625: Hành vi: Nghiên cứu rất kỹ JD công việc. Hay đối chiếu chéo thông tin từ nhiều nguồn khác nhau.
+626: Nỗi đau: Không tin AI bắt chước được trực giác của HR thật. Sợ rò rỉ dữ liệu cá nhân và ghét app bị giật lag.
+627: Kỳ vọng: Tiêu chí đánh giá minh bạch (AI giải thích được lý do chấm điểm) và sửa lỗi nói theo thời gian thực.
+628: Sẵn sàng chi trả: Thích dùng miễn phí (Freemium); chỉ cân nhắc trả tiền sau một trải nghiệm dùng thử hoàn hảo. Core insight: Người dùng hay hoài nghi đòi hỏi AI chấm điểm minh bạch, bảo mật dữ liệu tuyệt đối và trải nghiệm mượt mà trước khi tin tưởng sử dụng.
+629: 
+630: 
+631: 
+632: 
+633: 
+634: 
+635: 
+636: c- journey map-Sâm
+637: PERSONA - INSIVIDUAL- CÁ NHÂN
+638: 
+639: EXPECTATIONS (Kỳ vọng chung)
+640: 
+641: CUSTOMER JOURNEY MAP (Cá nhân)
+642: 
+643: 
+644: 2.  Ý NGHĨA THỜI GIAN TRONG CUSTOMER JOURNEY MAP
+645: Thời gian được xác định dựa trên 3  yếu tố chính:
+646: Mức độ rủi ro cảm nhận (liên quan tương lai nghề nghiệp)
+647: Mức độ khác biệt so với công cụ miễn phí (ChatGPT)
+648: Mức độ đầu tư tài chính (trả phí)
+649: “Thời gian trong Customer Journey Map không phải là số đo thực nghiệm chính xác, mà là khoảng ước lượng mang tính hành vi. Nhóm em xác định các khoảng này dựa trên mức độ mới của sản phẩm, rủi ro cảm nhận và thời gian khách hàng cần để chuyển từ tò mò sang tin tưởng, theo mô hình ra quyết định người tiêu dùng.”
+650: CONSIDER – 1–3 ngày
+651: Vì sao ngắn?
+652: Đây là phản xạ cảm xúc, chưa phải quyết định nghiêm túc.Khách hàng chưa phải đưa ra quyết định mua
+653: Sinh viên chỉ dừng ở mức:
+654: Nhận biết
+655: Tò mò
+656: Cảm xúc “AI nghe hay đấy”
+657: Hành vi xảy ra rất nhanh:
+658: Thấy → thích → nhớ
+659: 📌 Ý nghĩa
+660: Đây là giai đoạn phản xạ cảm xúc, không phải lý trí
+
+661: Kéo dài hơn cũng không làm tăng xác suất mua
+
+662: => Vì vậy thời gian ngắn là hợp lý.
+663: EXPLORE – 3–7 ngày
+664: Vì sao dài hơn?
+665: Sản phẩm liên quan đến:
+666: Hồ sơ cá nhân
+667: Cơ hội việc làm
+668: Dữ liệu riêng tư
+669: Khách hàng bắt đầu:
+670: Tìm hiểu tiêu chí phân tích
+671: Xem demo
+672: Chờ review thực tế
+673: => Đây là giai đoạn xây dựng niềm tin. Càng mới → càng cần thời gian với luyện phỏng vấn với AI sinh viên có xu hướng tìm hiểu nhanh chóng tuy nhiên vẫn cần thời gian để xây dựng niềm tin nên 3-7 ngày là khá hợp lý.
+674: COMPARE – 1–2 ngày
+675: Người dùng nhanh chóng so sánh HR Advisor với:
+676: ChatGPT (miễn phí)
+677: Tự luyện trước gương
+678: Họ chủ yếu nhìn vào:
+679: Giá: nếu không thấy đáng tiền -> bỏ
+680: Độ tiện: thao tác rườm rà -> bỏ
+681: Trải nghiệm: không “giống phỏng vấn thật” → bỏ
+
+682: Vì các lựa chọn thay thế đều miễn phí và quen thuộc, quyết định diễn ra rất nhanh.
+683: =>  Đây là giai đoạn ngắn nhưng cực kỳ nhạy cảm: không thấy khác biệt rõ → bị loại ngay.
+684: TEST / TRY – 1–2 lần dùng thử (HR Advisor)
+685: Ở giai đoạn Test, người dùng lần đầu trải nghiệm HR Advisor để kiểm chứng xem công cụ có thực sự hữu ích hay không. Thời gian này rất ngắn (chỉ 1–2 lần dùng) vì người dùng đã có kỳ vọng rõ ràng sau khi so sánh.
+686: Vì sao chỉ 1–2 lần?
+687: Trải nghiệm mang tính:
+688: Cảm giác: có “giống phỏng vấn thật” không
+689: Thực tế: feedback có giúp cải thiện câu trả lời không
+690: Đánh giá nhanh: người dùng đủ dữ kiện sau 1–2 lần để kết luận
+691: Đây là Moment of Truth của HR Advisor. Người dùng chỉ cần 1–2 lần thử để quyết định có tin và dùng tiếp hay không.
+692: Họ đánh giá nhanh dựa trên:
+693: Feedback có cá nhân hóa không
+694: Phân tích có chính xác không
+695: Có giúp trả lời tốt hơn không
+696:  Chỉ cần:
+697: Báo cáo quá chung chung
+698: Hoặc phân tích thiếu chính xác
+699: => người dùng sẽ rời bỏ ngay.
+700: =>  Với HR Advisor, trải nghiệm lần đầu quan trọng hơn rất nhiều lần quảng cáo.
+701: BUY / SHARE – Sau 2–3 tuần (HR Advisor)
+702: Giai đoạn Buy/Share của HR Advisor thường không xảy ra ngay mà xuất hiện sau khoảng 2–3 tuần sử dụng, khi người dùng đã có đủ thời gian trải nghiệm và tự đánh giá hiệu quả. Đây không phải sản phẩm tiêu dùng hằng ngày, nên quyết định trả tiền hoặc giới thiệu phụ thuộc mạnh vào kết quả thực tế.
+703: BUY / SHARE – Sau 2–4 tuần (tóm tắt)
+704: Người dùng thường chỉ mua hoặc chia sẻ sau 2–4 tuần, khi họ đã đủ thời gian kiểm chứng hiệu quả của HR Advisor.
+705: Họ cần:
+706: Thấy tiến bộ thật
+707: Cảm nhận giá trị dài hạn
+708:  Người dùng chỉ giới thiệu khi:
+709: Thấy mình cải thiện rõ ràng
+710: Hoặc đã đậu phỏng vấn
+711: => Vì vậy, trọng tâm không phải ép mua sớm mà là giúp người dùng nhìn thấy kết quả thực tế, từ đó mua và truyền miệng sẽ xảy ra tự nhiên.
+712: CUSTOMER JOURNEY MAP – HR ADVISOR
+713: Đối tượng: HR Specialist (Doanh nghiệp công nghệ – FPT Software)
+714: PERSONA (tương đương “Emotional Eric”)
+715: 
+716: EXPECTATIONS (Kỳ vọng chung)
+717: CUSTOMER JOURNEY MAP – HR ADVISOR (B2B)
+718: Đối tượng: HR Specialist – FPT Software
+719: 
+720: 
+721: CUSTOMER JOURNEY MAP
+722: 🔹 CONSIDER (Nhận biết)
+723: Thời gian: 1–2 tuần
+724: Actions
+725: Nghe nội bộ nói về việc áp dụng AI trong HR
+726: Thấy quảng cáo HR AI trên LinkedIn / Facebook
+727: Được cấp trên đề xuất tìm hiểu công cụ hỗ trợ screening
+728: Touchpoints
+729: LinkedIn
+
+730: Facebook HR community
+
+731: Email nội bộ
+
+732: Hội thảo HR Tech
+
+733: Thoughts / Quotes
+734: “AI có thể giúp mình giảm tải CV không?”
+
+735: “Công ty đang định hướng AI, mình cũng nên tìm hiểu.”
+
+736: “Nhưng AI có đánh giá được soft skills không?”
+
+737: Emotions
+738: Tò mò – nhưng hoài nghi
+739: Pain Points
+740: Chưa rõ AI có phù hợp quy trình FSoft không
+
+741: Lo AI thiếu yếu tố “con người”
+
+742: 
+743: 🔹 EXPLORE (Tìm hiểu)
+744: Thời gian: 2–4 tuần
+745: Actions
+746: Yêu cầu demo sản phẩm
+
+747: Xem cách AI phân tích CV và câu trả lời phỏng vấn
+
+748: Hỏi đội Technical về khả năng matching checklist
+
+749: Tìm hiểu tính năng chống gian lận
+
+750: Touchpoints
+751: Demo trực tuyến
+
+752: Sales tư vấn
+
+753: Case study doanh nghiệp khác
+
+754: Tài liệu sản phẩm
+
+755: Thoughts / Quotes
+756: “AI matching với JD có chính xác không?”
+
+757: “Có phát hiện ứng viên học thuộc văn mẫu không?”
+
+758: “Nếu AI đánh giá sai thì ai chịu trách nhiệm?”
+
+759: Emotions
+760: Thận trọng – phân tích kỹ
+761: Pain Points
+762: Độ tin cậy AI chỉ ở mức 50%
+
+763: Lo bỏ sót ứng viên giỏi
+
+764: Chưa rõ cách tích hợp với quy trình hiện tại
+
+765: 
+766: 🔹 COMPARE (So sánh)
+767: Thời gian: 2–3 tuần
+768: Actions
+769: So sánh HR Advisor với quy trình hiện tại
+
+770: So sánh với các HR Tech khác
+
+771: Trao đổi với Technical Manager
+
+772: Touchpoints
+773: Proposal
+
+774: Bảng giá
+
+775: Meeting nội bộ
+
+776: Review từ HR khác
+
+777: Thoughts / Quotes
+778: “Có đáng thay đổi quy trình không?”
+
+779: “AI này hỗ trợ hay làm phức tạp thêm?”
+
+780: “Technical team có tin vào kết quả AI không?”
+
+781: Emotions
+782: Cân nhắc – chịu áp lực quyết định
+783: Pain Points
+784: Quyết định phụ thuộc 70% Technical
+
+785: Nguy cơ tăng quy trình phức tạp
+
+786: Rủi ro bị đánh giá sai khi triển khai công cụ mới
+
+787: 
+788: 🔹 TEST (Dùng thử / Pilot)
+789: Thời gian: 1–2 tháng (pilot nội bộ)
+790: Actions
+791: Áp dụng thử với một số vị trí Fresher
+
+792: So sánh kết quả AI với đánh giá HR & Technical
+
+793: Theo dõi tỷ lệ pass vòng Technical
+
+794: Touchpoints
+795: Dashboard báo cáo
+
+796: Phản hồi từ Technical
+
+797: Feedback từ ứng viên
+
+798: Thoughts / Quotes
+799: “AI lọc CV có tiết kiệm thời gian thật không?”
+
+800: “Có trường hợp AI loại nhầm không?”
+
+801: “Ứng viên có chuẩn bị tốt hơn khi được luyện trước không?”
+
+802: Emotions
+803: Hồi hộp – đánh giá khách quan
+804: Pain Points
+805: Nếu AI sai 1–2 case quan trọng → mất niềm tin
+
+806: Ứng viên có thể dùng AI để đối phó
+
+807: 
+808: 🔹 DECIDE / NEGOTIATE (Quyết định)
+809: Thời gian: Không cố định (phụ thuộc ngân sách & approval)
+810: Actions
+811: Đề xuất lên cấp quản lý
+
+812: Thương lượng giá B2B
+
+813: Xem xét hợp đồng & tích hợp hệ thống
+
+814: Touchpoints
+815: Proposal chính thức
+
+816: Hợp đồng
+
+817: Phòng IT & Procurement
+
+818: Thoughts / Quotes
+819: “Nếu giúp giảm thời gian tuyển và tăng chất lượng ứng viên thì đáng triển khai.”
+
+820: “Quan trọng là AI hỗ trợ chứ không thay thế HR.”
+
+821: “Phải đảm bảo không ảnh hưởng trải nghiệm ứng viên.”
+
+822: Emotions
+823: Lý trí – thiên về hiệu quả kinh doanh
+824: Pain Points
+825: Ngân sách doanh nghiệp
+
+826: Cam kết bảo mật dữ liệu
+
+827: Sự đồng thuận từ Technical team
+
+828: 
+829: POSITIVE SOLUTIONS (Hàm ý chiến lược)
+830: • Demo rõ khả năng matching checklist dự án
+ • Báo cáo minh bạch: AI chỉ gợi ý – HR quyết định
+ • Tính năng phát hiện văn mẫu / lặp cấu trúc
+ • Pilot miễn phí 1 phòng ban
+ • Case study doanh nghiệp công nghệ tương tự
+ • Cam kết bảo mật dữ liệu & lưu trữ nội bộ
+ • Dashboard so sánh AI vs đánh giá thực tế
+831: 
+832: Ý NGHĨA “THỜI GIAN” TRONG HÀNH TRÌNH HR
+833: Khác với sinh viên, HR là khách hàng B2B nên:
+834: Chu kỳ quyết định dài hơn
+
+835: Phụ thuộc nhiều bên (Technical, quản lý, ngân sách)
+
+836: Rủi ro cao vì ảnh hưởng đến chất lượng tuyển dụng
+
+837: Thời gian dài phản ánh:
+838: Mức độ rủi ro tổ chức
+
+839: Độ phức tạp quy trình
+
+840: Yêu cầu chứng minh hiệu quả thực tế
+
+841: 
+842: INSIGHT & IMPLICATION
+843: 1️⃣ CONSIDER – AI là xu hướng bắt buộc, nhưng niềm tin thấp
+844: 👉 Hook “AI” thu hút, nhưng HR không dễ bị thuyết phục.
+ 🎯 Cần chứng minh bằng dữ liệu thực tế, không chỉ quảng cáo.
+845: 
+846: 2️⃣ EXPLORE – Rủi ro lớn nhất là loại nhầm ứng viên giỏi
+847: 👉 HR sợ mất người tài hơn là sợ tốn thời gian.
+ 🎯 Cần định vị AI là công cụ hỗ trợ, không thay thế.
+848: 
+849: 3️⃣ COMPARE – Rào cản không phải giá mà là thay đổi quy trình
+850: 👉 Nếu làm phức tạp thêm, HR sẽ từ chối.
+ 🎯 Cần tích hợp mượt vào workflow hiện tại.
+851: 
+852: 4️⃣ TEST – Moment of Truth nằm ở độ chính xác
+853: 👉 Chỉ cần AI sai 1–2 case quan trọng → mất niềm tin toàn hệ thống.
+ 🎯 Cần pilot nhỏ, đo lường rõ ràng.
+854: 
+855: 5️⃣ DECIDE – Quyết định mang tính chiến lược tổ chức
+856: 👉 HR chỉ chiếm 30% quyết định, Technical chiếm 70%.
+ 🎯 Phải thuyết phục cả 2 nhóm, đặc biệt là Technical Manager.
+857: 
+858: 🔑 Câu chốt “ăn điểm” cho báo cáo
+859: Customer Journey của HR Specialist cho thấy rào cản lớn nhất không nằm ở giá hay công nghệ, mà nằm ở rủi ro tổ chức và niềm tin hệ thống. Do đó, HR Advisor cần được định vị như một “AI Assistant đồng hành” giúp tăng chất lượng tuyển dụng và giảm tải quy trình, thay vì một công cụ thay thế con người trong quyết định nhân sự.
+860: 
+861: 3 stage -H,anh
+862: CUSTOMER JOURNEY MAP – AI LUYỆN PHỎNG VẤN (MENTOR AI VIDEO CALL)
+863: Dựa trên dữ liệu khảo sát trong file “Dữ liệu khảo sát.xlsx” (n=124; một số câu hỏi có 1 mẫu thiếu)
+864: Phạm vi: Hành trình ra quyết định và trải nghiệm của người dùng với công cụ luyện phỏng vấn bằng AI qua Video Call.
+ Cấu trúc: 3 giai đoạn – Pre-Purchase, Purchase, Post-Purchase & Use.
+
+865:  
+866: TÓM TẮT CJM
+867: ·        Tệp mục tiêu chủ đạo là nhóm 18–22 tuổi (111/123 – 90.2%), sinh viên (105/123 – 85.4%), tập trung tại Hà Nội (103/123 – 83.7%).
+868: ·        Động lực cốt lõi không phải “AI mới lạ”, mà là nhu cầu giảm áp lực và nhận phản hồi thực chiến: 69,1% báo cáo tim đập nhanh/hồi hộp/run tay khi phỏng vấn; 47,2% gặp tình trạng “đầu óc trống rỗng/quên nội dung”.
+869: ·        Mức độ chấp nhận giải pháp AI cao: 90.2% đánh giá “Rất hứng thú/Khá thú vị” với luyện phỏng vấn AI qua Video Call; 93,5% sẵn sàng sử dụng nếu công cụ giúp luyện kỹ năng & phong thái.
+870: ·        Điểm nghẽn hiện tại nằm ở “niềm tin về chất lượng feedback”: người dùng chê công cụ hiện tại thiếu tương tác thực tế (56,9%), phản hồi chung chung/thiếu chiều sâu (53,7%/53,7%), không sửa lỗi cụ thể (39,8%).
+871: ·        Trải nghiệm lần đầu (first session) quyết định retention: chỉ cần hội thoại không tự nhiên hoặc feedback không actionable, người dùng sẽ quay về tự luyện/ChatGPT thuần text.
+872: ·        Pricing signal (gói Cấp tốc 3 ngày): mức “hợp lý” tập trung 30.000–90.000đ (67,4%); mức “quá rẻ gây nghi ngờ” chủ yếu dưới 20.000đ (62,6%).
+873:  
+874: KEY SURVEY FACTS (tóm tắt số liệu)
+875:  
+876: CUSTOMER JOURNEY MAP – 3 STAGES
+877: STAGE 1 — PRE-PURCHASE (Nhận biết – Tò mò – Tìm hiểu – So sánh)
+878: 1) Customer Context
+879: ·        Chân dung chủ đạo: 18–22 tuổi (90.2%), sinh viên (85.4%), thu nhập thấp (Dưới 5 triệu: 48,0%; 5–10 triệu: 21,1%; 21,1% không muốn trả lời).
+880: ·        Ngữ cảnh kích hoạt nhu cầu: thường chỉ “động” khi sắp phỏng vấn/thực sự cần tìm việc (77,2% chỉ cập nhật CV online khi cần).
+881: ·        Đa số đã có trải nghiệm phỏng vấn ở mức cơ bản: 61.8% đã phỏng vấn 1–3 lần; 15.4% chưa từng.
+882: ·        Pain nền: lo âu và phản ứng cơ thể mạnh (tim đập nhanh/hồi hộp/run tay đều 69,1%), cộng thêm vấn đề “trắng đầu” (47,2%).
+883: 2) Touchpoints (Điểm chạm chủ đạo)
+884: ·        Kênh tìm việc & cộng đồng: TopCV (69,1%), Facebook/Group việc làm (65,0%), LinkedIn (36,6%).
+885: ·        Content tự học: bài viết/clip chia sẻ câu hỏi phỏng vấn, template trả lời, video “mock interview”.
+886: ·        Tool hỗ trợ nhanh: ChatGPT/Gemini (65,0%) để gợi ý câu trả lời hoặc sửa CV.
+887: 3) Consumer Signals (Tín hiệu người dùng phát ra)
+888: ·        Tìm “bộ câu hỏi” và tự nhẩm (62,6%), hoặc nói trước gương (46,3%) để giảm run.
+889: ·        Dò so sánh: tool AI (text) vs mock interview với mentor (30,1%) vs tự luyện.
+890: ·        Hỏi xoáy vào: mức độ giống người thật, độ sâu câu hỏi, chất lượng feedback, và giá có “đáng tin” hay không.
+891: Điểm đau cốt lõi: Rào cản tâm lý (hồi hộp, run) và thiếu tương tác thực tế cùng Điểm đau cốt lõi: Người dùng không hài lòng với các công cụ luyện tập hiện tại (như AI text-based chiếm 65%) do thiếu tương tác thực tế và phản hồi chung chung, thiếu chiều sâu.
+892: Nhu cầu ưu tiên: Ưu tiên cao nhất là các tính năng mô phỏng áp lực (vặn hỏi xoáy sâu), phản hồi định lượng (chấm điểm/dự đoán tỷ lệ đậu), và phân tích chi tiết phong thái (body language, sửa lỗi ngôn từ).
+893: Mức chấp nhận: Có thái độ đón nhận rất tích cực với giải pháp AI Video Call (>90%), sẵn sàng chi trả trong khoảng 30.000 – 90.000 VNĐ cho gói cấp tốc.
+894: 
+895: 
+896: 4) THINK – FEEL – DO (Hành vi & tâm lý)
+897: THINK
+898: ·        AI có tạo được áp lực như người thật không, hay chỉ là Q&A chung chung?
+899: ·        Feedback có chỉ ra lỗi cụ thể (nội dung + phong thái) không?
+900: ·        Gói “cấp tốc 3 ngày” nên ở mức giá nào để vừa tin vừa phù hợp túi tiền?
+901: FEEL
+902: ·        Lo âu trước phỏng vấn (điển hình: tim đập nhanh/run tay/hồi hộp).
+903: ·        Tò mò với trải nghiệm video call với AI, nhưng vẫn nghi ngờ nếu feedback không thực tế.
+904: DO
+905: ·        Tìm review, hỏi bạn bè; thử các công cụ free trước khi trả tiền.
+906: ·        Nghiêng về tool nào cho cảm giác “có người luyện cùng” và chỉ ra lỗi rõ ràng.
+907: 5) Barriers / Pain Points lớn nhất (trước mua)
+908: ·        Thiếu tương tác thực tế (56,9%) → người dùng không cảm thấy “được phỏng vấn thật”.
+909: ·        Feedback chung chung/thiếu chiều sâu (53,7%/53,7%) → không biết sửa gì, sửa thế nào.
+910: ·        Không được sửa lỗi cụ thể (39,8%) → đặc biệt với ngôn ngữ cơ thể và cách diễn đạt.
+911: ·        Niềm tin giá: mức quá rẻ làm nghi ngờ chất lượng (62,6% cho rằng dưới 20.000đ là “quá rẻ”).
+912: 6) Opportunity
+913: ·        Định vị bằng “bằng chứng chất lượng”: demo video 1 đoạn mock interview + sample feedback (rubric, ví dụ sửa câu trả lời, checklist phong thái).
+914: ·        Thiết kế entry plan: 1 session miễn phí/giá rẻ có giới hạn để chứng minh “độ sâu” (sau đó upsell gói 3 ngày).
+915: ·        Nhấn mạnh các năng lực người dùng muốn nhất: vặn hỏi xoáy sâu (62,6%), chấm điểm & dự đoán tỷ lệ đậu (60,2%), chỉnh sửa câu trả lời (59,3%), soi lỗi cơ thể (43,1%).
+916: ·        Giảm lo ngại trust: công bố chính sách privacy (không lưu video nếu không cần), và minh bạch tiêu chí chấm điểm.
+917: STAGE 2 — PURCHASE (Dùng thử – Quyết định mua – Trải nghiệm lần đầu)
+918: 1) Trigger mua (điều kích hoạt mua)
+919: ·        Sắp có lịch phỏng vấn / vừa nộp CV và cần luyện cấp tốc (phù hợp hành vi “chỉ cập nhật CV khi cần tìm việc”: 77,2%).
+920: ·        Không có người luyện cùng; tự luyện không tạo áp lực thật; cần được “vặn hỏi” và phản hồi ngay.
+921: ·        Đã thử tool text (ChatGPT/Gemini) nhưng cảm giác chưa đủ tương tác.
+922: 2) Decision Drivers (yếu tố quyết định ngay lúc mua)
+923: ·        Chất lượng hội thoại (conversation quality): tự nhiên, đúng ngữ cảnh công việc, có follow-up xoáy sâu.
+924: ·        Chất lượng feedback: cụ thể, có ví dụ sửa, ưu tiên hành động (actionable) thay vì nhận xét chung.
+925: ·        Khả năng cá nhân hoá theo vai trò/công ty: chấm điểm & dự đoán tỷ lệ đậu vào công ty cụ thể (mong muốn 60,2%).
+926: ·        Hiệu quả thời gian: gói “cấp tốc 3 ngày” cần roadmap rõ ràng (mỗi ngày luyện gì, cải thiện gì).
+927: ·        Giá phù hợp & đáng tin: 67,4% chọn “hợp lý” ở 30.000–90.000đ cho gói 3 ngày.
+928: 3) First-use Experience (trải nghiệm lần đầu – điểm sống còn)
+929: ·        Onboarding nhanh: nhập CV/JD/vị trí; chọn level; chọn kiểu phỏng vấn (HR/Technical/Case).
+930: ·        Session video call: AI đặt câu hỏi, follow-up, tạo áp lực vừa đủ; ghi nhận lỗi diễn đạt và phản ứng.
+931: ·        Post-session report: chấm điểm, highlight lỗi (từ đệm/logic), gợi ý câu trả lời mẫu, checklist sửa phong thái; kế hoạch luyện tiếp.
+932: 4) THINK – FEEL – DO tại thời điểm dùng thử
+933: THINK
+934: ·        “Câu hỏi có đủ giống thật và xoáy sâu không?”
+935: ·        “Chấm điểm có đáng tin và có chỉ ra rõ mình sai chỗ nào không?”
+936: ·        “Sau 1 buổi mình biết sửa gì ngay không?”
+937: FEEL
+938: ·        Hồi hộp nhưng kỳ vọng được “luyện như thật” trong môi trường an toàn.
+939: ·        Nếu feedback cụ thể → cảm giác “được dẫn dắt”; nếu chung chung → thất vọng nhanh.
+940: DO
+941: ·        Chạy 1 session thử; đọc report; thử làm lại câu trả lời theo gợi ý.
+942: ·        So sánh với tự luyện/nhờ bạn bè; quyết định mua gói 3 ngày hay dừng.
+943: 5) Pain Points khi dùng thật (rủi ro làm rớt wow)
+944: ·        Nếu trải nghiệm vẫn “thiếu tương tác thực tế” hoặc feedback “chung chung/thiếu chiều sâu” → trúng đúng top pain (56,9% / 53,7% / 53,7%).
+945: ·        Lỗi nhận diện giọng nói/độ trễ làm hội thoại đứt mạch → giảm cảm giác “người thật”.
+946: ·        Feedback không gắn với mục tiêu cụ thể (vai trò/công ty) → mất lợi thế khác biệt so với tool text.
+947: 6) Opportunity ở STAGE 2
+948: ·        Thiết kế “session 1” như một sản phẩm hoàn chỉnh: có rubric, có before/after, có 3–5 ưu tiên sửa ngay (không overload).
+949: ·        Cơ chế vặn hỏi thông minh: follow-up theo câu trả lời, tăng dần độ khó để rèn bản lĩnh (đáp ứng mong muốn 62,6%).
+950: ·        Chấm điểm có giải thích: điểm theo tiêu chí + ví dụ câu trả lời tốt + checklist luyện trong 24h.
+951: ·        UX giảm friction: 1-click start, hướng dẫn setup mic/cam, và preview câu hỏi mẫu.
+952: STAGE 3 — POST-PURCHASE & USE (Đánh giá – Dùng lại – Lan tỏa – Kỳ vọng cải tiến)
+953: 1) Customer Evaluation (đánh giá sau trải nghiệm)
+954: ·        Người dùng đánh giá dựa trên: mức độ “giống phỏng vấn thật”, chất lượng feedback (cụ thể & sâu), và cảm giác tiến bộ sau 1–3 buổi.
+955: ·        Điểm quan trọng: giảm run và tăng tự tin (nhiều phản hồi mở đề cập ‘tự tin’, ‘đúng trọng tâm’, ‘chỉ ra điểm mạnh-yếu’).
+956: 2) Repurchase / Continued Use (ý định dùng tiếp)
+957: ·        Sẵn sàng sử dụng cao (93,5%) → điều kiện để giữ chân là chứng minh cải thiện rõ ràng theo thời gian (progress).
+958: ·        Nhóm chưa từng phỏng vấn cũng mở với AI (89,5% sẵn sàng dùng), nhưng cần “khung trả lời” và hướng dẫn cụ thể hơn.
+959: 3) Sharing & Advocacy (lan tỏa)
+960: ·        Tệp tìm việc mạnh trên cộng đồng (Facebook/Group việc làm 65,0%) → dễ lan tỏa nếu có artifact shareable: scorecard, checklist lỗi hay gặp, before/after clip (tuỳ privacy).
+961: ·        75,6% đồng ý nhận thông tin cập nhật → phù hợp triển khai referral/early access.
+962: 4) Expected Use Scenarios (ngữ cảnh dùng mong đợi)
+963: ·        Luyện cấp tốc trước phỏng vấn (3 ngày): mỗi ngày 1 session + bài tập sửa lỗi.
+964: ·        Luyện theo vòng: HR screening → chuyên môn → case/behavioral (tuỳ ngành).
+965: ·        Luyện phong thái/giọng nói khi phỏng vấn online.
+966: 5) Pain Points còn lại sau dùng
+967: ·        Nếu không cá nhân hoá theo vai trò/công ty → người dùng vẫn phải tự search câu hỏi và quay lại mô hình tự luyện.
+968: ·        Nếu report không actionable → không tạo được thói quen luyện lặp lại.
+969: ·        Niềm tin chấm điểm: nếu score không giải thích rõ tiêu chí, người dùng sẽ xem như ‘tham khảo’ và giảm willingness-to-pay.
+970: 6) Opportunity ở STAGE 3
+971: ·        Progress & accountability: dashboard theo rubric (logic, clarity, confidence, nonverbal), tracking theo session.
+972: ·        Company/role pack: bộ câu hỏi theo công ty/vị trí; mục tiêu “dự đoán tỷ lệ đậu” cần cơ sở minh bạch (features + benchmark).
+973: ·        Personalization: gợi ý câu trả lời theo CV/JD; nhắc “từ đệm”, cấu trúc STAR; gợi ý câu hỏi hỏi ngược lại HR (19,5% gặp khó).
+974: ·        Community loop: template chia sẻ tiến bộ (không lộ dữ liệu nhạy cảm) để tăng referral.
+975:  
+976: GỢI Ý MVP SCOPE (mapping trực tiếp vào pain points)
+977: Must-have (blocking for adoption)
+978: ·        Mock interview video call có hội thoại tự nhiên + follow-up xoáy sâu (giải quyết “thiếu tương tác thực tế”).
+979: ·        Post-session report actionable: 3–5 lỗi ưu tiên + ví dụ sửa + checklist luyện trong 24h (giải quyết “feedback chung chung/thiếu chiều sâu”).
+980: ·        Personalization tối thiểu theo CV/JD + rubric chấm điểm có giải thích (tạo niềm tin cho scoring).
+981: ·        Privacy baseline: minh bạch về lưu trữ audio/video; mặc định không lưu video nếu không cần.
+982: Should-have (tăng conversion/retention)
+983: ·        Soi lỗi phong thái cơ bản (tư thế/eye contact/độ ngập ngừng) và nhắc theo thời gian.
+984: ·        Company/role question pack + dự đoán tỷ lệ đậu (kèm giải thích logic).
+985: ·        Progress dashboard theo session + streak (habit).
+986: ·        Artifact shareable (scorecard/checklist) phục vụ referral.
+987: PHỤ LỤC — Trích dẫn phản hồi mở (ví dụ)
+988: ·        “support và vẽ cái khung chuẩn chỉnh để nói.”
+989: ·        “Có thể đưa cho tôi những lời khuyên dựa trên nhu cầu và đặc điểm của tôi.”
+990: ·        “Nhẹ nhàng… nhưng phải có nhiều kiến thức, bám sát tình huống thực tế.”
+991: ·        “đánh giá và hướng dẫn 1 cách chính xác hiệu quả.”
+992: ·        “Có thể trả lời, giao tiếp tự nhiên giống với nhà tuyển dụng… giúp sửa lỗi/góp ý…”
+993: ·        “người luyện tập cùng bạn như phỏng vấn thật, chỉ ra điểm mạnh-yếu… trả lời tự tin, đúng trọng tâm…”
+994: ·        “cung cấp thêm thông tin về công ty, lĩnh vực và các kỹ năng liên quan…”
+995: 
+996: maket fit - Huyền
+997: 
+998: Tab 1
+999: 
+1000: => cv : mỗi người 2 ý tưởng 
+1001: 
+1002: 
+1003: Đối Tượng:
+1004: Sinh viên
+1005: Hẹn Hò
+1006: 
+1007: Ăn uống
+1008: App đặt online
+1009: Học tập
+1010: 
+1011: Thể dục
+1012: Xây dựng hỗ trợ sức khỏe
+1013: Giải trí
+1014: Nguồn học tập
+1015: Truy xuất nguồn gốc
+1016: Người cao tuổi
+1017: Sưc khỏe
+1018: Phụ huynh
+1019: 
+1020: Người đi làm
+1021: Du lịch : review dựa trên đánh giá của người dùng => đề xuất lộ trình  
+1022: Người mới ra trg
+1023: Tìm việc 
+1024: Cách học lịch sử mới
+1025: 
+1026: 	Quản lý
+1027: 
+1028:  "Dịch vụ": GỌI THỢ SỬA CHỮA CÔNG NGHỆ TẠI NHÀ
+1029: Nghiên cứu ra mắt thương hiệu cá nhân về Mỹ phẩm 
+1030: 
+1031: 
+1032: 
+1033: Ứng dụng kết nối việc làm parttime: 
+1034: Thuê edit video 5 phút : 
+1035: Thuê làm sidle 
+1036: 
+1037: Phân tích yếu tố thị trường  => đề xuất mặt hàng nổi
+1038: 
+1039: Thuế 
+1040: 
+1041: 
+1042: +
+1043: 
+1044: 
+1045: 
+1046: 
+1047: 
+1048: 
+1049: 
+1050: đồ ăn thừa => 
+1051: 
+1052: Cảnh báo lừa đảo:
+1053: 
+1054: 
+1055: Chăm sóc cây cối + iot  
+1056: 
+1057: Thú cưng: 
+1058: 
+1059: Sắc đẹp: 
+1060: Phân tích  
+1061: 
+1062: 
+1063: 
+1064: 
+1065: 
+1066: Truy xuất nguồn gốc nfc => nguồn gốc  
+1067: Cách học lịch sử => giáo dục bán cho gv 
+1068: 
+1069: 
+1070: AI PHỎNG VẤN THỬ & SỬA CV (HR TECH)   (đặt lịch hẹn trực tiếp người có chuyên môn) 
+1071: 
+1072: Đặt lịch hẹn với a trên hệ thống 8  k  = > 5k 
+1073: 
+1074: 
+1075: 
+1076: 
+1077: App quản lí tài chính tích hợp đề xuất, tìm kiếm việc làm phù hợp
+1078: 
+1079: Chen vào phần đo lường carbon trong phần chuyển đổi xanh trong logistic.( app tích hợp ai đo lường cảnh báo dự đoán mức carbon phát thải tại kho bãi đưa ra giải pháp cho các doanh nghiệp trong giai đoạn đất nước tăng cường chuyển đổi xanh cho logistic)
+1080: 
+1081: 
+1082: 
+1083: 
+1084: 
+1085: PHƯƠNG ÁN 2: AI PHỎNG VẤN THỬ & SỬA CV (HR TECH)
+1086: (Đánh vào nỗi đau lớn nhất của sinh viên năm cuối: THẤT NGHIỆP)
+1087: Dự án này đánh vào MARKET SIZE (Thị trường lớn) và FEASIBILITY (Khả thi trong tầm tay sinh viên CNTT).
+1088: Tên dự án: InterviewPro - Mentor ảo.
+1089: Vấn đề:
+1090: Sinh viên ra trường kiến thức tốt nhưng kỹ năng mềm kém.
+1091: Đi phỏng vấn ấp úng, mắt đảo liên tục, CV viết sai ngữ pháp -> Trượt.
+1092: Không có tiền thuê chuyên gia train 1-1.
+1093: 
+1094: Giải pháp:
+1095: Web/App cho phép sinh viên upload CV và... phỏng vấn thử với AI qua Video Call.
+1096: AI sẽ đóng vai nhà tuyển dụng (khó tính hoặc dễ tính tùy chọn), đặt câu hỏi chuyên ngành.
+1097: Kết thúc, AI chấm điểm và đưa ra báo cáo chi tiết.
+1098: 
+1099: PHÂN TÍCH ĐỂ VIẾT BÁO CÁO:
+1100: TECH (Công nghệ - Phần này chém gió tốt):
+1101: Multimodal AI (AI đa phương thức): Không chỉ nghe nội dung trả lời (Audio), AI còn dùng Camera phân tích Biểu cảm khuôn mặt (Facial Expression). Ví dụ: "Bạn trả lời rất hay nhưng mắt bạn chớp liên tục và không nhìn thẳng vào cam -> Dấu hiệu thiếu tự tin."
+1102: Speech-to-Text & Tone Analysis: Phân tích ngữ điệu giọng nói (quá bé, quá run, hay quá nhanh).
+1103: 
+1104: INNOVATION:
+1105: Các tool hiện tại chỉ sửa CV (văn bản). Chưa có tool nào luyện phỏng vấn đối kháng (Roleplay) bằng tiếng Việt trôi chảy.
+1106: 
+1107: MARKET SIZE:
+1108: Hàng triệu sinh viên ra trường mỗi năm. Bán gói "Luyện cấp tốc 3 ngày trước khi phỏng vấn" giá 50k -> Ai cũng mua được.
+1109: 
+1110: SCALE-UP:
+1111: Mở rộng sang bán khóa học kỹ năng mềm, hoặc kết nối trực tiếp những ứng viên đạt điểm cao với doanh nghiệp (Headhunting).
+1112: 
+1113: 
+1114: Sam:
+1115:  AutoMarketing VN là nền tảng ứng dụng và website hỗ trợ marketing tự động dành cho các doanh nghiệp vừa và nhỏ tại Việt Nam – những người không có kiến thức chuyên môn về marketing nhưng vẫn cần bán hàng hiệu quả trong môi trường số. 
+1116:  phần lớn SME Việt Nam gặp khó khăn trong việc xây dựng nội dung, chạy quảng cáo và đo lường hiệu quả marketing do các công cụ hiện nay quá phức tạp, tốn thời gian và chi phí. AutoMarketing VN được xây dựng với mục tiêu đơn giản hóa toàn bộ quy trình này. Người dùng chỉ cần trả lời một số câu hỏi cơ bản bằng ngôn ngữ đời thường như: họ bán sản phẩm gì, khách hàng mục tiêu là ai và mục tiêu kinh doanh mong muốn. Dựa trên đó, hệ thống sẽ tự động đề xuất nội dung marketing, lên lịch đăng bài, hỗ trợ quảng bá trên các nền tảng phổ biến như Facebook, Zalo, và cung cấp báo cáo kết quả dễ hiểu.
+1117: Miễn phí:
+1118: Tạo nội dung giới hạn
+1119: Đăng bài thủ công
+1120: Trả phí:
+1121: Tự động đăng bài
+1122: AI nâng cao
+1123: Báo cáo chi tiết
+1124: Quyet: 
+1125: quản lí công thức, điều phối, lô sản xuất, hạn sử dụng từ bếp tổng ra-> mục tiêu khách hàng là các nhà hàng ăn uống 
+1126: Quét qr chọn món, bếp nhận đơn và đưa lên bàn ăn. 
+1127:  App sử dụng AI gợi ý thực đơn dựa trên: Lịch sử ăn uống, thời gian nấu mong muốn, chế độ ăn , nguyên liệu có sẵn
+1128: Hình thức kionh doanh 
+1129: Freemium: Miễn phí tính năng cơ bản.
+1130: Premium: 50k - 100k/tháng cho tính năng AI nâng cao (tính calo, lên lịch đi chợ, công thức độc quyền).
+1131: Affiliate: Gắn link mua nguyên liệu từ các siêu thị/sàn TMĐT.
+1132: 
+1133: +Affiliate Partner System (Quản lý Cộng tác viên tự động): 
+1134: 
+1135: + Garage CRM (Quản lý Gara Ô tô): 
+1136: Phần mềm quản lý đặt lịch, lưu hồ sơ xe (biển số, các lỗi đã sửa), tự động gửi SMS/Zalo nhắc khách đến hạn thay dầu, đăng kiểm.
+1137: 
+1138: + Price Tracker (Theo dõi lịch sử giá) : Extension/App theo dõi biến động giá trên Shopee/Lazada/Tiki. Thông báo khi giá giảm xuống mức mong muốn.
+1139: +
+1140: 
+1141: 
+1142: 
+1143: 
+1144: 
+1145: Chốt
+1146: Group code: Kính chiếu yêu
+1147: - Tên dự án TA: HR advisor
+1148: - Tên dự án TV: Trợ lý phỏng vấn
+1149: Nền tảng luyện phỏng vấn bằng AI đa phương thức đầu tiên tại Việt Nam, mô phỏng phỏng vấn trực tiếp qua Video Call thời gian thực.
+1150: The first multimodal AI interview training platform in Vietnam, simulating real-time live interviews via video calls.
+1151: 
+1152: HR extra tech assistance
+1153: Bản tóm tắt dự án InterviewPro – Mentor Ảo (HR Tech)
+1154: 1. INNOVATION – Tính đổi mới, khác biệt
+1155: InterviewPro là nền tảng luyện phỏng vấn bằng AI đa phương thức (Multimodal AI) đầu tiên tại Việt Nam, mô phỏng phỏng vấn đối kháng qua Video Call thời gian thực.
+1156: Điểm khác biệt nổi bật:
+1157: Không chỉ sửa CV hay chat text mà còn Roleplay phỏng vấn video 1–1 với AI
+1158: Phân tích phi ngôn ngữ: ánh mắt, biểu cảm, tư thế, giọng nói
+1159: AI đặt câu hỏi xoáy sâu, stress interview như nhà tuyển dụng thật
+1160: Báo cáo sau phỏng vấn có dữ liệu định lượng cụ thể, không nhận xét chung chung
+1161: => Khác biệt rõ ràng so với Google Interview Warmup, các chatbot text hay trung tâm kỹ năng mềm truyền thống.
+1162: 2. FEASIBILITY – Tính khả thi triển khai
+1163: Dự án hoàn toàn khả thi về công nghệ, chi phí và vận hành, nhờ:
+1164: Công nghệ sẵn sàng:
+1165: Thư viện xử lý hình ảnh/video của Google (Computer Vision) chạy trực tiếp trên trình duyệt => không tốn GPU server
+1166: LLM realtime => hội thoại tự nhiên
+1167: STT/TTS tiếng Việt (Vbee) => phát âm tự nhiên, hiểu tiếng Việt tốt
+1168: Hạ tầng Web App => dễ triển khai, dễ mở rộng, không phụ thuộc thiết bị đặc biệt
+1169: => Có thể triển version đầu tiên rong 2–3 tháng
+1170: 3. BIG IMPACT – Tác động xã hội & kinh tế
+1171: InterviewPro giải quyết vấn đề lớn và cấp bách của xã hội:
+1172: Giảm thất nghiệp sinh viên, đặc biệt nhóm Gen Z mới ra trường
+1173: Giảm tình trạng:
+1174: Thiếu kỹ năng mềm
+1175: Phỏng vấn kém dù có kiến thức chuyên môn
+1176: Làm trái ngành sau tốt nghiệp
+1177: Giúp doanh nghiệp:
+1178: Giảm thời gian sàng lọc ứng viên
+1179: Tăng chất lượng đầu vào nhân sự
+1180: => Góp phần tối ưu nguồn nhân lực quốc gia, giảm lãng phí đào tạo, tăng năng suất lao động.
+1181: 4. MARKET SIZE – Quy mô thị trường 
+1182: SOM: Mục tiêu phục vụ cho 500 người dùng.
+1183: 5. SCALE-UP ABILITY – Khả năng mở rộng
+1184: Ngắn hạn:
+1185: Mở rộng ngành nghề (IT → Kinh tế, Marketing, Sales,...)
+1186: Mobile App, tăng tần suất sử dụng
+1187: Trung & dài hạn:
+1188: Headhunting 2.0:
+1189: Tạo Talent Pool dựa trên điểm phỏng vấn AI
+1190: Bán dữ liệu ứng viên chất lượng cho doanh nghiệp
+1191: Có tiềm năng:
+1192: Hợp tác với trường đại học
+1193: Trở thành đối tác hoặc mục tiêu M&A của TopCV, VietnamWorks
+1194: => Không chỉ là app luyện phỏng vấn, mà là nền tảng HR Tech quy mô lớn.
+1195: 
+1196: Phân tích sản phẩm theo mô hình 3 cấp độ (Philip Kotler)
+1197: 1. Core Customer Value (Giá trị cốt lõi)
+1198: Giúp người dùng tăng khả năng đậu phỏng vấn và giảm rủi ro thất nghiệp, thông qua luyện tập phỏng vấn sát thực tế, an toàn và không tốn chi phí cao. Đáp ứng nhu cầu nâng cao “employability” của sinh viên và người đi làm trẻ trong thị trường lao động cạnh tranh.
+1199: 2. Actual Product (Sản phẩm thực tế)
+1200: Brand name: InterviewPro – Mentor Ảo
+
+1201: Quality level: Cao cấp – mô phỏng phỏng vấn thực tế như nhà tuyển dụng thật
+
+1202: Packaging/Design: Web/App giao diện hiện đại, dễ sử dụng
+
+1203: Features:
+
+1204: Phỏng vấn video 1–1 với AI
+
+1205: Stress interview, roleplay theo vị trí
+
+1206: Phân tích lời nói & phi ngôn ngữ
+
+1207: Báo cáo điểm số định lượng sau phỏng vấn
+
+1208: 3. Augmented Product (Giá trị gia tăng)
+1209: Delivery & Credit: Gói sử dụng linh hoạt theo lượt hoặc thuê bao.
+
+1210: After-sale service: Theo dõi tiến bộ và so sánh kết quả giữa các lần phỏng vấn.
+
+1211: Product support: Lộ trình luyện phỏng vấn được cá nhân hóa theo người dùng.
+
+1212: Warranty: Hỗ trợ cải thiện kỹ năng dựa trên dữ liệu phản hồi từ AI.
+
+1213: Mở rộng: Xây dựng nguồn lực và kết nối với doanh nghiệp tuyển dụng.
+1214: 
+1215: Câu Hỏi Khảo sát
+1216: 
+1217: Hiệp
+1218: Form Khảo Sát Xây Dựng Chân Dung Khách Hàng Cho Dự Án AI Phỏng Vấn Thử & Sửa CV (HR Tech)
+1219: Cảm ơn bạn đã tham gia khảo sát này! Mục đích là thu thập thông tin để hiểu rõ hơn về khách hàng tiềm năng sử dụng dịch vụ AI hỗ trợ phỏng vấn thử và chỉnh sửa CV trong lĩnh vực HR Tech. Khảo sát bao gồm 25 câu hỏi, được chia thành các phần: Nhân khẩu học, Địa lý, Hành vi (online & offline), và Tâm lý. Thông tin của bạn sẽ được giữ bí mật và chỉ dùng cho mục đích nghiên cứu dự án.
+1220: Vui lòng trả lời chân thực. Khảo sát này ước tính mất 5-10 phút.
+1221: Phần 1: Nhân Khẩu Học (Demographics) - 8 câu hỏi
+1222: Những câu hỏi này giúp xác định đặc điểm cơ bản của bạn như tuổi tác, giới tính, trình độ học vấn, v.v.
+1223: Bạn bao nhiêu tuổi? (Ví dụ: 25) [Ô nhập số]
+1224: Giới tính của bạn là gì?
+1225: Nam
+1226: Nữ
+1227: Khác
+1228: Không muốn trả lời
+1229: Trình độ học vấn cao nhất của bạn là gì?
+1230: Chưa tốt nghiệp THPT
+1231: Tốt nghiệp THPT
+1232: Cao đẳng/Đại học
+1233: Thạc sĩ/Tiến sĩ
+1234: Khác (vui lòng ghi rõ)
+1235: Nghề nghiệp hiện tại của bạn là gì?
+1236: Sinh viên
+1237: Nhân viên văn phòng
+1238: Freelancer
+1239: Quản lý cấp cao
+1240: Không có việc làm
+1241: Khác (vui lòng ghi rõ)
+1242: Lĩnh vực ngành nghề bạn đang làm việc hoặc quan tâm? (Ví dụ: IT, Marketing, Tài chính) [Ô nhập văn bản]
+1243: Mức thu nhập hàng tháng của bạn khoảng bao nhiêu? (Đơn vị: VND)
+1244: Dưới 5 triệu
+1245: 5-10 triệu
+1246: 10-20 triệu
+1247: Trên 20 triệu
+1248: Không muốn trả lời
+1249: Tình trạng hôn nhân của bạn?
+1250: Độc thân
+1251: Đã kết hôn
+1252: Ly hôn/Góa
+1253: Khác
+1254: Bạn có bao nhiêu năm kinh nghiệm làm việc?
+1255: Chưa có kinh nghiệm
+1256: Dưới 1 năm
+1257: 1-3 năm
+1258: 3-5 năm
+1259: Trên 5 năm
+1260: Phần 2: Địa Lý (Geography) - 3 câu hỏi
+1261: Những câu hỏi này giúp hiểu về vị trí địa lý và vùng miền của bạn, ảnh hưởng đến nhu cầu sử dụng dịch vụ.
+1262: Bạn đang sống ở tỉnh/thành phố nào tại Việt Nam? (Ví dụ: Hà Nội, TP. Hồ Chí Minh) [Ô nhập văn bản]
+1263: Vùng miền bạn sinh ra và lớn lên?
+1264: Miền Bắc
+1265: Miền Trung
+1266: Miền Nam
+1267: Nước ngoài
+1268: Khác
+1269: Bạn có thường di chuyển giữa các vùng miền vì công việc không?
+1270: Có, thường xuyên
+1271: Thỉnh thoảng
+1272: Không bao giờ
+1273: Không áp dụng
+1274: Phần 3: Hành Vi & Thói Quen (Behaviors - Online & Offline) - 8 câu hỏi
+1275: Những câu hỏi này khám phá thói quen hàng ngày của bạn, cả online (trực tuyến) và offline (ngoại tuyến), liên quan đến việc tìm việc, phát triển bản thân.
+1276: Bạn thường sử dụng các nền tảng online nào để tìm việc làm? (Chọn nhiều)
+1277: LinkedIn
+1278: VietnamWorks
+1279: TopCV
+1280: Facebook/Groups
+1281: Khác (vui lòng ghi rõ)
+1282: Không sử dụng
+1283: Tần suất bạn cập nhật CV online (trên các trang việc làm)?
+1284: Hàng tuần
+1285: Hàng tháng
+1286: Chỉ khi cần tìm việc mới
+1287: Chưa bao giờ
+1288: Offline, bạn thường tham gia các hoạt động nào để phát triển kỹ năng phỏng vấn? (Chọn nhiều)
+1289: Tham gia hội thảo/sự kiện việc làm
+1290: Đọc sách về kỹ năng mềm
+1291: Thực hành phỏng vấn với bạn bè
+1292: Không tham gia gì
+1293: Khác
+1294: Bạn dành bao nhiêu thời gian online mỗi ngày cho việc học hỏi kỹ năng việc làm (như xem video, đọc bài)?
+1295: Dưới 30 phút
+1296: 30 phút - 1 giờ
+1297: 1-2 giờ
+1298: Trên 2 giờ
+1299: Offline, thói quen hàng ngày của bạn liên quan đến sự nghiệp là gì? (Ví dụ: đọc báo giấy, gặp gỡ network) [Ô nhập văn bản]
+1300: Bạn có sử dụng AI công cụ online (như ChatGPT) để hỗ trợ viết CV hoặc luyện phỏng vấn không?
+1301: Có, thường xuyên
+1302: Thỉnh thoảng
+1303: Chưa từng
+1304: Không biết về AI
+1305: Tần suất bạn tham gia các nhóm cộng đồng online về việc làm (như Reddit, Facebook Groups)?
+1306: Hàng ngày
+1307: Hàng tuần
+1308: Hiếm khi
+1309: Không tham gia
+1310: Offline, bạn có tham gia các khóa học hoặc hội nhóm về phát triển sự nghiệp không?
+1311: Có
+1312: Không
+1313: Đang cân nhắc
+1314: Phần 4: Tâm Lý (Psychology) - 6 câu hỏi
+1315: Những câu hỏi này khám phá suy nghĩ, cảm xúc và động lực của bạn liên quan đến phỏng vấn và CV.
+1316: Bạn cảm thấy lo lắng nhất về điều gì khi phỏng vấn xin việc?
+1317: Trả lời câu hỏi khó
+1318: Thiếu tự tin
+1319: CV không ấn tượng
+1320: Khác (vui lòng ghi rõ)
+1321: Động lực chính khiến bạn muốn sử dụng AI để luyện phỏng vấn thử là gì?
+1322: Tiết kiệm thời gian
+1323: Nhận feedback nhanh
+1324: Tăng cơ hội trúng tuyển
+1325: Khác
+1326: Bạn nghĩ sao về việc sử dụng AI để sửa CV? (Thang điểm từ 1-5, 1: Không tin tưởng, 5: Rất tin tưởng) [Thang điểm 1-5]
+1327: Những trở ngại tâm lý nào khiến bạn do dự khi tìm việc mới? (Chọn nhiều)
+1328: Sợ thất bại
+1329: Áp lực từ gia đình
+1330: Thiếu động lực
+1331: Không có
+1332: Bạn mong muốn AI hỗ trợ như thế nào để cải thiện tâm lý trước phỏng vấn? [Ô nhập văn bản]
+1333: Trên thang điểm 1-10, mức độ quan tâm của bạn đến dịch vụ AI phỏng vấn thử & sửa CV là bao nhiêu? (1: Không quan tâm, 10: Rất quan tâm) [Thang điểm 1-10]
+1334: 
+1335: Hoàng Anh
+1336: Phần 1: Định danh và Phân loại Đối tượng (Demographics & Segmentation)
+1337: Mục tiêu: Phân loại người dùng để ánh xạ với các vấn đề cụ thể (Ví dụ: Sinh viên năm cuối lo lắng khác với người đi làm 1 năm).
+1338: Câu 1: Bạn thuộc nhóm đối tượng nào dưới đây?
+1339: Sinh viên năm 1-2
+1340: Sinh viên năm 3-4
+1341: Mới tốt nghiệp (dưới 1 năm kinh nghiệm)
+1342: Đã đi làm (1-3 năm kinh nghiệm)
+1343: Khác
+1344: Lý giải: Nhóm sinh viên năm 3-4 và mới tốt nghiệp là khách hàng mục tiêu chính (Early Adopters) vì áp lực tìm việc cao nhất. Nhóm đã đi làm sẽ quan tâm đến các tính năng nâng cao như deal lương.
+1345: Câu 2: Chuyên ngành hoặc lĩnh vực bạn đang/dự định ứng tuyển?
+1346: Công nghệ thông tin (IT) / Kỹ thuật
+1347: Kinh tế / Marketing / Sales
+1348: Ngôn ngữ / Sư phạm
+1349: Hành chính / Nhân sự
+1350: Khác
+1351: Lý giải: Ngành IT thường có phỏng vấn kỹ thuật (live coding), trong khi Marketing/Sales cần đánh giá cao về năng lượng và giao tiếp phi ngôn ngữ. Dữ liệu này giúp định hướng xây dựng bộ dữ liệu huấn luyện AI.26
+1352: Câu 3: Số lượng cuộc phỏng vấn chính thức bạn từng tham gia?
+1353: Chưa từng tham gia
+1354: 1 - 3 lần
+1355: 4 - 10 lần
+1356: Trên 10 lần
+1357: Lý giải: Người chưa từng tham gia có nỗi sợ về "sự không biết" (fear of the unknown). Người tham gia nhiều mà vẫn trượt (trên 10 lần) cần tính năng "sửa lỗi sai" (corrective feedback).
+1358: Câu 4: Bạn đang trong trạng thái tìm việc như thế nào?
+1359: Đang tìm việc gấp rút (Active)
+1360: Đang xem xét cơ hội, chưa vội (Passive)
+1361: Chưa có nhu cầu
+1362: Lý giải: Xác định độ khẩn cấp của nhu cầu (Urgency). Nhóm "Gấp rút" là nhóm có khả năng chuyển đổi thành người dùng trả phí cao nhất.
+1363: Câu 5: Thời gian trung bình bạn dành để chuẩn bị cho một buổi phỏng vấn?
+1364: Dưới 30 phút
+1365: 30 phút - 1 tiếng
+1366: 1 - 3 tiếng
+1367: Trên 1 ngày
+1368: Lý giải: Kiểm chứng hành vi "thiếu chuẩn bị" của Gen Z. Nếu đa số chọn <30 phút, ứng dụng cần có tính năng "Ôn tập cấp tốc" (Instant Prep).
+1369: Phần 2: Khám phá Nỗi đau và Hành vi Hiện tại (Pain Points & Current Behaviors)
+1370: Mục tiêu: Buộc người dùng đối diện với vấn đề của họ để chuẩn bị tâm lý đón nhận giải pháp.
+1371: Câu 6: (Câu hỏi nhiều lựa chọn) Bạn thường gặp vấn đề gì về TÂM LÝ và CƠ THỂ khi phỏng vấn?
+1372: Tim đập nhanh, hồi hộp, run tay 
+1373: Quên nội dung đã chuẩn bị (Trống rỗng) 
+1374: Sợ nhìn vào mắt nhà tuyển dụng / Ngại giao tiếp mắt 
+1375: Cảm thấy tự ti về ngoại hình/giọng nói
+1376: Không gặp vấn đề gì
+1377: Lý giải: Đây là câu hỏi quan trọng để xác nhận nhu cầu cho tính năng Computer Vision (theo dõi mắt) và Stress Test.
+1378: Câu 7: Khó khăn lớn nhất của bạn về NỘI DUNG trả lời là gì?
+1379: Không biết cách sắp xếp ý tứ (Logic kém)
+1380: Dùng từ ngữ không chuyên nghiệp / Quá nhiều từ đệm (à, ừ) 
+1381: Không hiểu ý đồ câu hỏi của nhà tuyển dụng
+1382: Không biết đặt câu hỏi ngược lại cho nhà tuyển dụng 
+1383: Lý giải: Xác định trọng số phát triển cho module NLP. Nếu người dùng yếu về Logic, AI cần tập trung hướng dẫn mô hình STAR.
+1384: Câu 8: Hiện tại, bạn luyện tập phỏng vấn bằng cách nào?
+1385: Tự nói trước gương
+1386: Nhờ bạn bè/người thân đóng vai
+1387: Ghi âm/Quay video tự xem lại
+1388: Tìm kiếm câu hỏi trên mạng và tự nhẩm trong đầu
+1389: Không luyện tập gì cả
+1390: Lý giải: Xác định đối thủ cạnh tranh trực tiếp. "Không luyện tập" là đối thủ lớn nhất. Sản phẩm phải dễ dàng hơn việc "nhờ bạn bè" và hiệu quả hơn "tự nói trước gương".
+1391: Câu 9: Bạn đã từng sử dụng công cụ AI nào để hỗ trợ xin việc chưa?
+1392: ChatGPT/Gemini (để viết CV/Mail)
+1393: TopCV (tạo CV)
+1394: App học tiếng Anh (ELSA, Duolingo)
+1395: Các công cụ luyện phỏng vấn AI khác (Google Warmup...)
+1396: Chưa từng sử dụng
+1397: Lý giải: Đánh giá mức độ hiểu biết công nghệ (Tech-savviness). Nếu người dùng đã quen dùng ChatGPT, rào cản gia nh	ập sẽ thấp hơn.
+1398: Câu 10: Điều gì khiến bạn lo lắng nhất khi thực hiện phỏng vấn ONLINE (Video Call)?
+1399: Sự cố kỹ thuật (Mạng, Mic, Camera)
+1400: Không gian xung quanh bừa bộn/ồn ào
+1401: Cảm giác thiếu tương tác thực tế (Nói chuyện với màn hình)
+1402: Sợ bị ghi hình/lộ thông tin
+1403: Lý giải: Liên quan trực tiếp đến tính năng mô phỏng Video Call của dự án. Nếu người dùng sợ "thiếu tương tác", AI cần có Avatar hoặc phản hồi thời gian thực sinh động.
+1404: Phần 3: Đánh giá Giải pháp và Tính năng Sản phẩm (Solution Validation)
+1405: Mục tiêu: Kiểm tra sự hấp dẫn của các tính năng "đinh" (USP) của dự án Kính chiếu yêu.
+1406: Câu 11: Mức độ quan tâm của bạn đối với một ứng dụng "Mô phỏng phỏng vấn Video Call thời gian thực với AI" (AI Interviewer)?
+1407: Thang điểm 1 (Không quan tâm) đến 5 (Rất quan tâm)
+1408: Lý giải: Đo lường Product-Market Fit sơ bộ.
+1409: Câu 12: Bạn đánh giá tính năng nào sau đây là CẦN THIẾT NHẤT? (Chọn tối đa 3)
+1410: Phân tích nội dung trả lời (Đúng/Sai, Gợi ý sửa)
+1411: Phân tích phi ngôn ngữ (Biểu cảm, Ánh mắt, Cử chỉ) 
+1412: Phân tích giọng nói (Tốc độ, Ngữ điệu, Từ đệm) 
+1413: Mô phỏng áp lực (AI ngắt lời, hỏi vặn) 
+1414: Chấm điểm độ phù hợp với JD (Job Description)
+1415: Lý giải: Định hướng lộ trình phát triển sản phẩm (Product Roadmap). Tính năng nào được chọn nhiều nhất sẽ được ưu tiên trong bản MVP.
+1416: Câu 13: Về tính năng "Kính chiếu yêu" (Phân tích Video/Camera): Bạn có sẵn lòng bật Camera để AI phân tích biểu cảm khuôn mặt không?
+1417: Sẵn sàng, tôi muốn nhận xét chi tiết nhất
+1418: Do dự, tôi lo ngại về quyền riêng tư
+1419: Không, tôi chỉ muốn luyện bằng giọng nói/văn bản
+1420: Lý giải: Đây là câu hỏi "sống còn" cho tính năng Computer Vision. Dữ liệu cho thấy 21% Gen Z tắt cam khi phỏng vấn. Nếu tỷ lệ chọn "Không" cao, dự án cần xem xét lại hoặc có cơ chế bảo mật (xử lý local, không lưu video).
+1421: Câu 14: Bạn nghĩ sao về chế độ "Phỏng vấn Áp lực" (Stress Interview) - AI sẽ đóng vai nhà tuyển dụng khó tính, hay ngắt lời và hỏi dồn?
+1422: Rất thích, giúp tôi rèn luyện bản lĩnh thép
+1423: Hơi sợ, nhưng sẽ thử để biết
+1424: Không thích, tôi muốn được động viên hơn là bị áp lực
+1425: Lý giải: Kiểm chứng giả thuyết về việc Gen Z "dễ tự ái" và "thiếu bản lĩnh". Liệu họ muốn một công cụ "vỗ về" hay một công cụ "huấn luyện quân sự"?
+1426: Câu 15: Bạn muốn nhận kết quả phản hồi (Feedback) dưới dạng nào?
+1427: Bảng điểm tổng quát (Scorecard 1-10)
+1428: Nhận xét chi tiết văn bản cho từng câu trả lời
+1429: Video quay lại chính mình kèm các ghi chú (Timestamp) lỗi sai
+1430: So sánh thứ hạng với các ứng viên khác (Ranking)
+1431: Lý giải: Thiết kế giao diện báo cáo (Report UI). Tính năng so sánh (Ranking) có thể tạo động lực (gamification) nhưng cũng có thể gây áp lực.
+1432: Câu 16: Bạn ưu tiên luyện tập trên nền tảng nào hơn?
+1433: Ứng dụng di động (Mobile App) - Tiện lợi
+1434: Website trên máy tính (Web App) - Giống thực tế
+1435: Lý giải: Các nghiên cứu cho thấy sự tranh luận giữa Mobile và Web. Mobile tiện lợi cho việc học (micro-learning) nhưng Web mô phỏng tốt hơn bối cảnh phỏng vấn qua Zoom/Google Meet.
+1436: Câu 17: Ngoài tiếng Việt, bạn có nhu cầu luyện phỏng vấn bằng ngôn ngữ nào khác?
+1437: Tiếng Anh (Quan trọng nhất)
+1438: Tiếng Nhật/Hàn/Trung
+1439: Chỉ cần tiếng Việt là đủ
+1440: Lý giải: Xác định khả năng mở rộng thị trường. Nhu cầu tiếng Anh thường đi kèm với mức sẵn sàng chi trả cao hơn (như ELSA, IELTS).
+1441: Phần 4: Mô hình Kinh doanh và Sẵn sàng Chi trả (Willingness to Pay)
+1442: Mục tiêu: Xác định chiến lược giá (Pricing Strategy).
+1443: Câu 18: Bạn đã từng trả tiền cho các ứng dụng học tập/kỹ năng chưa?
+1444: Rồi (ELSA, Coursera, Udemy...)
+1445: Chưa, chỉ dùng bản miễn phí
+1446: Lý giải: Lọc ra nhóm người dùng có thói quen trả phí (Paying Users).
+1447: Câu 19: Nếu ứng dụng giúp bạn tăng 50% cơ hội trúng tuyển, mức phí tối đa bạn sẵn sàng trả cho 1 tháng luyện tập không giới hạn là?
+1448: Dưới 50.000 VNĐ
+1449: 50.000 - 99.000 VNĐ
+1450: 100.000 - 199.000 VNĐ
+1451: Trên 200.000 VNĐ
+1452: Lý giải: Dựa trên các mức giá tham chiếu (Anchor Price): TopCV ~50k , ELSA ~145k. Mức giá kỳ vọng nên nằm trong khoảng 50k - 100k cho sinh viên.
+1453: Câu 20: Bạn thích hình thức thanh toán nào hơn?
+1454: Gói theo tháng (Subscription)
+1455: Mua trọn đời (Lifetime)
+1456: Trả tiền theo từng lượt phỏng vấn (Pay-per-use)
+1457: Xem quảng cáo để dùng miễn phí
+1458: Lý giải: Sinh viên thường thích "Lifetime" hoặc "Freemium" hơn là cam kết trả phí hàng tháng (Subscription fatigue).
+1459: Câu 21: Bạn có quan tâm đến tính năng "Bảo hiểm phỏng vấn" (Hoàn tiền nếu trượt sau khi luyện tập đủ giờ) không?
+1460: Rất quan tâm, sẵn sàng trả giá cao hơn
+1461: Không tin tưởng vào cam kết này
+1462: Không quan tâm
+1463: Lý giải: Một ý tưởng Value Proposition mạnh mẽ nhưng rủi ro.
+1464: Phần 5: Tính năng Mở rộng và Kết nối (Ecosystem)
+1465: Mục tiêu: Tìm kiếm cơ hội Cross-sell và giữ chân người dùng.
+1466: Câu 22: Ngoài luyện phỏng vấn, bạn muốn AI hỗ trợ thêm gì?
+1467: Review và sửa CV
+1468: Tư vấn deal lương 2
+1469: Định hướng nghề nghiệp
+1470: Kết nối trực tiếp với nhà tuyển dụng
+1471: Lý giải: Tính năng Deal lương là một "nỗi đau" lớn của sinh viên mới ra trường sợ bị ép giá.
+1472: Câu 23: Bạn có muốn chia sẻ kết quả đánh giá năng lực của AI cho Nhà tuyển dụng (đính kèm vào CV) để chứng minh năng lực không?
+1473: Có, nếu nó giúp tôi nổi bật
+1474: Không, tôi muốn giữ kết quả riêng tư
+1475: Lý giải: Chuyển đổi mô hình từ B2C sang B2B2C (giống chứng chỉ IELTS hay chứng chỉ tin học).
+1476: Câu 24: Bạn thường tìm kiếm thông tin tuyển dụng ở đâu?
+1477: TopCV / VietnamWorks
+1478: LinkedIn
+1479: Facebook Groups
+1480: Website công ty
+1481: Lý giải: Xác định kênh Marketing (Go-to-market channels).
+1482: Câu 25: (Câu hỏi mở) Hãy mô tả ngắn gọn "Trợ lý phỏng vấn trong mơ" của bạn sẽ như thế nào?
+1483: (Text box)
+1484: Lý giải: Thu thập Insight định tính (Qualitative) mà các câu hỏi trắc nghiệm có thể bỏ sót.
+1485: 
+1486: Quyết
+1487: PHẦN 1: CÂU HỎI SÀNG LỌC (Screening - Mục tiêu: Xác định đối tượng tiềm năng, loại bỏ không phù hợp)
+1488: Bạn đang ở độ tuổi nào?
+1489: Dưới 18
+1490: 18-22
+1491: 23-25
+1492: 26-30
+1493: Trên 30
+1494: Bạn đang ở tình trạng học tập/việc làm nào sau?
+1495: Học sinh THPT
+1496: Sinh viên năm 1-3 đại học/cao đẳng
+1497: Sinh viên năm cuối đại học/cao đẳng
+1498: Fresher (mới ra trường dưới 1 năm)
+1499: Người đi làm (trên 1 năm kinh nghiệm)
+1500: Khác (ghi rõ): ________
+1501: Bạn đang học hoặc làm việc trong lĩnh vực nào? (Chọn nhiều nếu áp dụng)
+1502: Công nghệ Thông tin (IT)
+1503: Kinh tế/Kinh doanh
+1504: Kỹ thuật/Cơ khí
+1505: Marketing/Truyền thông
+1506: Khác (ghi rõ): ________
+1507: Không áp dụng
+1508: Trong 6 tháng qua, bạn có tham gia phỏng vấn xin việc ít nhất 1 lần không?
+1509: Có
+1510: Không
+1511: PHẦN 2: NHÂN KHẨU HỌC (Demographics - Mục tiêu: Xác định đặc điểm cá nhân cơ bản)
+1512: Giới tính của bạn là?
+1513: Nam
+1514: Nữ
+1515: Khác/Không muốn trả lời
+1516: Mức thu nhập hàng tháng của bạn (hoặc hỗ trợ từ gia đình) là bao nhiêu?
+1517: Dưới 3 triệu VNĐ
+1518: 3-5 triệu VNĐ
+1519: 5-10 triệu VNĐ
+1520: Trên 10 triệu VNĐ
+1521: Không muốn trả lời
+1522: Trình độ học vấn cao nhất của bạn hiện tại?
+1523: Chưa tốt nghiệp đại học/cao đẳng
+1524: Tốt nghiệp đại học/cao đẳng
+1525: Thạc sĩ hoặc cao hơn
+1526: Trường đại học/cao đẳng bạn đang học hoặc đã tốt nghiệp? (Ghi rõ tên trường, ví dụ: ĐH Bách Khoa Hà Nội)
+1527: 
+1528: PHẦN 3: ĐỊA LÝ (Geography - Mục tiêu: Xác định vùng miền, vị trí để tối ưu marketing và localization)
+1529: Bạn đang sống tại tỉnh/thành phố nào ở Việt Nam?
+1530: Hà Nội
+1531: TP. Hồ Chí Minh
+1532: Đà Nẵng
+1533: Các tỉnh miền Bắc khác (ghi rõ): ________
+1534: Các tỉnh miền Nam khác (ghi rõ): ________
+1535: Các tỉnh miền Trung khác (ghi rõ): ________
+1536: Ngoài Việt Nam (ghi rõ): ________
+1537: Bạn thường truy cập internet chủ yếu từ đâu? (Chọn nhiều)
+1538: Tại nhà (căn hộ/ký túc xá)
+1539: Tại trường đại học/thư viện
+1540: Tại quán cà phê/co-working space
+1541: Trên đường đi (di động)
+1542: PHẦN 4: HÀNH VI VÀ THÓI QUEN (Behavioral - Mục tiêu: Hiểu thói quen online/offline liên quan đến tìm việc và luyện kỹ năng)
+1543: Bạn thường tìm kiếm thông tin việc làm qua kênh nào? (Chọn nhiều)
+1544: LinkedIn
+1545: VietnamWorks/TopCV
+1546: Nhóm Facebook việc làm
+1547: TikTok/Facebook Reels
+1548: Website trường đại học
+1549: Khác (ghi rõ): ________
+1550: Trong tuần qua, bạn dành bao nhiêu thời gian online mỗi ngày?
+1551: Dưới 2 giờ
+1552: 2-4 giờ
+1553: 4-6 giờ
+1554: Trên 6 giờ
+1555: Bạn đã từng sử dụng công cụ nào để luyện phỏng vấn việc làm? (Chọn nhiều)
+1556: YouTube/Blog tự học
+1557: Khóa học kỹ năng mềm offline
+1558: Mentor 1-1 (người thật)
+1559: Chưa từng
+1560: Khác (ghi rõ): ________
+1561: Tần suất bạn tham gia phỏng vấn xin việc trong năm qua?
+1562: Chưa từng
+1563: 1-2 lần
+1564: 3-5 lần
+1565: Trên 5 lần
+1566: Offline, bạn thường làm gì để chuẩn bị cho phỏng vấn? (Chọn nhiều)
+1567: Luyện nói trước gương
+1568: Thảo luận với bạn bè/gia đình
+1569: Tham gia workshop tại trường
+1570: Không chuẩn bị gì đặc biệt
+1571: Bạn sẵn sàng chi bao nhiêu cho một công cụ luyện phỏng vấn online?
+1572: Miễn phí
+1573: Dưới 50.000 VNĐ
+1574: 50.000-200.000 VNĐ
+1575: Trên 200.000 VNĐ
+1576: PHẦN 5: TÂM LÝ VÀ THÁI ĐỘ (Psychographics - Mục tiêu: Khám phá nỗi đau, động lực, và giá trị cá nhân)
+1577: Bạn lo lắng nhất điều gì khi đi phỏng vấn việc làm? (Chọn nhiều)
+1578: Thiếu tự tin (mắt đảo, giọng run)
+1579: Trả lời lan man, không cấu trúc
+1580: Không biết xử lý câu hỏi áp lực
+1581: Biểu cảm khuôn mặt/thái độ
+1582: Khác (ghi rõ): ________
+1583: Theo bạn, kỹ năng mềm (giao tiếp, làm việc nhóm) quan trọng đến mức nào so với kỹ năng chuyên môn?
+1584: Rất quan trọng (hơn cả chuyên môn)
+1585: Quan trọng ngang nhau
+1586: Ít quan trọng hơn
+1587: Không quan trọng
+1588: Bạn nghĩ sao về việc sử dụng AI để luyện phỏng vấn (như video call với AI)?
+1589: Rất hứng thú, tiện lợi
+1590: Khá thú vị, nhưng cần thử
+1591: Bình thường, không khác tự học
+1592: Không thích, thích người thật
+1593: Động lực chính khiến bạn muốn cải thiện kỹ năng phỏng vấn là gì?
+1594: Tìm việc mơ ước
+1595: Tăng lương/thăng tiến
+1596: Xây dựng sự tự tin
+1597: Áp lực từ gia đình/xã hội
+1598: Khác (ghi rõ): ________
+1599: Bạn đánh giá mức độ tự tin của mình trong phỏng vấn hiện tại? (Thang 1-10, 1=không tự tin, 10=rất tự tin)
+1600: 
+1601: Nếu thất bại phỏng vấn, bạn thường cảm thấy thế nào?
+1602: Buồn bã, thiếu động lực
+1603: Bình thường, học hỏi từ lỗi
+1604: Tức giận với bản thân
+1605: Không ảnh hưởng
+1606: PHẦN 6: VỀ SẢN PHẨM VÀ VALIDATION (Product-Specific - Mục tiêu: Test concept, tính năng, và tiềm năng sử dụng)
+1607: Nếu có nền tảng AI như InterviewPro (phỏng vấn video thực tế với AI, phân tích mắt, giọng nói, báo cáo chi tiết), bạn quan tâm đến tính năng nào nhất? (Chọn nhiều)
+1608: Phân tích biểu cảm khuôn mặt
+1609: Phản hồi tức thì về cấu trúc trả lời
+1610: Chế độ luyện tập khó (áp lực như recruiter thật)
+1611: Báo cáo định lượng (ví dụ: mắt đảo 30% thời gian)
+1612: Hỗ trợ tiếng Việt tự nhiên
+1613: Bạn sẽ sử dụng InterviewPro ở thời điểm nào?
+1614: Ngay trước ngày phỏng vấn (cấp tốc)
+1615: Luyện tập hàng tuần
+1616: Chỉ thử miễn phí
+1617: Không sử dụng
+1618: Bạn nghĩ giá 50.000 VNĐ cho gói 3 ngày luyện tập có hợp lý không?
+1619: Rất hợp lý
+1620: Hợp lý
+1621: Đắt
+1622: Nên miễn phí
+1623: Bạn đã từng gặp khó khăn gì với các công cụ luyện phỏng vấn hiện tại (như Google Warmup)?
+1624: ________ (Open-ended)
+1625: Nếu InterviewPro có tính năng kết nối với doanh nghiệp (headhunting ngược), bạn có sẵn sàng chia sẻ dữ liệu phỏng vấn để được giới thiệu việc làm?
+1626: Có, nếu bảo mật
+1627: Có, nếu được lợi ích
+1628: Không, lo privacy
+1629: Không quan tâm
+1630: Bạn biết đến các đối thủ như Yoodli hoặc TopCV qua kênh nào?
+1631: ________ (Open-ended)
+1632: PHẦN 7: KẾT THÚC (Closing - Mục tiêu: Thu thập contact cho beta test và feedback)
+1633: Bạn có muốn tham gia thử nghiệm beta của InterviewPro (miễn phí, nhận báo cáo cá nhân hóa)?
+1634: Có
+1635: Không
+1636: Vui lòng để lại email nếu bạn muốn nhận thông tin cập nhật hoặc tham gia beta test:
+1637: 
+1638: 
+1639: Data Thứ Cấp
+1640: Sam: 
+1641: 1:
+1642:  Xu hướng thị trường: Out of a total of 29,907 businesses participating in labor recruitment, 22,747 businesses recruited online (rate of 76.1%).
+1643: Nhu cầu: According to Ms. Nguyen Van Hanh Thuc - Director of Ho Chi Minh City Employment Service Center - the dominance of online labor recruitment poses the requirement that this center must continue to upgrade the digital connection platform, standardize electronic ho so, assess online skills and strengthen smart recruitment tools to meet the strong digitalization trend of the market.
+1644: Nguồn: BÁO LAO ĐỘNG CƠ QUAN LIÊN ĐOÀN LAO ĐỘNG VIỆT NAM
+1645: 2: 
+1646: 
+1647: Tại Việt Nam, vào tháng 8 năm 2024, một cuộc khảo sát ngắn được thực hiện bởi VietnamWorks với gần 400 doanh nghiệp tại Việt Nam đưa ra kết quả: Có tới 41% doanh nghiệp tham gia khảo sát cho biết sử dụng Generative AI trong hoạt động tuyển dụng, quản lý nhân sự. Báo cáo còn cho biết 28% doanh nghiệp ứng dụng AI để viết mô tả công việc (Job Description – JD), 21.7% dùng AI để đăng tin tuyển dụng tự động, 21.7% dùng AI để sàng lọc CV, và 6.6% sử dụng AI cho việc phỏng vấn qua chatbot. Xu hướng này cho thấy sự phát triển mạnh mẽ của AI trong việc hỗ trợ các doanh nghiệp tối ưu hóa nguồn nhân lực.
+1648: Nguồn: Navigos Group
+1649: 
+1650: 
+1651: 
+1652: 
+1653: 
+1654: 
+1655: 
+1656: 
+1657: 
+1658: 
+1659: 
+1660: 
+1661: 
+1662: 
+1663: Huyền: 
+1664: 
+1665: 
+1666: (Source: https://market.us/report/online-recruitment-market/)
+1667: Thị trường tuyển dụng trực tuyến được dự báo sẽ đạt giá trị 63,8 tỷ USD vào năm 2033, với tốc độ tăng trưởng ổn định khoảng 6,5% mỗi năm trong giai đoạn 2024–2033, phản ánh sự phụ thuộc ngày càng lớn của doanh nghiệp vào các nền tảng số trong hoạt động tìm kiếm và thu hút nhân tài. Năm 2023, phân khúc tuyển dụng trực tuyến cho vị trí toàn thời gian (Permanent Online Recruitment) giữ vị thế chi phối khi chiếm hơn 80% thị phần. Cũng trong năm 2023, ngành CNTT dẫn đầu trong lĩnh vực tuyển dụng trực tuyến với hơn 25% thị phần, cho thấy nhu cầu mạnh mẽ đối với nhân lực công nghệ. Về mặt địa lý, Bắc Mỹ giữ vai trò thị trường lớn nhất với hơn 35% thị phần, tương đương 11,9 tỷ USD doanh thu trong năm 2023, thể hiện quy mô lớn của nhu cầu thuê nhân sự tạm thời và hợp đồng.
+1668: 
+1669: (Source: https://www.sci-tech-today.com/stats/online-recruitment-statistics/)
+1670: Hiện nay, 97,4% các công ty thuộc Fortune 500 — tương đương 487 trên 500 doanh nghiệp — đang sử dụng hệ thống quản lý tuyển dụng (Applicant Tracking System – ATS) để vận hành quy trình tuyển dụng của mình. Có tới 79% tổ chức đã tích hợp AI hoặc các công cụ tự động hóa trực tiếp vào nền tảng ATS, vượt xa chức năng lọc hồ sơ cơ bản. Mục tiêu chủ đạo của việc tích hợp này là nâng cao hiệu quả, khi 64% người tham gia khảo sát cho biết họ sử dụng AI để tự động loại bỏ các ứng viên không đủ điều kiện. Những nhà tuyển dụng áp dụng ATS báo cáo mức giảm tới 86% trong thời gian tuyển dụng tổng thể, một bước tiến lớn giúp quy trình nhanh hơn đáng kể. Tốc độ này mang tính quyết định, bởi 69% ứng viên sẽ từ chối lời mời làm việc nếu doanh nghiệp phản hồi quá chậm sau vòng phỏng vấn cuối cùng. Mức độ ứng dụng AI trong các nhiệm vụ nhân sự đã tăng lên 43% vào năm 2025, so với mức chỉ 26% của năm 2024 cho thấy việc ứng dụng AI đang là 1 xu hướng trong việc tuyển dụng
+1671: 
+1672: 
+1673: (Source: https://www.thebusinessresearchcompany.com/report/artificial-intelligence-powered-recruiter-interview-assistant-global-market-report)
+1674: 
+1675: Một báo cáo khác cho thấy, Thị trường các công cụ hỗ trợ phỏng vấn dành cho nhà tuyển dụng ứng dụng trí tuệ nhân tạo đã tăng trưởng mạnh mẽ trong những năm gần đây, từ mức 1,7 tỷ USD vào năm 2025 lên 2,22 tỷ USD vào năm 2026, tương ứng tốc độ tăng trưởng kép (CAGR) 30,6%. Sự tăng trưởng trong giai đoạn này chủ yếu đến từ quá trình số hóa mạnh mẽ trong quy trình tuyển dụng, việc sử dụng rộng rãi hệ thống quản lý ứng viên (ATS), nhu cầu ngày càng cao về sự nhất quán trong quyết định tuyển dụng, sự mở rộng của hình thức phỏng vấn từ xa và việc các doanh nghiệp tiên phong áp dụng các công cụ AI hỗ trợ sàng lọc ban đầu. Trong những năm tới, thị trường này được dự báo tiếp tục tăng trưởng bùng nổ, đạt 6,4 tỷ USD vào năm 2030 với tốc độ tăng trưởng kép 30,3%. Động lực tăng trưởng trong giai đoạn dự báo đến từ sự phụ thuộc ngày càng lớn vào phân tích dự đoán trong tuyển dụng, mức độ phổ biến của phỏng vấn ảo và tự động, trọng tâm chuyển dịch sang các mô hình tuyển dụng dựa trên kỹ năng, sự mở rộng của tự động hóa quy mô lớn trong doanh nghiệp, và việc tích hợp sâu hơn với các nền tảng phân tích nhân sự nâng cao. Các xu hướng nổi bật trong giai đoạn dự báo bao gồm gia tăng sử dụng AI để cung cấp insight cho buổi phỏng vấn, mở rộng công cụ đánh giá ứng viên tự động, tích hợp phân tích phỏng vấn theo thời gian thực, chuẩn hóa quy trình phỏng vấn theo cấu trúc, và tập trung mạnh mẽ hơn vào giảm thiên kiến trong tuyển dụng cho thấy việc ứng dụng AI đang là 1 xu hướng trong việc tuyển dụng
+1676: 
+1677: (Source: https://www.demandsage.com/ai-recruitment-statistics/)
+1678: 
+1679: Theo thống kê, các ứng viên được AI chọn lọc có khả năng vượt qua vòng phỏng vấn cao hơn 14%. Dữ liệu từ Forbes cũng cho thấy những ứng viên được máy móc lựa chọn thay vì con người có tỷ lệ vượt qua phỏng vấn và nhận được offer cao hơn, đồng thời có khả năng chấp nhận offer tăng thêm 18%. Trong khi đó, 67% những người ra quyết định tuyển dụng cho rằng ưu điểm lớn nhất của việc ứng dụng AI trong quy trình tuyển dụng là khả năng tiết kiệm thời gian, và 43% nhận định AI giúp giảm thiểu thiên kiến của con người. Tương tự, 86,1% recruiter cho biết AI giúp rút ngắn đáng kể thời gian tuyển dụng. Tuyển dụng bằng AI cũng là một phần quan trọng của thị trường AI toàn cầu, vốn đang được định giá 391 tỷ USD, cho thấy công nghệ này sẽ tiếp tục được mở rộng sang nhiều lĩnh vực hơn trong các năm tới. Nhờ sự hỗ trợ của AI, bộ phận nhân sự có thể tập trung vào việc xây dựng các câu hỏi phỏng vấn phù hợp, trong khi những tác vụ khác được tự động hóa bởi thuật toán. Khi tuyển dụng nhân sự mới, 58% recruiter sử dụng AI đánh giá công nghệ này hữu ích nhất ở giai đoạn tìm nguồn ứng viên, 56% cho biết AI mang lại lợi thế lớn nhất trong khâu sàng lọc hồ sơ, và 55% nhận thấy AI đặc biệt hiệu quả trong việc nuôi dưỡng và duy trì tương tác với ứng viên cho thấy tác động tích cực của AI lên quy trình truyền thống -> có thể triển khai theo hướng này
+1680: 
+1681: “Ngay cả khi bạn chỉ nói về ChatGPT, bạn chỉ cần thử sử dụng nó một thời gian để thấy rõ rằng công nghệ này sẽ tạo ra những tác động vô cùng lớn. Các công ty sẽ nhanh chóng ứng dụng AI để cải thiện hiệu suất, và điều đó đồng nghĩa với việc con người cũng phải thích ứng. Những ai không làm như vậy sẽ trở nên kém hiệu quả hơn.” — Siadhal Magos, đồng sáng lập và CEO của Metaview(câu gốc là “Even if you’re just talking about ChatGPT, you only need to play with that for a while for it to be really clear that there are going to be massive implications. Companies are going to be adopting this technology in order to improve performance as quickly as they can. And that means that people need to, as well. And the people that don’t will be less effective.”). Mặc dù AI đang tạo ra sức ảnh hưởng lớn và nhận được nhiều sự chú ý, chỉ 37% chuyên gia nhân sự hiện đang tận dụng công nghệ này trong tuyển dụng (Source: https://www.metaview.ai/resources/blog/how-ai-is-transforming-recruiting-in-2025) cho thấy đây là 1 cơ hội lớn để phát triển
+1682: 
+1683: 
+1684: 
+1685: Câu Hỏi Tổng Hợp
+1686: Phần 1: Phân loại đối tượng và nhân khẩu học
+1687: Bạn đang ở độ tuổi nào?
+1688: Dưới 18
+1689: 18-22
+1690: 23-25
+1691: 26-30
+1692: Trên 30
+1693: Giới tính của bạn là?
+1694: Nam
+1695: Nữ
+1696: Khác/Không muốn trả lời
+1697: Trình độ học vấn cao nhất của bạn là gì?
+1698: Chưa tốt nghiệp THPT
+1699: Tốt nghiệp THPT
+1700: Cao đẳng/Đại học
+1701: Thạc sĩ/Tiến sĩ
+1702: Khác (vui lòng ghi rõ)
+1703: Nghề nghiệp hiện tại của bạn là gì?
+1704: Sinh viên
+1705: Nhân viên văn phòng
+1706: Freelancer
+1707: Quản lý cấp cao
+1708: Không có việc làm
+1709: Khác (vui lòng ghi rõ)
+1710: Bạn đang học hoặc làm việc trong lĩnh vực nào? (Chọn nhiều nếu áp dụng)
+1711: Công nghệ Thông tin (IT)
+1712: Kinh tế/Kinh doanh
+1713: Kỹ thuật/Cơ khí
+1714: Marketing/Truyền thông
+1715: Khác (ghi rõ): ________
+1716: Không áp dụng
+1717: Mức thu nhập hàng tháng của bạn khoảng bao nhiêu? (Đơn vị: VND)
+1718: Dưới 5 triệu
+1719: 5-10 triệu
+1720: 10-20 triệu
+1721: Trên 20 triệu
+1722: Không muốn trả lời
+1723:  Bạn đang sống tại tỉnh/thành phố nào ở Việt Nam?
+1724: Hà Nội
+1725: TP. Hồ Chí Minh
+1726: Đà Nẵng
+1727: Các tỉnh miền Bắc khác (ghi rõ): ________
+1728: Các tỉnh miền Nam khác (ghi rõ): ________
+1729: Các tỉnh miền Trung khác (ghi rõ): ________
+1730: Ngoài Việt Nam (ghi rõ): ________
+1731: Phần 2: Hành Vi & Thói Quen
+1732: Số lượng cuộc phỏng vấn chính thức bạn từng tham gia?
+1733: Chưa từng tham gia
+1734: 1 - 3 lần
+1735: 4 - 10 lần
+1736: Trên 10 lần
+1737: Bạn thường sử dụng các nền tảng online nào để tìm việc làm? (Chọn nhiều)
+1738: LinkedIn
+1739: VietnamWorks
+1740: TopCV
+1741: Facebook/Groups
+1742: Khác (vui lòng ghi rõ)
+1743: Không sử dụng
+1744: Tần suất bạn cập nhật CV online (trên các trang việc làm)?
+1745: Hàng tuần
+1746: Hàng tháng
+1747: Chỉ khi cần tìm việc mới
+1748: Chưa bao giờ
+1749: Bạn thường gặp vấn đề gì về TÂM LÝ và phản ứng CƠ THỂ khi phỏng vấn?
+1750: Tim đập nhanh, hồi hộp, run tay 
+1751: Quên nội dung đã chuẩn bị (Trống rỗng) 
+1752: Sợ nhìn vào mắt nhà tuyển dụng / Ngại giao tiếp mắt 
+1753: Cảm thấy tự ti về ngoại hình/giọng nói/ động tác thừa
+1754: Không gặp vấn đề gì
+1755:  Khó khăn lớn nhất của bạn về NỘI DUNG trả lời là gì?
+1756: Không biết cách sắp xếp ý tứ (Logic kém)
+1757: Dùng từ ngữ không chuyên nghiệp / Quá nhiều từ đệm (à, ừ) 
+1758: Không hiểu ý đồ câu hỏi của nhà tuyển dụng
+1759: Không biết đặt câu hỏi ngược lại cho nhà tuyển dụng 
+1760: Hiện tại, bạn luyện tập phỏng vấn bằng cách nào?
+1761: Tự nói trước gương
+1762: Nhờ bạn bè/người thân đóng vai
+1763: Ghi âm/Quay video tự xem lại
+1764: Tìm kiếm câu hỏi trên mạng và tự nhẩm trong đầu
+1765: Không luyện tập gì cả
+1766: Phần 3: Đánh giá Giải pháp 
+1767:  Bạn đã từng sử dụng giải pháp nào dưới đây để chuẩn bị cho một buổi phỏng vấn quan trọng? (Có thể chọn nhiều phương án)
+1768: [ ] Nhờ người quen/Mentor phỏng vấn thử (Mock Interview 1-1).
+1769: [ ] Sử dụng ChatGPT/Gemini để gợi ý câu trả lời hoặc sửa nội dung CV.
+1770: [ ] Sử dụng các app học nói (ELSA, Duolingo) để luyện phát âm.
+1771: [ ] Tự đứng trước gương hoặc quay video lại để tự xem.
+1772: [ ] Chưa từng làm gì cả, cứ thế đi thi.
+1773: 
+1774: Bạn nghĩ sao về việc sử dụng AI để luyện phỏng vấn (như video call với AI)?
+1775: Rất hứng thú, tiện lợi
+1776: Khá thú vị, nhưng cần thử
+1777: Bình thường, không khác tự học
+1778: Không thích, thích người thật
+1779: Bạn đã từng gặp khó khăn gì với các công cụ luyện phỏng vấn hiện tại
+1780: Thiếu tương tác thực tế 
+1781: Không được sửa lỗi
+1782: Phản hồi chung chung, thiếu chiều sâu
+1783: Chi phí quá cao
+1784: Khác: ____
+1785: Nếu có một "Hr advisor" phỏng vấn bạn qua Video Call như người thật, bạn muốn nó giúp gì nhất?
+1786: [ ] vặn hỏi xoáy sâu để rèn bản lĩnh.
+1787: [ ] Soi lỗi cơ thể (ngồi gù, đảo mắt, rung chân) mà mình không tự biết.
+1788: [ ] Chấm điểm dự đoán tỷ lệ đậu vào các công ty cụ thể.
+1789: [ ] Sửa lại câu trả lời sao cho hay và chuyên nghiệp hơn.
+1790: 
+1791: mức giá nào bạn cảm thấy là QUÁ RẺ và bạn sẽ nghi ngờ về chất lượng của nó?
+1792: [ ] Dưới 20.000đ.
+1793: [ ] Dưới 30.000đ.
+1794: [ ] Dưới 50.000đ.
+1795: "Mức giá nào bạn cảm thấy là HỢP LÝ NHẤT (đáng đồng tiền bát gạo) để bạn sẵn sàng thanh toán ngay qua QR Code/Momo cho gói Cấp tốc 3 ngày này?"
+1796: [ ] 20.000đ - 30.000đ (Tương đương 1 ổ bánh mì thập cẩm).
+1797: [ ] 30.000đ - 50.000đ (Tương đương 1 ly trà sữa / cà phê).
+1798: [ ] 50.000đ - 90.000đ (Tương đương 1 vé xem phim).
+1799: [ ] Trên 90.000đ (Tương đương 1 khóa học ngắn hạn trên Udemy).
+1800:  "Mức giá nào bạn cho là QUÁ ĐẮT và bạn sẽ không bao giờ mua, dù tính năng có tốt đến đâu?"
+1801: [ ] Trên 50.000đ.
+1802: [ ] Trên 100.000đ.
+1803: [ ] Trên 200.000đ.
+1804: [ ] Trên 500.000đ.
+1805: 
+1806: Nếu có một công cụ AI giúp bạn luyện tập, sửa chữa kỹ năng và phong thái trước buổi phỏng vấn bạn có sẵn sàng sử dụng không? 
+1807: Có
+1808: Không 
+1809: 
+1810: Hãy mô tả ngắn gọn "Trợ lý phỏng vấn trong mơ" của bạn sẽ như thế nào?
+1811: Text 
+1812: 
+1813: Bạn có muốn nhận thông tin mới nhất từ chúng mình không ? 
+1814: Có 
+1815: không
+1816: 
+1817: 
+1818: 
+1819: 
+1820: 
+1821: Bn Tiền , mong muốn củ họ là gì, hướng thêm BB tầm 5-6 người
+1822: 
+1823: 
+1824: 
+1825: 
+1826: 
+1827: 
+1828: 
+1829: câu hỏi pv trực tiếp
+1830: Tự hiểu câu đầu tiên bảo người được pv giới thiệu cơ bản về bản thân (tên, tuổi, công việc hiện tại)
+1831: 
+1832: 1. Like – Điều bạn quan tâm nhất khi sử dụng sản phẩm luyện phỏng vấn là gì?
+1833: Khả năng mô phỏng phỏng vấn thực tế qua video
+Nhận phản hồi chi tiết về nội dung trả lời
+1834: Phân tích giọng nói / ngôn ngữ cơ thể
+1835: Báo cáo điểm số định lượng sau mỗi buổi luyện
+
+
+1836: 2. Dislike – Điều bạn e ngại nhất hoặc không thích khi sử dụng sản phẩm là gì?
+1837: Lo ngại về quyền riêng tư khi bật camera
+1838: Giao diện khó dùng
+1839: Phản hồi không chính xác / quá chung chung
+1840: Thời gian xử lý phản hồi chậm
+
+1841: 3. Ưu/Nhược điểm sản phẩm bạn đang hoặc đã từng sử dụng để luyện phỏng vấn?
+1842: Ưu điểm: (ví dụ) dễ truy cập, phản hồi hữu ích, thích ứng theo người dùng
+1843: Nhược điểm: (ví dụ) thiếu tính mô phỏng thực tế, ít phân tích chi tiết
+
+1844: 4. MKT – Bạn thường tìm hiểu về sản phẩm phỏng vấn luyện tập ở đâu (hoặc tham khảo ai)?
+1845: Tìm trên Google / YouTube
+1846: Bạn bè / người quen giới thiệu
+1847: Fanpage / Group nghề nghiệp LinkedIn, Facebook
+1848: Trước đây dùng các công cụ AI khác
+
+1849: 5. Sales – Bạn thường mua hoặc dùng sản phẩm luyện phỏng vấn ở đâu (kênh/bán nào)? Khi nào?
+1850: Tải app trên iOS / Android
+1851: Đăng ký trên Web chính thức
+1852: Qua email hay quảng cáo mạng xã hội
+1853: Khi chuẩn bị phỏng vấn thật (trước buổi phỏng vấn)
+
+1854: 6. Promotions – Bạn thích hình thức khuyến mại nào nhất?
+1855: Dùng thử miễn phí (Trial)
+1856: Giảm giá theo gói 3-6 tháng
+1857: Tặng buổi luyện phỏng vấn AI miễn phí khi giới thiệu bạn bè
+1858: Nhận tài liệu luyện phỏng vấn chuyên sâu kèm theo
+
+1859: 7. More_Sales – Điều gì khiến bạn quay lại sử dụng sản phẩm tiếp tục?
+1860: Phản hồi hữu ích và rõ ràng
+
+1861: Cảm giác tiến bộ qua từng buổi luyện
+
+1862: Tính năng mới/ cập nhật
+
+1863: Mức phí linh hoạt / ưu đãi cho khách hàng thân thiết
+1864: 
+1865: 
+1866: 
+1867: 
+1868: 
+1869: 
+1870: 
+1871: 
+1872: 
+1873: 
+1874: 
+1875: 
+1876: 
+1877: 
+1878: 
+1879: 
+1880: 
+1881: 
+1882: 
+1883: 
+1884: Nhóm 1: LIKE – Mong muốn & Giá trị cốt lõi
+1885: Mục tiêu: Xác định tính năng "Must-have" mà khách hàng quan tâm nhất.
+1886: Câu 1: Tính năng nào dưới đây khiến bạn cảm thấy cần thiết nhất ở một "Trợ lý phỏng vấn ảo"?
+1887: [ ] Phân tích Video (Ánh mắt, biểu cảm khuôn mặt) để biết mình có tự tin không.
+1888: [ ] Phân tích Giọng nói (Ngữ điệu, từ đệm à/ừ) để nói trôi chảy hơn.
+1889: [ ] Phân tích Nội dung (Gợi ý sửa câu trả lời cho hay hơn).
+1890: [ ] Phỏng vấn thử với áp lực cao (Stress Test) như thật.
+1891: Câu 2: Bạn thích phong cách "Hr advisor" như thế nào?
+1892: [ ] Nghiêm khắc, soi lỗi kỹ (như sếp khó tính).
+1893: [ ] Nhẹ nhàng, động viên và khích lệ.
+1894: [ ] Chuyên nghiệp, khách quan, chỉ đưa ra số liệu.
+1895: Câu 3: Điều gì sẽ khiến bạn "WOW" (ấn tượng mạnh) ngay lần đầu dùng ứng dụng?
+1896: [ ] AI hiểu và phản hồi ngay lập tức khi tôi vừa dứt lời (Real-time).
+1897: [ ] Báo cáo phân tích chỉ ra chính xác giây nào tôi bị lúng túng.
+1898: [ ] Giao diện giống hệt như đang gọi Video Call với người thật.
+1899: Câu 4: Nếu ứng dụng giúp bạn tăng tỷ lệ đậu phỏng vấn, bạn kỳ vọng tăng bao nhiêu %?
+1900: [ ] 10-20% là vui rồi.
+1901: [ ] Phải trên 50% tôi mới dùng.
+1902: [ ] Tôi chỉ cần nó giúp tôi bớt run, không quan trọng tỷ lệ đậu.
+1903: Nhóm 2: DISLIKE – Nỗi sợ & Rào cản
+1904: Mục tiêu: Tìm ra "Deal-breaker" (lý do khiến khách hàng từ chối).
+1905: Câu 5: Điều gì khiến bạn e ngại nhất khi phải bật Camera để AI phân tích?
+1906: [ ] Sợ bị lộ hình ảnh riêng tư/bảo mật.
+1907: [ ] Cảm thấy không thoải mái/ngượng ngùng khi nhìn mình trong video.
+1908: [ ] Không tin là AI có thể phân tích đúng cảm xúc của con người.
+1909: [ ] Không e ngại, tôi sẵn sàng bật.
+1910: Câu 6: Bạn ghét điều gì nhất ở các công cụ Chatbot/AI hiện nay?
+1911: [ ] Trả lời chung chung, máy móc (văn mẫu).
+1912: [ ] Phản hồi chậm, hay bị lag.
+1913: [ ] Không hiểu tiếng Việt chuyên ngành/tiếng lóng.
+1914: Câu 7: Rào cản lớn nhất khiến bạn chưa luyện tập phỏng vấn kỹ càng là gì?
+1915: [ ] Không có người hướng dẫn/feedback có tâm.
+1916: [ ] Lười, đến sát ngày mới lo.
+1917: [ ] Sợ đối diện với sự yếu kém của bản thân (Tâm lý né tránh).
+1918: Nhóm 3: ƯU / NHƯỢC ĐIỂM – Sản phẩm đang sử dụng
+1919: Mục tiêu: So sánh với các giải pháp thay thế hiện tại.
+1920: Câu 8: Hiện tại, bạn thường luyện phỏng vấn bằng cách nào?
+1921: [ ] Tự đứng trước gương.
+1922: [ ] Nhờ bạn bè/người thân đóng vai.
+1923: [ ] Tự ghi âm/quay video rồi xem lại.
+1924: [ ] Không luyện tập gì cả (Đến đâu hay đến đó).
+1925: Câu 9: Nhược điểm lớn nhất của phương pháp bạn đang dùng là gì?
+1926: [ ] Không nhận được đánh giá khách quan (Bạn bè thường khen xã giao).
+1927: [ ] Không biết mình sai ở đâu để sửa.
+1928: [ ] Không tạo được áp lực như phòng thi thật.
+1929: Câu 10: Bạn đã từng sử dụng app/web nào để hỗ trợ xin việc chưa? (Có thể chọn nhiều)
+1930: [ ] TopCV (Tạo CV).
+1931: [ ] ChatGPT (Viết mail/CV).
+1932: [ ] ELSA Speak (Luyện phát âm).
+1933: [ ] Chưa dùng gì cả.
+1934: Nhóm 4: MKT – Kênh tiếp cận & Tìm hiểu
+1935: Mục tiêu: Xác định kênh truyền thông hiệu quả (Touchpoints).
+1936: Câu 11: Bạn thường tìm kiếm mẹo/kỹ năng phỏng vấn ở đâu?
+1937: [ ] TikTok (Các kênh hướng nghiệp ngắn gọn).
+1938: [ ] Facebook Groups (Tuyển dụng, review công ty).
+1939: [ ] YouTube (Video hướng dẫn chi tiết).
+1940: [ ] Website của các công ty tuyển dụng (TopCV, VietnamWorks).
+1941: Câu 12: Ai là người có ảnh hưởng lớn nhất đến quyết định dùng thử ứng dụng của bạn?
+1942: [ ] KOC/Reviewer trên TikTok.
+1943: [ ] Các chuyên gia HR/Headhunter uy tín.
+1944: [ ] Bạn bè giới thiệu (Word of mouth).
+1945: [ ] Giảng viên/Nhà trường gợi ý.
+1946: Câu 13: Nội dung quảng cáo nào sẽ thu hút bạn click vào xem ngay?
+1947: [ ] "Bóc phốt" những lỗi sai ngớ ngẩn khi phỏng vấn.
+1948: [ ] Video demo AI "bắt bài" ứng viên nói dối.
+1949: [ ] Chia sẻ câu chuyện thành công (Case study) của người dùng thật.
+1950: Nhóm 5: SALES – Kênh bán & Hành vi mua
+1951: Mục tiêu: Tối ưu hóa kênh phân phối và trải nghiệm mua hàng.
+1952: Câu 14: Bạn muốn sử dụng HR Advisor trên nền tảng nào nhất?
+1953: [ ] Mobile App (Tiện lợi, luyện mọi lúc mọi nơi).
+1954: [ ] Web App trên Laptop (Màn hình rộng, giống bối cảnh phỏng vấn online thật).
+1955: Câu 15: Thời điểm bạn thường tìm đến công cụ hỗ trợ phỏng vấn là khi nào?
+1956: [ ] Ngay khi bắt đầu rải CV.
+1957: [ ] Chỉ khi nhận được lịch mời phỏng vấn (Nước đến chân mới nhảy).
+1958: [ ] Luyện tập hàng ngày để nâng cao kỹ năng (Dài hạn).
+1959: Câu 16: Bạn thích hình thức thanh toán nào?
+1960: [ ] Ví điện tử (Momo, ZaloPay).
+1961: [ ] Chuyển khoản ngân hàng (QR Code).
+1962: [ ] Cổng thanh toán App Store/Google Play.
+1963: Nhóm 6: PROMOTIONS – Khuyến mại & Giá
+1964: Mục tiêu: Xác định chiến lược giá và kích cầu.
+1965: Câu 17: Mức phí nào là hợp lý cho 1 tháng luyện tập không giới hạn?
+1966: [ ] Dưới 50.000đ (Bằng ly trà sữa).
+1967: [ ] 50.000đ - 99.000đ (Bằng gói TopCV Premium).
+1968: [ ] 100.000đ - 200.000đ (Bằng khóa học online).
+1969: Câu 18: Hình thức khuyến mại nào hấp dẫn bạn nhất?
+1970: [ ] Dùng thử miễn phí 3 ngày full tính năng.
+1971: [ ] Giảm giá 50% cho sinh viên (dùng email đuôi.edu).
+1972: [ ] Mua gói CV tặng gói Phỏng vấn (Bundle).
+1973: Câu 19: Bạn có sẵn lòng xem quảng cáo để được dùng miễn phí 1 lượt phỏng vấn/ngày không?
+1974: [ ] Có, tôi không muốn trả tiền.
+1975: [ ] Không, tôi ghét quảng cáo, tôi thà trả phí rẻ.
+1976: Nhóm 7: MORE_SALES – Quay lại & Trung thành
+1977: Mục tiêu: Tăng Customer Lifetime Value (CLV) và Retention.
+1978: Câu 20: Điều gì sẽ giữ chân bạn quay lại app mỗi ngày (kể cả khi chưa có lịch phỏng vấn)?
+1979: [ ] Tính năng Gamification (Tích điểm, đua top, nhận huy hiệu).
+1980: [ ] Thử thách "7 ngày lột xác" (Streak) với bài tập nhỏ hàng ngày.
+1981: [ ] Kho câu hỏi mới cập nhật liên tục theo xu hướng thị trường.
+1982: Câu 21: Sau khi đậu phỏng vấn, bạn có tiếp tục dùng app không?
+1983: [ ] Có, để luyện kỹ năng giao tiếp/thuyết trình công sở.
+1984: [ ] Có, để chuẩn bị cho đợt review lương/thăng chức.
+1985: [ ] Không, tôi sẽ xóa app.
+1986: Câu 22: Bạn có sẵn lòng giới thiệu app cho bạn bè nếu nhận được quà (Referral) không?
+1987: [ ] Có, chắc chắn.
+1988: [ ] Tùy xem app có thực sự tốt không đã.
+1989: Nhóm 8: MORE_MONEY – Gia tăng doanh số & Cross-sell
+1990: Mục tiêu: Tìm kiếm nguồn thu mới.
+1991: Câu 23: Ngoài luyện phỏng vấn, bạn có sẵn sàng trả tiền thêm cho dịch vụ nào?
+1992: [ ] Review CV chuyên sâu 1-1 với chuyên gia.
+1993: [ ] Kết nối hồ sơ trực tiếp với nhà tuyển dụng (Headhunting).
+1994: [ ] Tư vấn lộ trình nghề nghiệp/Định hướng.
+1995: Câu 24: Bạn nghĩ sao về tính năng "Chứng chỉ năng lực phỏng vấn" do AI cấp để đính kèm vào CV?
+1996: [ ] Rất giá trị, giúp tôi nổi bật hơn.
+1997: [ ] Bình thường, nhà tuyển dụng chắc gì đã tin.
+1998: 
+1999: Checkpoint1
+2000: 1) MARKET ANALYSIS– PHÂN TÍCH THỊ TRƯỜNG
+2001: 1.1 Quy mô và nhu cầu thị trường 
+2002: 
+2003: 1.1.1 Quy mô thị trường HR Tech & AI trong tuyển dụng tại Việt Nam
+2004: 
+2005: Theo báo cáo IMARC Group - Vietnam Recruitment Software Market Size, Share, Trends and Forecast by Deployment Model, Component, Enterprise Size, Vertical, and Region, 2025-2033. Thị trường phần mềm tuyển dụng ở Việt Nam (bao gồm AI) đạt khoảng 9,52 triệu USD vào năm 2024 và dự kiến tăng lên khoảng 14,57 triệu USD vào năm 2033, với tốc độ tăng trưởng kép hàng năm khoảng 4,84% giai đoạn 2025–2033. Tăng trưởng này phản ánh nhu cầu lớn từ doanh nghiệp để hiện đại hóa quy trình tuyển dụng
+2006:  
+2007: 
+2008: Trong bối cảnh thị trường lao động Việt Nam ngày càng cạnh tranh, phỏng vấn tuyển dụng không chỉ là thách thức đối với doanh nghiệp mà còn là rào cản lớn đối với sinh viên và người mới đi làm. Phần lớn ứng viên thiếu cơ hội luyện tập phỏng vấn trong môi trường mô phỏng sát thực tế, dẫn đến các lỗi phổ biến như tư thế chưa chuyên nghiệp, ánh mắt thiếu tự tin, cử chỉ chưa phù hợp và cách trả lời câu hỏi còn rời rạc, thiếu logic. 
+2009: 
+2010: Tuy nhiên, theo tổng hợp từ các báo cáo thị trường của IMARC Group và phân tích xu hướng tuyển dụng từ LinkedIn Economic Graph, các giải pháp hiện có tại Việt Nam vẫn chủ yếu tập trung vào phân khúc doanh nghiệp và bộ phận HR, như hệ thống quản lý ứng viên (ATS), sàng lọc CV tự động hoặc phỏng vấn video một chiều. Những giải pháp này được lựa chọn chủ yếu nhằm tối ưu chi phí và quy trình tuyển dụng, trong khi các công cụ AI hướng đến cá nhân – đặc biệt là sinh viên và người mới đi làm – với khả năng luyện phỏng vấn trực tiếp, phân tích tư thế, ánh mắt, cử chỉ và logic trả lời câu hỏi vẫn chưa hình thành một phân khúc thị trường rõ ràng.
+2011: 
+2012: Từ góc độ nghiên cứu thị trường, sự kết hợp giữa quy mô thị trường tuyển dụng đang tăng trưởng, nhu cầu luyện tập phỏng vấn lặp lại cao của cá nhân và cấu trúc cạnh tranh chưa phân hóa sâu ở phân khúc AI huấn luyện phỏng vấn B2C cho thấy thị trường Việt Nam vẫn còn dư địa đáng kể cho các giải pháp mới. Đặc biệt, các sản phẩm AI mang lại giá trị gia tăng cao thông qua trải nghiệm người dùng, phản hồi trực quan và cá nhân hóa theo từng ứng viên có tiềm năng trở thành một phân khúc độc lập. Đây chính là khoảng trống mà các startup với mô hình AI luyện phỏng vấn khác biệt có thể khai thác để từng bước tham gia thị trường và mở rộng thị phần.
+2013: 
+2014: Tại Việt Nam, xu hướng ứng dụng AI trong tuyển dụng đang bắt đầu tăng trưởng nhưng vẫn ở giai đoạn đầu so với các thị trường phát triển:
+2015: Theo khảo sát tại hội nghị HR Summit 2024, 41% doanh nghiệp Việt Nam sử dụng Generative AI trong tuyển dụng và quản lý nhân sự, trong đó nhiều công ty đã dùng AI để hỗ trợ tạo mô tả công việc, đăng tin tuyển dụng, sàng lọc CV — và 6,6% bắt đầu ứng dụng AI cho phỏng vấn qua chatbot.
+2016: Mức độ ứng dụng AI hiện còn tập trung ở các tác vụ tự động hóa và giảm tải công việc lặp lại, nhưng việc dùng AI để đánh giá toàn diện biểu cảm/ngôn ngữ cơ thể hoặc huấn luyện phỏng vấn tương tác cho ứng viên vẫn chưa phổ biến.
+2017: Một báo cáo khác chỉ ra rằng 73% doanh nghiệp tại Việt Nam tích hợp AI vào ít nhất một quy trình vận hành, dù niềm tin vào kết quả AI vẫn còn thận trọng. 
+2018: Source: IMARC GROUP
+2019:               THITRUONGTAICHINHKINHTEVN
+2020: 1.1.3 Khoảng trống trong xu hướng AI vào tuyển dụng và phỏng vấn
+2021: Một trong những động lực quan trọng thúc đẩy xu hướng ứng dụng AI trong tuyển dụng và phỏng vấn đến từ việc AI được xem như công cụ hiệu quả giúp doanh nghiệp giảm tải các tác vụ thủ công, rút ngắn thời gian tuyển dụng và nâng cao độ chính xác trong lựa chọn ứng viên. Các khảo sát toàn cầu cho thấy AI không chỉ được nhiều tổ chức dùng để tự động hóa các bước sơ bộ như lọc CV và tìm ứng viên phù hợp, mà còn bắt đầu được áp dụng trong phỏng vấn sơ khảo và đánh giá ứng viên qua video hoặc chatbot ở các thị trường tiên tiến. Ví dụ, kết quả khảo sát của TestGorilla tại Hoa Kỳ và Anh cho thấy khoảng 21% các tổ chức đã sử dụng AI tạo sinh trong các cuộc phỏng vấn sơ khảo, trong khi 70% nhà tuyển dụng sử dụng AI ở ít nhất một bước của quy trình tuyển dụng.
+2022: Tuy nhiên, trên thực tế, phần lớn các giải pháp AI hiện nay vẫn tập trung vào hỗ trợ doanh nghiệp (B2B), như tự động sàng lọc hồ sơ, chatbot trả lời ứng viên hoặc phỏng vấn sơ bộ mang tính trình tự. Ở giai đoạn hiện tại, các công cụ này phần lớn dừng ở mức thu thập và phân loại dữ liệu ứng viên, chứ chưa cung cấp đầy đủ các tính năng giúp người ứng viên luyện tập phỏng vấn tương tác, nhận phản hồi chi tiết về biểu cảm, tư thế, ánh mắt và logic trả lời, vốn là những yếu tố quyết định thành công trong phỏng vấn thật.
+2023: Sự chênh lệch này tạo ra một nghịch lý rõ rệt: trong khi nhu cầu về kỹ năng phỏng vấn và tương tác của ứng viên ngày càng tăng, và AI đã được ứng dụng rộng rãi để hỗ trợ doanh nghiệp tuyển dụng, thị trường vẫn thiếu các giải pháp AI hướng trực tiếp đến cá nhân (B2C) để luyện kỹ năng trước khi phỏng vấn thật. Điều này đặc biệt rõ ở các kỹ năng mềm và hành vi phi ngôn ngữ  những yếu tố mà AI sơ khởi hiện tại chưa phân tích sâu trên nền tảng ứng dụng rộng.
+2024: Từ góc độ nghiên cứu thị trường, có thể kết luận rằng thị trường AI cho phỏng vấn tại Việt Nam và toàn cầu chưa bị bão hòa về giải pháp, mà mới chỉ tập trung vào các tính năng hỗ trợ nội bộ của doanh nghiệp. Điều này tạo ra khoảng trống rõ rệt cho các giải pháp AI huấn luyện phỏng vấn cho cá nhân  cho phép ứng viên luyện tập phỏng vấn một-một với AI, nhận phản hồi chi tiết về kỹ năng giao tiếp, tư thế cơ thể và logic trả lời câu hỏi  và từ đó nâng cao cơ hội thành công khi tham gia phỏng vấn thực tế.
+2025: Source: AIFIRST 
+2026: 
+2027: SWOT ANALYSIS
+2028: STRENGTHS (Điểm mạnh):
+2029: Có tính năng mới: Là nền tảng Multimodal AI mô phỏng video call 1-1, vượt xa các chatbot text truyền thống.
+2030: Phân tích cải tiến so với các nền tảng khác: Khả năng đánh giá cả phi ngôn ngữ (biểu cảm, tư thế) và ngôn từ tạo ra giá trị khác biệt rất lớn.
+2031: WEAKNESSES (Điểm yếu):
+2032: Thương hiệu mới: Chưa có độ nhận diện cao so với các "ông lớn" như TopCV hay VietnamWorks.
+2033: Dữ liệu huấn luyện ban đầu: Cần lượng dữ liệu lớn để AI hiểu sâu sắc các đặc thù ngành nghề khác nhau tại VN.
+2034: Rào cản tâm lý: Một bộ phận người dùng vẫn còn e dè hoặc chưa tin tưởng hoàn toàn vào đánh giá của AI.
+2035: Nguồn lực hạn chế: tiền chi trả cho máy chủ lớn, 
+2036: OPPORTUNITIES (Cơ hội):
+2037: Khoảng trống thị trường: Phân khúc B2C (luyện phỏng vấn cá nhân) chưa có đối thủ thống trị rõ ràng tại Việt Nam.
+2038: Nhu cầu cấp bách: Gen Z đang gia nhập lực lượng lao động với nhu cầu cao về công nghệ và sự thiếu hụt kỹ năng mềm trầm trọng.
+2039: Xu hướng HR Tech: Doanh nghiệp Việt đang chuyển đổi số mạnh mẽ
+2040: THREATS (Thách thức):
+2041: Sự gia nhập của đối thủ lớn: Các nền tảng như TopCV, LinkedIn hoặc Google có thể cập nhật tính năng tương tự nhờ nguồn lực khổng lồ.
+2042: Tốc độ thay đổi công nghệ: AI phát triển quá nhanh đòi hỏi dự án phải liên tục cập nhật để không bị lạc hậu.
+2043: Vấn đề bảo mật dữ liệu: Việc xử lý dữ liệu khuôn mặt và giọng nói nhạy cảm đòi hỏi các tiêu chuẩn bảo mật khắt khe.
+2044: Định kiến tuyển dụng: Một số nhà tuyển dụng truyền thống có thể không chấp nhận kết quả đánh giá từ AI.
+
+2045: Tab 11
+2046: 1) Ô TRÁI TRÊN — Brand name
+2047: InterviewPro – Mentor Ảo
+
+2048: TV: Trợ lý phỏng vấn | TA: HR Advisor
+
+2049: “Multimodal AI luyện phỏng vấn video call real-time đầu tiên tại VN”
+
+2050: 2) Ô TRÁI GIỮA — Quality level
+2051: Trải nghiệm phỏng vấn 1–1 như nhà tuyển dụng thật (roleplay/stress)
+
+2052: Feedback định lượng: điểm số + chỉ số hành vi/câu trả lời
+
+2053: Hỗ trợ tiếng Việt tốt (STT/TTS), UI hiện đại, dễ dùng
+
+2054: 3) Ô PHẢI GIỮA — Features
+2055: Phỏng vấn video 1–1 với AI theo vị trí + CV + JD (cá nhân hoá)
+
+2056: Stress interview / hỏi xoáy sâu, mô phỏng áp lực thật
+
+2057: Phân tích phi ngôn ngữ: ánh mắt, biểu cảm, tư thế, giọng nói
+
+2058: Chấm điểm & gợi ý cải thiện logic trả lời
+
+2059: (Mở rộng) Chấm/sửa CV + quiz hướng nghiệp
+
+2060: 
+2061: AUGMENTED PRODUCT (vòng xanh) – 3 ô liên quan
+2062: 4) Ô TRÁI DƯỚI — Installation
+2063: Web app chạy trên trình duyệt (PC/mobile) → không cần cài đặt nặng
+
+2064: Onboarding nhanh: tạo hồ sơ → upload CV/JD → cấp quyền camera/mic
+
+2065: Tự cấu hình phiên phỏng vấn theo mục tiêu (job/level/ngôn ngữ)
+
+2066: 5) Ô PHẢI TRÊN — After-sale service
+2067: Dashboard theo dõi tiến bộ, so sánh các lần phỏng vấn
+
+2068: Lộ trình luyện tập cá nhân hoá + gợi ý bài luyện theo điểm yếu
+
+2069: Cơ chế động lực: “top user” có cơ hội gặp nhà tuyển dụng/thực chiến
+
+2070: 6) Ô PHẢI DƯỚI — Warranty
+2071: Cam kết cập nhật bộ câu hỏi & rubric chấm theo thị trường VN
+
+2072: Hỗ trợ kỹ thuật cho gói trả phí (SLA cơ bản), xử lý lỗi/gián đoạn
+
+2073: Quyền riêng tư: người dùng kiểm soát & xoá dữ liệu (video/voice) theo chính sách
+2074: 
+2075: form câu hỏi câu trả lời CP2
+2076: Dự án: HR Advisor – Trợ lý phỏng vấn ảo ứng dụng AI
+2077: PHẦN 	1 – THÔNG TIN NỀN (Persona)
+2078: Chào bạn, mình là Sâ, Huyền, Hiệp, Quyết, đại diện nhóm đang nghiên cứu phát triển ứng dụng HR Advisor – một trợ lý phỏng vấn ảo ứng dụng AI giúp sinh viên và người đi làm luyện tập trước khi đi phỏng vấn.
+2079: Buổi trao đổi này kéo dài khoảng 10–15 phút. Tất cả thông tin chỉ phục vụ cho mục đích học tập và nghiên cứu, hoàn toàn bảo mật.
+ Mình mong bạn chia sẻ thật thoải mái và thẳng thắn nhé.
+2080: Trước tiên, bạn có thể giới thiệu một chút về bản thân và tình trạng tìm việc hiện tại của bạn không?
+2081: “Chào bạn, mình là …Hà…, …22… tuổi, hiện là sinh viên năm -4 ngành  digital mkt….. Hiện tại mình đang bắt đầu đi thực tập or đã đi thực tập về nên cũng tham gia khá nhiều vòng phỏng vấn. Từ đầu năm đến giờ mình đã phỏng vấn khoảng 2-3 công ty, nhưng mới chỉ đậu 1 chỗ.
+2082: Thực ra mỗi lần đi phỏng vấn mình đều khá lo lắng, trải nghiệm của mình khá khác nhau tùy công ty, nhưng điểm chung là mình luôn cảm thấy hơi hồi hộp, nhất là khi gặp câu hỏi tình huống hoặc câu hỏi bất ngờ. Dù chuẩn bị trước nhưng khi vào phòng thì mình vẫn bị run và nói không được trôi chảy. Vì vậy mình cũng bắt đầu tìm hiểu các công cụ AI hỗ trợ luyện phỏng vấn để cải thiện bản thân.”
+2083: Khi chuẩn bị phỏng vấn, bạn thường làm gì?
+2084: Mình thường lên Google tìm các câu hỏi phổ biến, xem TikTok hoặc YouTube để xem người khác chia sẻ kinh nghiệm. Thỉnh thoảng mình cũng nhờ ChatGPT gợi ý cách trả lời. Tuy nhiên mình ít khi luyện nói thành tiếng, nên khi vào phỏng vấn thật thì vẫn bị vấp
+2085: 
+2086: Theo bạn, yếu tố nào quan trọng nhất khi đi phỏng vấn?
+2087: Theo mình là sự tự tin như lúc trả lời không bị vấp và cách trình bày mạch lạc. Có thể mình có kinh nghiệm, nhưng nếu mình không truyền đạt tốt thì nhà tuyển dụng cũng khó đánh giá đúng năng lực của mình
+2088: 
+2089: PHẦN 1 – EXPECTATIONS (KỲ VỌNG CHUNG)
+2090: Khi nghe đến “Trợ lý phỏng vấn ảo ứng dụng AI”, bạn hình dung nó sẽ như thế nào?
+2091: “Mình hình dung đó là một ứng dụng giống như một người phỏng vấn giả lập. Mình sẽ bật camera và micro lên, trả lời câu hỏi và AI sẽ phân tích cách mình nói, nội dung mình trả lời và đưa ra nhận xét.
+2092: Mình mong nó giống như đang nói chuyện với một HR thật chứ không chỉ là chatbot hỏi – đáp đơn thuần.”
+2093: Khi nghĩ đến ứng dụng này, bạn kỳ vọng điều gì nhất?
+2094: Điều mình kỳ vọng nhất là nó giúp mình biết rõ mình đang sai ở đâu.
+2095: Ví dụ: mình nói quá dài, dùng nhiều từ đệm như ‘ờm’, ‘à’, hoặc ánh mắt thiếu tự tin. Nếu AI chỉ ra được những điểm đó một cách cụ thể thì mình sẽ thấy rất hữu ích. 
+2096: Phân tích giọng nói hay biểu cảm cũng hay, nhưng nếu nội dung không tốt thì mình nghĩ vẫn khó đậu.
+2097: 
+2098: Bạn mong muốn phong cách của “Hr advisor” như thế nào?
+2099: “Mình không thích kiểu động viên quá nhiều. Nếu chỉ nói ‘bạn làm tốt rồi’ thì mình không cải thiện được.
+2100: Mình thích phong cách chuyên nghiệp và khách quan, có số liệu cụ thể. Ví dụ: 
+2101: – Bạn dùng 5 lần từ ‘ờm’ trong 1 phút. 
+2102: – Bạn có 3 giây im lặng khi gặp câu hỏi khó.
+2103: Những con số như vậy làm mình nhận ra vấn đề rõ ràng hơn.Tuy nhiên, cũng không nên quá nghiêm khắc khiến mình cảm thấy bị ‘chấm điểm’ như đi thi. Mình muốn cảm giác là đang được huấn luyện, chứ không bị đánh giá.
+2104: Theo bạn, ứng dụng này giải quyết vấn đề gì?
+2105: Theo mình, nó giải quyết vấn đề thiếu người feedback.
+2106: Sinh viên như mình không phải ai cũng có mentor hoặc anh chị hướng dẫn. Bạn bè thì thường góp ý chưa đủ sâu hoặc chỉ khen cho vui.
+2107: Nếu có AI đóng vai trò phản hồi khách quan thì mình nghĩ sẽ giúp rất nhiều
+2108: 
+2109: Điều gì khiến bạn sẵn sàng dùng thử?
+2110: Nếu có bản dùng thử miễn phí và trải nghiệm giống thật, ví dụ có báo cáo chi tiết sau mỗi lần luyện tập, thì mình sẽ sẵn sàng thử.
+2111: Ngoài ra, nếu thấy nhiều người review tích cực hoặc có chuyên gia HR giới thiệu thì mình càng tin tưởng hơn.
+2112: 
+2113: Điều gì khiến bạn không muốn dùng?
+2114: Mình lo về bảo mật khi bật camera.
+2115: Ngoài ra nếu AI trả lời quá máy móc, hoặc phản hồi chung chung như ‘bạn cần cải thiện kỹ năng giao tiếp’ mà không nói rõ cụ thể thì mình sẽ thấy không đáng dùng
+2116: 
+2117:  STEP 1 – CONSIDER (Nhận biết & tò mò)
+2118: 
+2119: 
+2120: Trước đây bạn đã từng nghe đến công cụ luyện phỏng vấn bằng AI chưa?
+2121: Mình từng thấy một vài quảng cáo trên TikTok và Facebook, nhưng chưa dùng thử bao giờ. Lúc đó mình chỉ nghĩ là khá hay nhưng chưa thật sự tin tưởng
+2122: 
+2123: Điều gì khiến bạn chú ý khi lần đầu nghe đến ý tưởng này?
+2124: Mình chú ý vì hiện tại AI đang được dùng rất nhiều. Nếu AI có thể phân tích video và giọng nói thì nghe khá thú vị.
+2125: Nhưng mình vẫn nghi ngờ là nó có đủ thông minh để hiểu cảm xúc con người hay không
+2126: 
+2127: Ấn tượng đầu tiên của bạn là gì?
+2128: Tò mò nhưng chưa hoàn toàn tin tưởng.
+2129: Mình nghĩ trong đầu là ‘không biết có thực sự hiệu quả không hay chỉ là marketing
+2130: 
+2131:  STEP 2 – EXPLORE (Tìm hiểu)
+2132: Khi bắt đầu tìm hiểu về công cụ AI này, thông tin đầu tiên bạn muốn biết là gì? Vì sao những thông tin đó lại quan trọng với bạn?
+2133: “Khi mình bắt đầu tìm hiểu, điều đầu tiên mình quan tâm là AI này hoạt động dựa trên tiêu chí nào và cách nó phân tích ra sao. Ví dụ như khi mình nộp CV hoặc trả lời một câu hỏi phỏng vấn giả lập, thì AI sẽ đánh giá dựa trên nội dung, từ khóa, cấu trúc câu trả lời, hay là dựa trên giọng nói, thái độ và cách diễn đạt?
+2134: Mình cũng muốn biết liệu kết quả phân tích có cụ thể và chi tiết không, hay chỉ đưa ra nhận xét chung chung như ‘cần cải thiện’ hoặc ‘trả lời chưa tốt’. Nếu chỉ là những nhận xét chung chung thì mình nghĩ sẽ không giúp ích nhiều. Nhưng nếu có báo cáo rõ ràng, ví dụ chỉ ra điểm mạnh, điểm yếu, gợi ý cách sửa từng phần và thậm chí có ví dụ minh họa câu trả lời tốt hơn, thì mình sẽ cảm thấy công cụ này thực sự có giá trị.
+2135: Ngoài ra, mình cũng quan tâm đến mức độ cá nhân hóa. Tức là AI có điều chỉnh theo từng ngành nghề khác nhau không, hay tất cả mọi người đều nhận một kiểu đánh giá giống nhau. Vì mỗi ngành sẽ có yêu cầu khác nhau nên mình muốn biết công cụ này có đủ ‘thông minh’ để hiểu điều đó không.”
+2136: 
+2137: Bạn thường tìm thông tin ở đâu?
+2138: “Thường thì mình không vào website chính thức ngay lập tức. Mình hay xem TikTok hoặc Facebook trước, đặc biệt là các video review hoặc chia sẻ trải nghiệm thực tế của người dùng. Vì mình cảm thấy những nền tảng đó cho mình cái nhìn nhanh và trực quan hơn.
+2139: Nếu mình thấy có nhiều người nhắc đến, nội dung review có vẻ chân thật, không quá quảng cáo, thì mình mới bắt đầu quan tâm nghiêm túc hơn. Lúc đó mình sẽ vào website chính thức để đọc kỹ các thông tin chi tiết hơn như tính năng, bảng giá, chính sách bảo mật, hoặc các câu hỏi thường gặp.
+2140: Điều gì khiến bạn yên tâm hơn trong quá trình tìm hiểu?
+2141: “Điều khiến mình yên tâm nhất là có demo thực tế. Ví dụ như một video quay màn hình quá trình AI phân tích một câu trả lời phỏng vấn cụ thể, rồi chỉ ra nó đánh giá như thế nào. Khi mình thấy quy trình rõ ràng như vậy, mình sẽ cảm giác đây là một hệ thống thật sự hoạt động chứ không phải chỉ quảng cáo.
+2142: Mình cũng quan tâm đến đánh giá từ những người có chuyên môn, ví dụ như HR hoặc mentor nghề nghiệp. Nếu họ xác nhận rằng công cụ này phân tích khá sát với thực tế phỏng vấn thì mình sẽ tin tưởng hơn.
+2143: Tóm lại, mình cần thấy bằng chứng cụ thể và trải nghiệm thật, chứ không chỉ là lời quảng cáo. Khi có demo, case study và review chân thực, mình sẽ cảm thấy đủ tin tưởng để chuyển sang bước tiếp theo
+2144:  STEP 3 – COMPARE (So sánh)
+2145: Bạn sẽ so sánh ứng dụng này với gì?
+2146: “Mình sẽ so sánh với việc tự luyện trước gương hoặc dùng ChatGPT.
+2147: Trước khi quyết định dùng, chắc chắn mình sẽ đem ứng dụng này so sánh với những cách mình đang quen sử dụng, ví dụ như tự luyện nói trước gương hoặc dùng ChatGPT để đặt câu hỏi và tự trả lời.
+2148: Mình sẽ tự hỏi: điểm khác biệt thực sự ở đâu? Nó có phân tích sâu hơn không? Có đánh giá được, ngôn ngữ cơ thể hay mức độ tự tin của mình không? Nếu chỉ dừng lại ở mức phân tích nội dung văn bản chung chung  giống ChatGPT thì mình nghĩ mình vẫn có thể tự làm miễn phí.
+2149: 
+2150: Điểm mạnh hơn so với cách luyện truyền thống?
+2151: Nếu nhìn ở góc độ tích cực, mình nghĩ điểm mạnh lớn nhất của AI là tính khách quan và khả năng đưa ra số liệu cụ thể. Khi mình tự luyện trước gương, mình thường chỉ dựa vào cảm giác cá nhân nên đôi khi không nhận ra lỗi của mình. Còn khi nhờ bạn bè góp ý thì nhận xét có thể mang tính chủ quan hoặc nể nang.
+2152: Trong khi đó, nếu AI có thể đưa ra các chỉ số rõ ràng như tốc độ nói bao nhiêu từ mỗi phút, tần suất dùng từ đệm, mức độ phù hợp với mô tả công việc, hay thậm chí chấm điểm từng tiêu chí, thì mình sẽ cảm thấy việc luyện tập có cơ sở hơn.
+2153: Điểm yếu có thể là gì?
+2154: Điều mình lo nhất có lẽ là giá cả và vấn đề bảo mật. Nếu mức giá quá cao so với khả năng chi trả của sinh viên như mình, thì dù tính năng tốt mình cũng sẽ phải cân nhắc rất kỹ.
+2155: Bên cạnh đó, vì công cụ này liên quan đến CV, thông tin cá nhân và có thể là cả dữ liệu giọng nói, nên mình sẽ quan tâm đến việc dữ liệu đó được lưu trữ và sử dụng như thế nào. Nếu không có cam kết rõ ràng về bảo mật thì mình sẽ cảm thấy khá e ngại.
+2156: Ngoài ra, trải nghiệm sử dụng cũng rất quan trọng. Nếu ứng dụng bị lag, xử lý chậm, hoặc đưa ra những nhận xét mà mình cảm thấy không chính xác, không sát với thực tế, thì mình sẽ thất vọng. Vì khi đó mình sẽ có cảm giác AI không thực sự ‘hiểu’ mình. Và nếu mình đã trả phí mà nhận lại trải nghiệm như vậy thì mình có thể sẽ ngừng sử dụng ngay.
+2157:  STEP 4 – TEST / TRY (Dùng thử)
+2158: Nếu được dùng thử lần đầu, bạn mong trải nghiệm như thế nào?
+2159: “Mình mong buổi luyện tập giống thật, có câu hỏi ngẫu nhiên và thời gian suy nghĩ giới hạn.Ví dụ cho mình 30 giây để chuẩn bị và 1–2 phút để trả lời, giống như trong phỏng vấn thật. Vì nếu không có áp lực thời gian, mình sẽ dễ nói dài dòng hoặc chỉnh sửa liên tục, trong khi thực tế thì mình không có cơ hội đó.
+2160: Mình cũng mong giao diện đơn giản, dễ sử dụng, không quá phức tạp. Lần đầu dùng mà phải mất quá nhiều thời gian để tìm hiểu cách hoạt động thì mình sẽ dễ nản. Một trải nghiệm mượt, rõ ràng từng bước sẽ khiến mình cảm thấy chuyên nghiệp và tin tưởng hơn.
+Sau khi kết thúc, mình muốn nhận được báo cáo: điểm mạnh, điểm yếu, đề xuất cải thiện.”
+2161: Điều gì khiến bạn cảm thấy hài lòng?
+2162: “Nếu mình thấy rõ tiến bộ sau vài lần luyện.
+Ví dụ lần đầu mình bị 10 lỗi từ đệm, lần sau chỉ còn 4–5 lỗi, thì mình sẽ thấy rất có động lực.””
+2163:  STEP 5 – BUY & SHARE (Mua lại & lan tỏa)
+2164: Bạn có sẵn sàng trả phí không?
+2165: “Nếu giá khoảng 50.000–99.000đ/tháng và thực sự hiệu quả thì mình sẵn sàng.”
+2166: Điều gì khiến bạn chỉ dùng một lần?
+2167: Nếu sau lần sử dụng đầu tiên mình cảm thấy phản hồi quá chung chung, ví dụ chỉ nhận được những nhận xét kiểu như ‘bạn cần tự tin hơn’, ‘câu trả lời chưa đủ sâu’ mà không có hướng dẫn cụ thể để cải thiện, thì mình sẽ cảm thấy hơi thất vọng.
+2168: Bạn có sẵn sàng giới thiệu cho bạn bè không?
+2169: “Nếu mình cảm thấy app thực sự giúp ích thì mình sẵn sàng giới thiệu.
+Nhưng nếu chỉ ở mức bình thường thì mình sẽ không chủ động chia sẻ.”
+2170: CẢM NHẬN CHUNG SAU PHỎNG VẤN
+2171: “Mình nghĩ trợ lý phỏng vấn AI là ý tưởng rất phù hợp với sinh viên hiện nay.
+Tuy nhiên, yếu tố quyết định là độ chính xác, tính cá nhân hóa và cảm giác ‘thật’.
+Nếu làm tốt những điều đó, mình tin nhiều sinh viên sẽ xem đây là công cụ hỗ trợ quan trọng trước mỗi vòng phỏng vấn.”
+2172: 
+2173: câu hỏi pv
+2174: Câu hỏi cho sinh viên
+2175: DỰ ÁN: HR Advisor – Trợ lý phỏng vấn ảo ứng dụng AI
+2176: 
+2177: PHẦN 1 – THÔNG TIN NỀN (Persona)
+2178: Trước tiên, bạn có thể giới thiệu một chút về bản thân và tình trạng tìm việc hiện tại của bạn không?
+
+2179: Khi chuẩn bị phỏng vấn, bạn thường làm gì?
+
+2180: Theo bạn, yếu tố nào quan trọng nhất khi đi phỏng vấn?
+
+2181: 
+2182: PHẦN 2 – EXPECTATIONS (Kỳ vọng chung)
+2183: Khi nghe đến “Trợ lý phỏng vấn ảo ứng dụng AI”, bạn hình dung nó sẽ như thế nào?
+
+2184: Khi nghĩ đến ứng dụng này, bạn kỳ vọng điều gì nhất?
+
+2185: Bạn mong muốn phong cách của “Hr advisor” như thế nào?
+
+2186: Theo bạn, ứng dụng này giải quyết vấn đề gì?
+
+2187: Điều gì khiến bạn sẵn sàng dùng thử?
+
+2188: Điều gì khiến bạn không muốn dùng?
+
+2189: 
+2190: STEP 1 – CONSIDER (Nhận biết & tò mò)
+2191: Trước đây bạn đã từng nghe đến công cụ luyện phỏng vấn bằng AI chưa?
+
+2192: Điều gì khiến bạn chú ý khi lần đầu nghe đến ý tưởng này?
+
+2193: Ấn tượng đầu tiên của bạn là gì?
+
+2194: 
+2195: STEP 2 – EXPLORE (Tìm hiểu)
+2196: Khi bắt đầu tìm hiểu về công cụ AI này, thông tin đầu tiên bạn muốn biết là gì? Vì sao những thông tin đó lại quan trọng với bạn?
+
+2197: Bạn thường tìm thông tin ở đâu?
+
+2198: Điều gì khiến bạn yên tâm hơn trong quá trình tìm hiểu?
+
+2199: 
+2200: STEP 3 – COMPARE (So sánh)
+2201: Bạn sẽ so sánh ứng dụng này với gì?
+
+2202: Điểm mạnh hơn so với cách luyện truyền thống là gì?
+
+2203: Điểm yếu có thể là gì?
+
+2204: 
+2205: STEP 4 – TEST / TRY (Dùng thử)
+2206: Nếu được dùng thử lần đầu, bạn mong trải nghiệm như thế nào?
+
+2207: Điều gì khiến bạn cảm thấy hài lòng?
+
+2208: 
+2209: STEP 5 – BUY & SHARE (Mua lại & lan tỏa)
+2210: Bạn có sẵn sàng trả phí không?
+
+2211: Điều gì khiến bạn chỉ dùng một lần?
+
+2212: Bạn có sẵn sàng giới thiệu cho bạn bè không?
+
+2213: 
+2214: CẢM NHẬN CHUNG
+2215: Sau khi trao đổi, cảm nhận chung của bạn về ý tưởng “Trợ lý phỏng vấn ảo ứng dụng AI” là gì?
+2216: 
+2217: 
+2218: Câu hỏi cho HR
+2219: PHẦN 1 – THÔNG TIN NỀN (Persona HR)
+2220: Anh/chị có thể giới thiệu một chút về vị trí hiện tại và kinh nghiệm tuyển dụng của mình không?
+
+2221: Trung bình mỗi tháng/quý anh/chị tuyển dụng bao nhiêu vị trí?
+
+2222: Anh/chị thường tuyển các vị trí thuộc nhóm ngành nào? (Intern, Fresher, Junior, Senior…)
+
+2223: Những khó khăn lớn nhất anh/chị gặp phải trong quá trình phỏng vấn ứng viên là gì?
+
+2224: Theo anh/chị, lỗi phổ biến nhất của sinh viên/người đi làm khi tham gia phỏng vấn là gì?
+
+2225: 
+2226: PHẦN 2 – EXPECTATIONS (Kỳ vọng từ góc nhìn HR)
+2227: Khi nghe đến “Trợ lý phỏng vấn ảo ứng dụng AI dành cho ứng viên”, anh/chị hình dung công cụ này sẽ hoạt động như thế nào?
+
+2228: Theo anh/chị, nếu ứng viên sử dụng công cụ luyện phỏng vấn bằng AI trước khi tham gia phỏng vấn thật, điều đó có mang lại lợi ích gì không?
+
+2229: Anh/chị kỳ vọng điều gì nhất từ một công cụ giúp ứng viên luyện phỏng vấn?
+
+2230: Theo anh/chị, công cụ này có thể giải quyết vấn đề gì trong quá trình tuyển dụng hiện nay?
+
+2231: Anh/chị có lo ngại rằng AI có thể khiến câu trả lời của ứng viên trở nên “rập khuôn” hoặc thiếu tính chân thật không?
+
+2232: 
+2233: STEP 1 – CONSIDER (Nhận biết & Ấn tượng ban đầu)
+2234: Anh/chị đã từng nghe hoặc biết đến các công cụ AI hỗ trợ luyện phỏng vấn chưa?
+
+2235: Ấn tượng đầu tiên của anh/chị về ý tưởng này là gì?
+
+2236: Theo anh/chị, mức độ khả thi của việc AI đánh giá kỹ năng giao tiếp và thái độ ứng viên là như thế nào?
+
+2237: 
+2238: STEP 2 – EXPLORE (Tìm hiểu sâu)
+2239: Nếu tìm hiểu về một công cụ như vậy, anh/chị sẽ quan tâm đến những yếu tố nào trước tiên?
+
+2240: Anh/chị muốn biết AI đánh giá ứng viên dựa trên những tiêu chí nào?
+
+2241: Theo anh/chị, những tiêu chí nào là quan trọng nhất khi đánh giá một ứng viên trong buổi phỏng vấn?
+
+2242: Anh/chị có mong muốn công cụ này được xây dựng dựa trên khung đánh giá thực tế từ HR không?
+
+2243: Điều gì sẽ khiến anh/chị tin tưởng rằng hệ thống AI này đáng tin cậy? (ví dụ: có HR tham gia xây dựng, có dữ liệu thực tế, có case study…)
+
+2244: 
+2245: STEP 3 – COMPARE (So sánh & Đánh giá)
+2246: Theo anh/chị, công cụ luyện phỏng vấn bằng AI sẽ khác gì so với việc ứng viên tự luyện hoặc được mentor hướng dẫn trực tiếp?
+
+2247: Điểm mạnh tiềm năng của công cụ này trong mắt anh/chị là gì?
+
+2248: Điểm yếu hoặc rủi ro có thể xảy ra là gì?
+
+2249: Anh/chị có nghĩ rằng công cụ này có thể giúp tiết kiệm thời gian tuyển dụng bằng cách nâng cao chất lượng ứng viên đầu vào không?
+
+2250: 
+2251: STEP 4 – TEST / ỨNG DỤNG THỰC TẾ
+2252: Nếu công cụ này được triển khai rộng rãi, anh/chị có sẵn sàng hợp tác để đóng góp bộ câu hỏi phỏng vấn thực tế không?
+
+2253: Anh/chị có mong muốn nhận được báo cáo phân tích từ ứng viên trước buổi phỏng vấn thật không?
+
+2254: Theo anh/chị, báo cáo đó nên thể hiện những nội dung gì để thực sự hữu ích cho HR?
+
+2255: 
+2256: STEP 5 – HỢP TÁC & LAN TỎA
+2257: Anh/chị có sẵn sàng giới thiệu hoặc xác nhận chuyên môn cho một công cụ luyện phỏng vấn nếu thấy nó hiệu quả không?
+
+2258: Theo anh/chị, yếu tố quyết định thành công của một ứng dụng như vậy trên thị trường là gì?
+
+2259: Anh/chị có đề xuất hoặc góp ý gì để công cụ này thực sự sát với thực tế tuyển dụng?
+
+2260: 
+2261: persona background
+2262: 
+
+=== TABLE 0 ===
+Khía cạnh | Chi tiết mô tả
+Nỗi đau (Pain Points) | - Chưa tìm được công việc như ý.
+
+- Không có công cụ luyện tập tương tác thời gian thực (như các app học tiếng Anh).
+Mục tiêu (Goals) | - Luyện tập nhiều để hình thành phản xạ, tăng sự tự tin.
+
+- Cuộc phỏng vấn diễn ra trơn tru, thoải mái.
+
+- Nhận được góp ý khách quan, cụ thể và chi tiết.
+Hành vi (Behavior) | - Nghiên cứu rất kỹ công ty và JD trước khi phỏng vấn.
+
+- Hay đối chiếu, kiểm chứng thông tin (Cross-check) từ nhiều nguồn (Google, Facebook, Chatbot).
+
+- Ưu tiên sử dụng sản phẩm miễn phí.
+Rào cản (Frustrations) | - Sự hoài nghi cốt lõi: Không tin AI có thể bắt chước được kinh nghiệm, trực giác và cử chỉ của một HR thực thụ.
+
+- Minh bạch: Không hiểu cách AI vận hành, sợ AI khuyên sai.
+
+- Bảo mật: Lo ngại về an toàn thông tin cá nhân.
+
+- Hiệu năng: Rất ghét trải nghiệm giật, lag.
+
+=== TABLE 1 ===
+Persona | Mô tả
+Career-ready Student | Sinh viên năm cuối (21–23 tuổi), chuẩn bị ra trường hoặc đang tìm việc. Đã từng trượt phỏng vấn hoặc thiếu tự tin khi trả lời câu hỏi. Quan tâm đến công cụ hỗ trợ thông minh nhưng nhạy cảm với giá. So sánh với ChatGPT và cách tự luyện truyền thống trước khi quyết định trả phí.
+
+=== TABLE 2 ===
+Kỳ vọng chính | Chi tiết rút ra từ interview
+Phân tích rõ ràng | Báo cáo chi tiết, có điểm mạnh – điểm yếu – ví dụ cải thiện
+Tính khách quan | Có số liệu cụ thể ( từ đệm ờm ờ ừm dung bao nhiêu lần, cấu trúc trả lời sao cho logic nhất, thời gian trả lời )
+Mô phỏng thực tế | Câu hỏi ngẫu nhiên, có giới hạn thời gian
+Khác biệt với ChatGPT | Không chỉ là giao diện đẹp mà phải có phân tích sâu
+Giá hợp lý | Khoảng 50.000–99.000đ/tháng
+Bảo mật | An tâm về CV và dữ liệu giọng nói
+
+=== TABLE 3 ===
+ | CONSIDER | EXPLORE | COMPARE | TEST / TRY | BUY / SHARE
+Thời gian | 1–3 ngày | 3–7 ngày | 1–2 ngày | 1–2 lần dùng thử | Sau 2-3 tuần
+Actions | Thấy trên TikTok/FB
+Nghe bạn bè nhắc | Xem review
+Xem demo video
+Đọc website | So với ChatGPT
+So với tự luyện | Luyện phỏng vấn thử
+Nhận báo cáo | Quyết định trả phí
+Giới thiệu bạn bè
+Touchpoints | TikTok, Facebook, bạn bè | Website, video demo, review | So sánh trải nghiệm | Giao diện app | MXH cá nhân, nhóm sinh viên
+Thoughts | “AI này có thật sự hữu ích không?” | “Phân tích dựa trên tiêu chí gì?” | “Có khác ChatGPT không?” | “Báo cáo có sát thực tế không?” | “Mình có tiến bộ thật không?”
+Emotions | Tò mò | Quan tâm – thận trọng | Phân vân | Hồi hộp – kỳ vọng | Hài lòng hoặc thất vọng
+Pain Points | Chưa tin AI | Lo bảo mật | Không thấy khác biệt | Phản hồi chung chung | Giá cao
+
+=== TABLE 4 ===
+Persona | Mô tả
+AI-Adopting HR Specialist | Nữ, 28–35 tuổi, 8 năm kinh nghiệm tại FPT Software. Tuyển dụng 20–50 vị trí/tháng (Fresher đến Senior). Không chuyên sâu kỹ thuật nhưng chịu áp lực tuyển đúng người, đúng tiến độ dự án. Quan tâm ứng dụng AI nhưng thận trọng về độ tin cậy và rủi ro loại nhầm ứng viên. Quyết định chịu ảnh hưởng lớn từ bộ phận Technical (70%).
+
+=== TABLE 5 ===
+Kỳ vọng chính | Chi tiết rút ra từ interview
+Sàng lọc nhanh | Giảm tải đọc CV thủ công
+Đánh giá tư duy | Phân tích critical thinking, phản xạ tình huống
+Hỗ trợ kỹ thuật | So khớp câu trả lời với checklist dự án
+Nâng cao chất lượng ứng viên | Ứng viên trả lời sâu sắc, không cộc lốc
+Công cụ đồng hành | AI là assistant, không thay thế con người
+Độ tin cậy cao | Không loại nhầm ứng viên tiềm năng
+
+=== TABLE 6 ===
+ | CONSIDER (Nhận biết) | EXPLORE (Tìm hiểu) | COMPARE (So sánh) | TEST (Dùng thử / Pilot) | DECIDE / NEGOTIATE (Quyết định)
+Thời gian | 1–2 tuần | 2–4 tuần | 2–3 tuần | 1–2 tháng (pilot nội bộ) | Không cố định
+Actions | Nghe về xu hướng AI trong HR
+Thấy quảng cáo HR Advisor
+Được cấp trên gợi ý tìm hiểu | Xem demo sản phẩm
+Yêu cầu tài liệu chi tiết
+Hỏi đội Technical về matching checklist
+Tìm hiểu tính năng chống gian lận | So sánh với quy trình hiện tại
+So sánh với công cụ HR Tech khác
+Họp nội bộ với Technical Manager | Triển khai thử ở 1 nhóm vị trí (Fresher)
+So sánh kết quả AI với HR & Technical
+Đánh giá độ chính xác & tiết kiệm thời gian | Đề xuất lên quản lý
+Thương lượng giá B2B
+Xem xét hợp đồng & bảo mật dữ liệu
+Touchpoints | LinkedIn
+Facebook HR Group
+Hội thảo HR Tech
+Email nội bộ | Demo online
+Sales tư vấn
+Tài liệu sản phẩm
+Case study doanh nghiệp khác | Proposal
+Bảng giá
+Meeting nội bộ
+Feedback từ HR khác | Dashboard báo cáo
+Phản hồi từ Technical
+Phản hồi ứng viên | Hợp đồng
+Phòng IT & Procurement
+Ban lãnh đạo
+Thoughts / Quotes | “AI có giúp mình giảm tải CV không?”
+“Công ty đang định hướng AI, mình nên tìm hiểu.” | “AI matching với JD có chính xác không?”
+“Có phát hiện ứng viên học thuộc văn mẫu không?”
+“AI có đánh giá được soft skills không?” | “Có đáng thay đổi quy trình hiện tại không?”
+“Technical team có tin kết quả AI không?”
+“Có làm phức tạp thêm quy trình không?” | “AI có loại nhầm ứng viên tiềm năng không?”
+“Có tiết kiệm thời gian thật không?”
+“Ứng viên có chuẩn bị tốt hơn không?” | “Nếu giúp tăng chất lượng tuyển và giảm thời gian thì đáng triển khai.”
+“Quan trọng là AI hỗ trợ, không thay thế HR.”
+Emotions | Tò mò – nhưng hoài nghi | Thận trọng – phân tích kỹ | Cân nhắc – chịu áp lực trách nhiệm | Hồi hộp – đánh giá khách quan | Lý trí – thiên về hiệu quả tổ chức
+Pain Points | Chưa rõ độ tin cậy AI
+Lo AI thiếu yếu tố “con người” | Lo bỏ sót ứng viên giỏi
+Chưa rõ tích hợp quy trình hiện tại
+Thiếu minh chứng thực tế | Phụ thuộc 70% quyết định từ Technical
+Nguy cơ tăng độ phức tạp quy trình | Nếu AI sai 1–2 case quan trọng → mất niềm tin
+Ứng viên có thể dùng AI để đối phó | Ngân sách doanh nghiệp
+Bảo mật dữ liệu
+Cần sự đồng thuận nhiều phòng ban
+POSITIVE SOLUTIONS | • Nội dung truyền thông nhấn mạnh “AI Assistant”
+• Case study doanh nghiệp công nghệ | • Demo matching checklist thực tế
+• Minh bạch cơ chế chấm điểm
+• Tính năng phát hiện văn mẫu | • So sánh AI vs quy trình cũ bằng số liệu
+• Nhấn mạnh tích hợp mượt workflow | • Pilot miễn phí quy mô nhỏ
+• Dashboard so sánh AI – HR – Technical
+• Báo cáo minh b | 
+
+=== TABLE 7 ===
+Mẫu khảo sát (n) | 124 người trả lời
+Kinh nghiệm phỏng vấn | 1–3 lần: 76/123 (61.8%); Chưa từng: 19/123 (15.4%)
+Kênh tìm việc top | TopCV 69,1%; Facebook/Group việc làm 65,0%; LinkedIn 36,6% (đa chọn)
+Tần suất cập nhật CV | Chỉ khi cần tìm việc: 77,2%
+Cách luyện phổ biến | Tự nhẩm câu hỏi trên mạng: 62,6%; Nói trước gương: 46,3% (đa chọn)
+Giải pháp đã dùng | ChatGPT/Gemini để gợi ý câu trả lời hoặc sửa CV: 65,0% (đa chọn)
+Khó khăn với tool hiện tại | Thiếu tương tác thực tế: 56,9%; Feedback chung chung: 53,7%; Thiếu chiều sâu: 53,7% (đa chọn)
+Tính năng mong muốn ở Mentor AI | Vặn hỏi xoáy sâu: 62,6%; Chấm điểm & dự đoán tỷ lệ đậu: 60,2%; Chỉnh sửa câu trả lời: 59,3%; Soi lỗi cơ thể: 43,1% (đa chọn)
+Lead capture | Muốn nhận update: 75,6%
