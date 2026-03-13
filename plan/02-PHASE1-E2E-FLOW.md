@@ -179,14 +179,17 @@ Session = ENDED
 | Clarity | Diễn đạt mạch lạc, logic |
 | Confidence | Ít từ đệm, giọng rõ ràng |
 
-### Tiêu chí report cuối (0-100)
+### Tiêu chí report cuối — 5 phần (0-100, từ feedback thầy)
 
-| Category | Mô tả |
-|----------|--------|
-| Technical | Kiến thức chuyên môn, kỹ năng kỹ thuật |
-| Communication | Giao tiếp, diễn đạt, phong thái |
-| Problem-solving | Tư duy logic, giải quyết vấn đề |
-| Cultural Fit | Phù hợp văn hóa, thái độ |
+> **Thay đổi từ 4 tiêu chí cũ → 5 tiêu chí mới** (xem chi tiết `03-PHASE2` task 2.0 + `13-DEMO-PREPARATION-7MAR.md`)
+
+| Tiêu chí | Trọng số | Mô tả | Mạnh/Yếu |
+|----------|----------|--------|-----------|
+| Sự tự tin | 20% | Giọng nói rõ ràng, ít ngập ngừng, dám nêu quan điểm | ✓ mạnh + ✗ yếu + 💡 mẹo |
+| Kĩ năng giao tiếp | 25% | Diễn đạt mạch lạc, đúng trọng tâm, biết kể chuyện | ✓ mạnh + ✗ yếu + 💡 mẹo |
+| Giải quyết vấn đề | 20% | Tư duy logic, phân tích, đưa giải pháp cụ thể | ✓ mạnh + ✗ yếu + 💡 mẹo |
+| Chuyên môn | 25% | Kiến thức kỹ thuật, chiều sâu, ví dụ thực tế | ✓ mạnh + ✗ yếu + 💡 mẹo |
+| Thái độ & Growth | 10% | Tích cực, ham học, tự nhận thức | ✓ mạnh + ✗ yếu + 💡 mẹo |
 
 ### Report output — phải đảm bảo
 

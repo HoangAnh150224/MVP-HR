@@ -6,6 +6,85 @@
 > Insight CJM Stage 2: "Lỗi nhận diện giọng nói/độ trễ làm hội thoại đứt mạch → giảm cảm giác người thật"
 > Khảo sát: 90.2% kỳ vọng "giao tiếp tự nhiên giống người thật"
 > Moment of Truth: Session đầu tiên phải hoàn hảo — xem chi tiết tại `08-UX-STUDENT-B2C.md`
+>
+> **Feedback thầy (7/3/2026 demo)**:
+> - AI phải TRÒ CHUYỆN nâng cao, KHÔNG phỏng vấn cứng nhắc
+> - AI trả lời NGẮN (1-2 câu) như người phỏng vấn thật
+> - Hỏi ĐA DẠNG chủ đề: sở thích, thói quen, tình huống, thái độ (không chỉ kỹ thuật)
+> - AI tự điều chỉnh theo cách trả lời của ứng viên (adaptive)
+> - Xem kịch bản demo chi tiết: `13-DEMO-PREPARATION-7MAR.md`
+
+---
+
+## 3.A — Conversational AI Tuning (MỚI — từ feedback thầy, P0 cho demo)
+
+### Nghiệp vụ
+
+**Yêu cầu thầy**: AI phải demo như đang trò chuyện nâng cao, KHÔNG phải như phỏng vấn cứng. AI trả lời ít, hỏi theo câu trả lời ứng viên, đa dạng chủ đề.
+
+**Sinh viên (B2C)**:
+- AI hỏi 8-10 câu đa dạng: kỹ thuật + sở thích + thói quen + tình huống + thái độ
+- AI phản hồi NGẮN (1-2 câu) rồi hỏi tiếp — như người thật
+- AI KHÔNG đọc danh sách câu hỏi, mà dẫn dắt tự nhiên
+- AI hỏi follow-up dựa trên câu trả lời trước đó
+- AI điều chỉnh theo pattern ứng viên (trả lời ngắn → gợi mở, trả lời dài → tóm tắt)
+
+**Doanh nghiệp (B2B — future)**:
+- HR config chủ đề câu hỏi (bỏ bớt sở thích/thói quen, thêm chuyên môn)
+- Tương tự conversational nhưng formal hơn
+
+### Quy tắc AI conversational
+
+```
+❌ SAI (rigid):
+  AI: "Câu 1: Hãy giới thiệu bản thân"
+  User: "..."
+  AI: "Câu 2: Tại sao bạn muốn làm vị trí này?"
+
+✓ ĐÚNG (trò chuyện):
+  AI: "Chào bạn! Mình là Minh, hôm nay mình muốn trò chuyện
+       để hiểu hơn về bạn nhé. Kể qua về mình đi!"
+  User: "Dạ em tên Ngọc, SV năm cuối FPT, có làm React..."
+  AI: "Ồ React thú vị nhỉ! Ngoài code, bạn có sở thích gì vui không?"
+       ← NGẮN + PHẢN HỒI + DẪN DẮT TỰ NHIÊN
+```
+
+### Đa dạng chủ đề (10 câu hỏi mẫu)
+
+| Chủ đề | Ví dụ | Tiêu chí đánh giá |
+|--------|-------|-------------------|
+| Giới thiệu / Kinh nghiệm | "Kể về mình đi — đang làm gì?" | Giao tiếp, Tự tin |
+| Động lực tìm việc | "Tại sao muốn làm Frontend?" | Tự tin, Thái độ |
+| Sở thích cá nhân | "Ngoài code, giải trí kiểu gì?" | Giao tiếp |
+| Thói quen | "Thói quen hàng ngày? Có routine gì?" | Giao tiếp |
+| Chuyên môn (câu 1) | "Mạnh nhất ở đâu trong Frontend?" | Chuyên môn |
+| Chuyên môn (câu 2) | "Kể về dự án tự hào nhất?" | Chuyên môn |
+| Tình huống kỹ thuật | "Trang web load chậm, xử lý sao?" | Giải quyết vấn đề |
+| Tình huống teamwork | "Ai code style khác, bạn làm sao?" | GQVĐ + Thái độ |
+| Tự nhận thức | "Cần cải thiện gì nhất?" | Tự tin, Thái độ |
+| Kết thúc | "Bạn có câu hỏi gì muốn hỏi không?" | Tự tin, Giao tiếp |
+
+### AI Adaptive — Tự điều chỉnh theo ứng viên
+
+| Pattern ứng viên | AI phản ứng |
+|-------------------|-------------|
+| Trả lời ngắn (< 15s) | Gợi mở: "Kể thêm chút đi!" |
+| Trả lời dài (> 90s) | Summary: "OK hay lắm, vậy mình qua chủ đề khác nhé" |
+| Nhiều từ đệm | Nói chậm, tạo không khí thoải mái |
+| Trả lời chung chung | Hỏi cụ thể: "Cho mình 1 ví dụ?" |
+| Lo lắng/ngập ngừng | Khuyến khích: "Không sao, từ từ nhé!" |
+
+### Implementation
+
+**Sửa**: `voice-agent-service/src/agent.ts` — System prompt:
+- Thêm quy tắc conversational (trả lời ngắn, phản hồi trước, dẫn dắt tự nhiên)
+- Thêm 10 chủ đề cần cover (xem `13-DEMO-PREPARATION-7MAR.md`)
+- Thêm adaptive rules (gợi mở khi ngắn, tóm tắt khi dài)
+- Thêm: "KHÔNG đánh số câu hỏi, KHÔNG nói 'Câu hỏi tiếp theo'"
+
+**Sửa**: `voice-agent-service/src/geminiClient.ts` — Config Gemini:
+- Giảm response length (maxOutputTokens) để AI trả lời ngắn hơn
+- Tăng temperature nhẹ (0.8) cho trả lời tự nhiên hơn
 
 ---
 

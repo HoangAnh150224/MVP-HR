@@ -1,6 +1,9 @@
 # InterviewPro - Trạng thái dự án hiện tại
 
-> Cập nhật: 2026-02-27
+> Cập nhật: 2026-03-02
+>
+> **🔴 DEADLINE: Chủ Nhật 7/3/2026 — Demo cho thầy Thắng qua Zalo**
+> Xem chi tiết: `13-DEMO-PREPARATION-7MAR.md`
 
 ## Tổng quan kiến trúc
 
@@ -122,3 +125,19 @@ Browser (Next.js :3000)
 ### UX Design Documents
 → **B2C (Sinh viên)**: `plan/08-UX-STUDENT-B2C.md` — 13 màn hình chi tiết, cảm xúc user
 → **B2B (Doanh nghiệp)**: `plan/12-UX-BUSINESS-B2B.md` — HR dashboard, so sánh ứng viên
+
+### Demo Preparation
+→ **Demo deadline**: `plan/13-DEMO-PREPARATION-7MAR.md` — Kịch bản demo, 10 câu hỏi mẫu, rubric 5 tiêu chí
+
+## Feedback thầy (2/3/2026) — Tính năng mới cần thêm
+
+| Yêu cầu thầy | Vị trí trong plan | Status |
+|---------------|-------------------|--------|
+| AI trò chuyện tự nhiên (KHÔNG phỏng vấn cứng) | Phase 3 task 3.A + `13-DEMO` | Cần sửa system prompt |
+| 10 câu hỏi đa dạng (sở thích, thói quen, tình huống, thái độ) | `13-DEMO` §2 | Cần sửa system prompt |
+| AI trả lời ngắn (1-2 câu) | Phase 3 task 3.A | Cần sửa system prompt |
+| Chấm điểm 5 phần: tự tin, giao tiếp, GQVĐ, chuyên môn, thái độ | Phase 2 task 2.0 + `13-DEMO` §3 | Cần sửa scoring prompt |
+| Mạnh/yếu từng phần + mẹo | Phase 2 task 2.0 | Cần sửa scoring prompt |
+| AI tự điều chỉnh theo cách trả lời ứng viên | Phase 3 task 3.A | Cần sửa system prompt |
+| Nhúng biểu cảm khuôn mặt | Phase 2 task 2.4 | NOT DONE — vision aggregate |
+| Bộ câu trả lời mẫu | Phase 2 task 2.3 | Cần sửa scoring prompt |

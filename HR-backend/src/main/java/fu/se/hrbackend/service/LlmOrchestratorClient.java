@@ -33,12 +33,30 @@ public class LlmOrchestratorClient {
      * Returns raw JSON string of turn score.
      */
     public String scoreTurn(String question, String answer, String category, String difficulty) {
-        Map<String, String> body = Map.of(
-                "question", question,
-                "answer", answer,
-                "category", category != null ? category : "general",
-                "difficulty", difficulty != null ? difficulty : "mid"
-        );
+        return scoreTurn(question, answer, category, difficulty, null);
+    }
+
+    /**
+     * Score a single turn with KB context (sample answers + rubric).
+     */
+    public String scoreTurn(String question, String answer, String category, String difficulty,
+                            Map<String, Object> kbScoringContext) {
+        Map<String, Object> body = new java.util.HashMap<>();
+        body.put("question", question);
+        body.put("answer", answer);
+        body.put("category", category != null ? category : "general");
+        body.put("difficulty", difficulty != null ? difficulty : "mid");
+        if (kbScoringContext != null) {
+            if (kbScoringContext.containsKey("sampleAnswers")) {
+                body.put("sampleAnswers", kbScoringContext.get("sampleAnswers"));
+            }
+            if (kbScoringContext.containsKey("scoringRubric")) {
+                body.put("scoringRubric", kbScoringContext.get("scoringRubric"));
+            }
+            if (kbScoringContext.containsKey("categoryRubric")) {
+                body.put("categoryRubric", kbScoringContext.get("categoryRubric"));
+            }
+        }
         return callLlm("/internal/scoring/turn", body);
     }
 
@@ -48,11 +66,27 @@ public class LlmOrchestratorClient {
      * Returns raw JSON string of full report.
      */
     public String generateFinalReport(String targetRole, Object turns, Object speechMetrics, Object visionMetrics) {
+        return generateFinalReport(targetRole, turns, speechMetrics, visionMetrics, null);
+    }
+
+    /**
+     * Generate final report with KB context (scoring rubrics + role context).
+     */
+    public String generateFinalReport(String targetRole, Object turns, Object speechMetrics,
+                                       Object visionMetrics, Map<String, Object> kbReportContext) {
         Map<String, Object> body = new java.util.HashMap<>();
         body.put("targetRole", targetRole);
         body.put("turns", turns);
         if (speechMetrics != null) body.put("speechMetrics", speechMetrics);
         if (visionMetrics != null) body.put("visionMetrics", visionMetrics);
+        if (kbReportContext != null) {
+            if (kbReportContext.containsKey("scoringRubrics")) {
+                body.put("scoringRubrics", kbReportContext.get("scoringRubrics"));
+            }
+            if (kbReportContext.containsKey("roleContext")) {
+                body.put("roleContext", kbReportContext.get("roleContext"));
+            }
+        }
         return callLlm("/internal/scoring/final", body);
     }
 

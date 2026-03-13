@@ -5,7 +5,7 @@ export const config = {
   },
   gemini: {
     apiKey: process.env.GEMINI_API_KEY || "",
-    model: process.env.GEMINI_LIVE_MODEL || "gemini-2.5-flash-exp-native-audio-thinking-dialog",
+    model: process.env.GEMINI_LIVE_MODEL || "gemini-2.5-flash-native-audio-latest",
   },
   internalApiKey: process.env.INTERNAL_API_KEY || "",
 };

@@ -43,4 +43,38 @@ class WarningEmitter:
                 )
             )
 
+        # Expression warnings (only when blendshapes are available)
+        if signals.emotion_scores:
+            scores = signals.emotion_scores
+            if scores.get("concerned", 0) >= 0.65:
+                warnings.append(
+                    Warning(
+                        type="expression",
+                        severity="warning",
+                        message="Hãy thư giãn, cố gắng tự tin hơn",
+                        value=scores["concerned"],
+                        threshold=0.65,
+                    )
+                )
+            elif scores.get("confused", 0) >= 0.65:
+                warnings.append(
+                    Warning(
+                        type="expression",
+                        severity="warning",
+                        message="Nếu chưa hiểu câu hỏi, hãy hỏi lại nhà tuyển dụng",
+                        value=scores["confused"],
+                        threshold=0.65,
+                    )
+                )
+            elif scores.get("neutral", 0) >= 0.85:
+                warnings.append(
+                    Warning(
+                        type="expression",
+                        severity="warning",
+                        message="Cố gắng mỉm cười và thể hiện sự nhiệt tình",
+                        value=scores["neutral"],
+                        threshold=0.85,
+                    )
+                )
+
         return warnings

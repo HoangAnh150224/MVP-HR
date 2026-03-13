@@ -13,11 +13,12 @@ interface VisionWarning {
 interface SelfVideoProps {
   sessionId: string;
   enabled: boolean;
+  onWarning?: (warning: { type: string; message: string }) => void;
 }
 
 const DETECT_INTERVAL_MS = 100; // ~10 FPS
 
-export default function SelfVideo({ sessionId, enabled }: SelfVideoProps) {
+export default function SelfVideo({ sessionId, enabled, onWarning }: SelfVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const landmarkerRef = useRef<FaceLandmarker | null>(null);
@@ -27,7 +28,10 @@ export default function SelfVideo({ sessionId, enabled }: SelfVideoProps) {
 
   const handleWarning = useCallback((w: VisionWarning[]) => {
     setWarnings(w);
-  }, []);
+    if (w.length > 0 && onWarning) {
+      onWarning({ type: w[0].type, message: w[0].message });
+    }
+  }, [onWarning]);
 
   const { connect, sendLandmarks, disconnect } = useLandmarks(
     sessionId,
@@ -49,7 +53,7 @@ export default function SelfVideo({ sessionId, enabled }: SelfVideoProps) {
       runningMode: "VIDEO",
       numFaces: 1,
       outputFacialTransformationMatrixes: false,
-      outputFaceBlendshapes: false,
+      outputFaceBlendshapes: true,
     });
   }, []);
 
@@ -83,9 +87,25 @@ export default function SelfVideo({ sessionId, enabled }: SelfVideoProps) {
             z: lm.z,
             visibility: lm.visibility ?? 1.0,
           }));
+
+          // Extract blendshapes as a flat dict { categoryName: score }
+          let faceBlendshapes: Record<string, number> | undefined;
+          if (
+            result.faceBlendshapes &&
+            result.faceBlendshapes.length > 0
+          ) {
+            faceBlendshapes = {};
+            for (const cat of result.faceBlendshapes[0].categories) {
+              faceBlendshapes[cat.categoryName] = cat.score;
+            }
+          }
+
           sendLandmarks({
             timestamp: Date.now() / 1000,
             face_landmarks: landmarks,
+            ...(faceBlendshapes && {
+              face_blendshapes: faceBlendshapes,
+            }),
           });
         }
       }, DETECT_INTERVAL_MS);
@@ -167,7 +187,7 @@ export default function SelfVideo({ sessionId, enabled }: SelfVideoProps) {
             <div
               key={`${w.type}-${i}`}
               className={`rounded px-2 py-1 text-xs ${
-                w.severity === "high"
+                w.severity === "critical"
                   ? "bg-red-900/50 text-red-300"
                   : "bg-yellow-900/50 text-yellow-300"
               }`}

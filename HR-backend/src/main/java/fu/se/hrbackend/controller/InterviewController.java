@@ -1,18 +1,22 @@
 package fu.se.hrbackend.controller;
 
 import fu.se.hrbackend.exception.BusinessException;
+import fu.se.hrbackend.model.entity.KbConversationTemplate;
 import fu.se.hrbackend.model.entity.Session;
 import fu.se.hrbackend.model.enums.SessionState;
 import fu.se.hrbackend.service.InterviewDispatchService;
+import fu.se.hrbackend.service.KnowledgeBaseService;
 import fu.se.hrbackend.service.SessionService;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -24,6 +28,7 @@ public class InterviewController {
 
     private final SessionService sessionService;
     private final InterviewDispatchService dispatchService;
+    private final KnowledgeBaseService knowledgeBaseService;
     private final ObjectMapper objectMapper;
 
     @PostMapping("/start/{sessionId}")
@@ -55,6 +60,25 @@ public class InterviewController {
             }
         } catch (Exception e) {
             log.warn("Session {} failed to parse questionPlan: {}", sessionId, e.getMessage());
+        }
+
+        // Load conversation templates from KB
+        try {
+            List<KbConversationTemplate> templates = knowledgeBaseService.getConversationTemplates(
+                    List.of("opening", "transition", "encouragement", "closing", "probing"), "vi");
+            if (!templates.isEmpty()) {
+                ObjectNode templatesNode = objectMapper.createObjectNode();
+                for (KbConversationTemplate t : templates) {
+                    if (!templatesNode.has(t.getType())) {
+                        templatesNode.set(t.getType(), objectMapper.createArrayNode());
+                    }
+                    ((ArrayNode) templatesNode.get(t.getType())).add(t.getTemplateText());
+                }
+                metaNode.set("conversationTemplates", templatesNode);
+                log.info("Session {} loaded {} conversation templates from KB", sessionId, templates.size());
+            }
+        } catch (Exception e) {
+            log.warn("Session {} failed to load conversation templates: {}", sessionId, e.getMessage());
         }
 
         String metadata;

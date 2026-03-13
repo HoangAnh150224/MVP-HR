@@ -10,6 +10,7 @@ interface InterviewControlsProps {
   onEnd: () => void;
   micEnabled: boolean;
   onToggleMic: () => void;
+  onVisionWarning?: (warning: { type: string; message: string }) => void;
 }
 
 export default function InterviewControls({
@@ -19,6 +20,7 @@ export default function InterviewControls({
   onEnd,
   micEnabled,
   onToggleMic,
+  onVisionWarning,
 }: InterviewControlsProps) {
   const [cameraEnabled, setCameraEnabled] = useState(true);
   const [ending, setEnding] = useState(false);
@@ -57,7 +59,7 @@ export default function InterviewControls({
       </div>
 
       {/* Self video with face detection */}
-      <SelfVideo sessionId={sessionId} enabled={cameraEnabled && isConnected} />
+      <SelfVideo sessionId={sessionId} enabled={cameraEnabled && isConnected} onWarning={onVisionWarning} />
 
       {/* Hint */}
       {isConnected && (

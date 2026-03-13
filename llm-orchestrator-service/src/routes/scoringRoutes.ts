@@ -9,11 +9,22 @@ const router = Router();
 
 router.post("/internal/scoring/turn", async (req, res, next) => {
   try {
-    const { question, answer, category, difficulty } = req.body;
+    const {
+      question,
+      answer,
+      category,
+      difficulty,
+      sampleAnswers,
+      scoringRubric,
+      categoryRubric,
+    } = req.body;
 
     if (!question || !answer) {
       res.status(400).json({
-        error: { code: "VALIDATION_ERROR", message: "question and answer are required" },
+        error: {
+          code: "VALIDATION_ERROR",
+          message: "question and answer are required",
+        },
       });
       return;
     }
@@ -23,6 +34,9 @@ router.post("/internal/scoring/turn", async (req, res, next) => {
       answer,
       category || "general",
       difficulty || "mid",
+      sampleAnswers,
+      scoringRubric,
+      categoryRubric,
     );
     const raw = await callGemini(prompt);
     const parsed = parseJsonResponse(raw);
@@ -36,16 +50,33 @@ router.post("/internal/scoring/turn", async (req, res, next) => {
 
 router.post("/internal/scoring/final", async (req, res, next) => {
   try {
-    const { targetRole, turns, speechMetrics, visionMetrics } = req.body;
+    const {
+      targetRole,
+      turns,
+      speechMetrics,
+      visionMetrics,
+      scoringRubrics,
+      roleContext,
+    } = req.body;
 
     if (!targetRole || !turns) {
       res.status(400).json({
-        error: { code: "VALIDATION_ERROR", message: "targetRole and turns are required" },
+        error: {
+          code: "VALIDATION_ERROR",
+          message: "targetRole and turns are required",
+        },
       });
       return;
     }
 
-    const prompt = finalReportPrompt(targetRole, turns, speechMetrics, visionMetrics);
+    const prompt = finalReportPrompt(
+      targetRole,
+      turns,
+      speechMetrics,
+      visionMetrics,
+      scoringRubrics,
+      roleContext,
+    );
     const raw = await callGemini(prompt);
     const parsed = parseJsonResponse(raw);
     const report = reportSchema.parse(parsed);

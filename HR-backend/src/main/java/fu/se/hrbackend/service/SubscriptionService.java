@@ -18,7 +18,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class SubscriptionService {
 
-    private static final int FREE_WEEKLY_LIMIT = 2;
+    private static final int FREE_WEEKLY_LIMIT = 999; // TODO: revert to 2 for production
 
     private final SubscriptionRepository subscriptionRepository;
     private final SessionRepository sessionRepository;

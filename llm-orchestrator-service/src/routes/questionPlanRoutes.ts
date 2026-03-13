@@ -7,7 +7,14 @@ const router = Router();
 
 router.post("/internal/question-plans/generate", async (req, res, next) => {
   try {
-    const { cvProfile, targetRole, difficulty } = req.body;
+    const {
+      cvProfile,
+      targetRole,
+      difficulty,
+      referenceQuestions,
+      roleTemplate,
+      scoringCriteria,
+    } = req.body;
 
     if (!targetRole) {
       res.status(400).json({
@@ -26,7 +33,13 @@ router.post("/internal/question-plans/generate", async (req, res, next) => {
       gaps: ["to be assessed"],
     };
 
-    const prompt = generatePlanPrompt(profile, difficulty || "mid");
+    const prompt = generatePlanPrompt(
+      profile,
+      difficulty || "mid",
+      referenceQuestions,
+      roleTemplate,
+      scoringCriteria,
+    );
     const raw = await callGemini(prompt);
     const parsed = parseJsonResponse(raw);
     const plan = questionPlanSchema.parse(parsed);

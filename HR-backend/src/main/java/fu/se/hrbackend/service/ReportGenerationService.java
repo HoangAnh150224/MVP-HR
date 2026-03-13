@@ -34,6 +34,7 @@ public class ReportGenerationService {
     private final ReportRepository reportRepository;
     private final SpeechMetricsRepository speechMetricsRepository;
     private final SessionService sessionService;
+    private final KnowledgeBaseService knowledgeBaseService;
     private final LlmOrchestratorClient llmClient;
     private final ObjectMapper objectMapper;
     private final SessionEventPublisher wsPublisher;
@@ -64,14 +65,23 @@ public class ReportGenerationService {
             // Pair AI questions with user answers
             List<QAPair> qaPairs = pairTranscripts(transcripts);
 
-            // Score each turn
+            // Score each turn (with KB context if available)
             List<ObjectNode> scoredTurns = new ArrayList<>();
             for (int i = 0; i < qaPairs.size(); i++) {
                 QAPair pair = qaPairs.get(i);
                 try {
+                    // Try to get KB scoring context for this question
+                    Map<String, Object> kbScoringContext = null;
+                    try {
+                        kbScoringContext = knowledgeBaseService.buildScoringContext(
+                                pair.question, "general");
+                    } catch (Exception e) {
+                        log.debug("No KB scoring context for turn {}: {}", i, e.getMessage());
+                    }
+
                     String turnScoreJson = llmClient.scoreTurn(
                             pair.question, pair.answer, "general",
-                            session.getDifficulty()
+                            session.getDifficulty(), kbScoringContext
                     );
                     ObjectNode turnScore = (ObjectNode) objectMapper.readTree(turnScoreJson);
                     turnScore.put("questionIndex", i);
@@ -102,12 +112,23 @@ public class ReportGenerationService {
             // Gather vision metrics
             ObjectNode visionMetricsNode = fetchVisionMetrics(sessionId);
 
-            // Generate final report (with speech + vision data)
+            // Get KB report context (scoring rubrics + role context)
+            Map<String, Object> kbReportContext = null;
+            try {
+                kbReportContext = knowledgeBaseService.buildReportContext(
+                        session.getTargetRole() != null ? session.getTargetRole() : "General");
+                log.info("Enriched report generation with KB rubrics for session {}", sessionId);
+            } catch (Exception e) {
+                log.warn("Failed to load KB report context: {}", e.getMessage());
+            }
+
+            // Generate final report (with speech + vision + KB data)
             String finalReportJson = llmClient.generateFinalReport(
                     session.getTargetRole() != null ? session.getTargetRole() : "General",
                     objectMapper.readTree(turnsArray.toString()),
                     speechMetricsNode,
-                    visionMetricsNode
+                    visionMetricsNode,
+                    kbReportContext
             );
 
             // Parse and enrich with speech/vision data

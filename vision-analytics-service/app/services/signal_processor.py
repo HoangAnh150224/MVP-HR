@@ -19,6 +19,15 @@ class SignalProcessor:
         mouth_ratio = self._compute_mouth_open(frame.face_landmarks)
         sentiment = self._compute_sentiment(frame.face_landmarks)
 
+        # Compute emotions from blendshapes if available
+        dominant_emotion = None
+        emotion_scores = None
+        has_blendshapes = False
+        if frame.face_blendshapes:
+            has_blendshapes = True
+            emotion_scores = self._compute_emotions(frame.face_blendshapes)
+            dominant_emotion = max(emotion_scores, key=emotion_scores.get)
+
         snapshot = SignalSnapshot(
             timestamp=frame.timestamp,
             eye_contact_score=eye_contact,
@@ -28,6 +37,9 @@ class SignalProcessor:
             mouth_open_ratio=mouth_ratio,
             blink_rate=self.window.blink_rate,
             sentiment_valence=sentiment,
+            dominant_emotion=dominant_emotion,
+            emotion_scores=emotion_scores,
+            has_blendshapes=has_blendshapes,
         )
         self.window.add(snapshot)
         return snapshot
@@ -188,3 +200,41 @@ class SignalProcessor:
         # Normalize to roughly -1..1 range
         valence = max(-1.0, min(1.0, diff * 20))
         return round(valence, 3)
+
+    @staticmethod
+    def _compute_emotions(bs: dict[str, float]) -> dict[str, float]:
+        """Map 52 MediaPipe face blendshapes to 5 emotion scores using rule-based logic."""
+
+        def _avg(*keys: str) -> float:
+            vals = [bs.get(k, 0.0) for k in keys]
+            return sum(vals) / len(vals) if vals else 0.0
+
+        smile = _avg("mouthSmileLeft", "mouthSmileRight")
+        cheek_squint = _avg("cheekSquintLeft", "cheekSquintRight")
+        happy = smile * 0.7 + cheek_squint * 0.3
+
+        brow_outer = _avg("browOuterUpLeft", "browOuterUpRight")
+        eye_wide = _avg("eyeWideLeft", "eyeWideRight")
+        jaw_open = bs.get("jawOpen", 0.0)
+        surprised = brow_outer * 0.4 + eye_wide * 0.3 + jaw_open * 0.3
+
+        brow_inner = bs.get("browInnerUp", 0.0)
+        frown = _avg("mouthFrownLeft", "mouthFrownRight")
+        concerned = brow_inner * 0.6 + frown * 0.4
+
+        brow_down = _avg("browDownLeft", "browDownRight")
+        eye_squint = _avg("eyeSquintLeft", "eyeSquintRight")
+        confused = brow_down * 0.5 + eye_squint * 0.5
+
+        # Neutral = inverse of all others
+        others_sum = happy + surprised + concerned + confused
+        neutral = max(0.0, 1.0 - others_sum)
+
+        scores = {
+            "happy": round(happy, 3),
+            "surprised": round(surprised, 3),
+            "concerned": round(concerned, 3),
+            "confused": round(confused, 3),
+            "neutral": round(neutral, 3),
+        }
+        return scores

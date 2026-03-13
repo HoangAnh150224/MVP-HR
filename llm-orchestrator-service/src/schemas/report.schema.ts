@@ -23,9 +23,14 @@ export const reportSchema = z.object({
   categories: z.array(
     z.object({
       name: z.string(),
+      slug: z.string().optional(),
       score: z.number(),
       maxScore: z.number(),
+      weightPercent: z.number().optional(),
       feedback: z.string(),
+      strengths: z.string().optional(),
+      weaknesses: z.string().optional(),
+      tips: z.string().optional(),
     }),
   ),
   turnScores: z.array(turnScoreWithAnalysisSchema),

@@ -1,0 +1,13 @@
+Nguyen Van A - Software Engineer
+Email: nguyenvana@gmail.com
+
+EDUCATION
+FPT University - Bachelor of Software Engineering (2022-2026)
+
+EXPERIENCE
+Intern at TechCorp (06/2025 - 12/2025)
+- Developed REST APIs using Spring Boot
+- Built React frontend components
+
+SKILLS
+Java, Spring Boot, TypeScript, React, PostgreSQL, Docker

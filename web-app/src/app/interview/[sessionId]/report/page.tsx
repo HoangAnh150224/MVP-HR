@@ -10,6 +10,7 @@ import type {
   ActionableImprovement,
   SpeechMetricsSummary,
   VisionMetricsSummary,
+  ExpressionBreakdown,
 } from "@/types/report";
 
 function getScoreColor(score: number, max = 100): string {
@@ -131,6 +132,41 @@ function VisionMetricsSection({ metrics }: { metrics: VisionMetricsSummary }) {
           <p className="text-2xl font-bold text-gray-900">{(metrics.avgSentiment * 100).toFixed(0)}%</p>
           <p className="text-xs text-gray-500">Biểu cảm tích cực</p>
         </div>
+      </div>
+    </div>
+  );
+}
+
+const EXPRESSION_CONFIG: { key: keyof ExpressionBreakdown; label: string; color: string }[] = [
+  { key: "happy", label: "Vui ve / Tu tin", color: "bg-green-500" },
+  { key: "neutral", label: "Binh than", color: "bg-gray-400" },
+  { key: "surprised", label: "Ngac nhien", color: "bg-blue-500" },
+  { key: "concerned", label: "Lo lang", color: "bg-yellow-500" },
+  { key: "confused", label: "Boi roi", color: "bg-red-500" },
+];
+
+function ExpressionBreakdownChart({ breakdown }: { breakdown: ExpressionBreakdown }) {
+  return (
+    <div className="rounded-xl bg-white p-6 shadow">
+      <h3 className="text-lg font-semibold text-gray-900 mb-4">Bieu cam khuon mat</h3>
+      <div className="space-y-3">
+        {EXPRESSION_CONFIG.map(({ key, label, color }) => {
+          const pct = breakdown[key] ?? 0;
+          return (
+            <div key={key}>
+              <div className="flex justify-between text-sm mb-1">
+                <span className="font-medium text-gray-700">{label}</span>
+                <span className="font-bold text-gray-600">{pct}%</span>
+              </div>
+              <div className="h-2.5 w-full rounded-full bg-gray-200">
+                <div
+                  className={`h-2.5 rounded-full ${color}`}
+                  style={{ width: `${Math.min(pct, 100)}%` }}
+                />
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -322,6 +358,11 @@ export default function ReportPage() {
           {/* Vision Metrics */}
           {report.visionMetrics && report.visionMetrics.totalFrames > 0 && (
             <VisionMetricsSection metrics={report.visionMetrics} />
+          )}
+
+          {/* Expression Breakdown */}
+          {report.visionMetrics?.expressionBreakdown && (
+            <ExpressionBreakdownChart breakdown={report.visionMetrics.expressionBreakdown} />
           )}
 
           {/* Speech/Vision Feedback */}

@@ -35,6 +35,16 @@ const QuestionSchema = z.object({
   text: z.string().optional(),
 });
 
+const ConversationTemplatesSchema = z
+  .object({
+    opening: z.array(z.string()).optional(),
+    transition: z.array(z.string()).optional(),
+    encouragement: z.array(z.string()).optional(),
+    closing: z.array(z.string()).optional(),
+    probing: z.array(z.string()).optional(),
+  })
+  .optional();
+
 const SessionConfigSchema = z.object({
   sessionId: z.string(),
   locale: z.string().optional().default("vi"),
@@ -45,6 +55,7 @@ const SessionConfigSchema = z.object({
       questions: z.array(QuestionSchema).optional(),
     })
     .optional(),
+  conversationTemplates: ConversationTemplatesSchema,
 });
 
 // ── Kịch bản phỏng vấn mặc định (6 câu, ~15-20 phút) ──
@@ -230,6 +241,30 @@ export function handleBrowserConnection(browserWs: WebSocket): void {
         })
         .join("\n");
 
+      // Build conversation templates section from KB
+      const templates = parsed.conversationTemplates;
+      let templatesSection = "";
+      if (templates) {
+        const parts: string[] = ["", "=== MẪU TRÒ CHUYỆN (từ Knowledge Base) ==="];
+        if (templates.opening?.length) {
+          parts.push(`Lời chào mở đầu (chọn 1): ${templates.opening.join(" | ")}`);
+        }
+        if (templates.transition?.length) {
+          parts.push(`Chuyển câu hỏi (xen kẽ): ${templates.transition.join(" | ")}`);
+        }
+        if (templates.encouragement?.length) {
+          parts.push(`Khuyến khích khi ứng viên ngập ngừng: ${templates.encouragement.join(" | ")}`);
+        }
+        if (templates.probing?.length) {
+          parts.push(`Đào sâu thêm: ${templates.probing.join(" | ")}`);
+        }
+        if (templates.closing?.length) {
+          parts.push(`Kết thúc (chọn 1): ${templates.closing.join(" | ")}`);
+        }
+        parts.push("Dùng các mẫu trên một cách TỰ NHIÊN, KHÔNG đọc y nguyên — paraphrase cho phù hợp ngữ cảnh.");
+        templatesSection = parts.join("\n");
+      }
+
       const instructions =
         parsed.locale === "vi"
           ? [
@@ -257,6 +292,7 @@ export function handleBrowserConnection(browserWs: WebSocket): void {
               "2. Hỏi về KẾT QUẢ CỤ THỂ: số liệu, impact, bài học rút ra.",
               "3. Hỏi về KHÓ KHĂN gặp phải và cách GIẢI QUYẾT.",
               "4. Chỉ chuyển sang câu tiếp khi đã khai thác đủ sâu (2-3 follow-up).",
+              templatesSection,
               "",
               "=== KỊCH BẢN PHỎNG VẤN ===",
               "Hỏi lần lượt các câu sau:",

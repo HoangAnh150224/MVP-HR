@@ -30,7 +30,9 @@ export default function VisionWarningToast({ warning }: VisionWarningToastProps)
     ? "👁"
     : current.type.toLowerCase().includes("posture")
       ? "🧍"
-      : "⚠";
+      : current.type.toLowerCase().includes("expression")
+        ? "😊"
+        : "⚠";
 
   return (
     <div className="fixed bottom-24 left-1/2 z-50 -translate-x-1/2 animate-fade-in">

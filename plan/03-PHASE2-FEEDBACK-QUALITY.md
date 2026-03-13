@@ -18,6 +18,72 @@
 > Quy tắc vàng (từ CJM):
 > - KHÔNG ĐƯỢC nói: "Bạn cần tự tin hơn" → QUÁ CHUNG CHUNG → user rời bỏ ngay
 > - PHẢI nói: "Bạn dùng 8 từ đệm (ờ:3, à:3, ừm:2). Mẹo: Dừng im 1 giây thay vì nói ờ."
+>
+> **Feedback thầy (7/3/2026 demo deadline)**:
+> - Chấm điểm TỪNG PHẦN: sự tự tin, kĩ năng giao tiếp (2 câu), giải quyết vấn đề, chuyên môn (2 câu)
+> - Cho biết cái MẠNH cái YẾU từng phần → linh hoạt
+> - Xem chi tiết rubric và 10 câu hỏi mẫu tại `13-DEMO-PREPARATION-7MAR.md`
+
+---
+
+## 2.0 — Rubric chấm điểm 5 tiêu chí (MỚI — từ feedback thầy)
+
+### Nghiệp vụ
+
+**Yêu cầu thầy**: Chấm điểm từng phần, cho biết mạnh/yếu, linh hoạt.
+
+**5 tiêu chí đánh giá** (thay thế 4 tiêu chí cũ — Technical/Communication/Problem-solving/Cultural Fit):
+
+| Tiêu chí | Trọng số | Câu hỏi liên quan | Đánh giá |
+|----------|----------|-------------------|----------|
+| **Sự tự tin** | 20% | Xuyên suốt (giọng nói, ngập ngừng, từ đệm) | AI + speech metrics |
+| **Kĩ năng giao tiếp** | 25% | 2 câu chính (sở thích, thói quen) + overall | AI + speech metrics |
+| **Giải quyết vấn đề** | 20% | 2 câu tình huống (kỹ thuật + teamwork) | AI analysis |
+| **Chuyên môn** | 25% | 2 câu chuyên môn (tự đánh giá + dự án) | AI analysis |
+| **Thái độ & Growth** | 10% | motivation + self-awareness + teamwork | AI analysis |
+
+### Output từng tiêu chí
+
+Mỗi tiêu chí gồm:
+- **score** (0-10): Điểm số
+- **feedback**: Nhận xét tổng
+- **strength**: Điểm MẠNH cụ thể
+- **weakness**: Điểm YẾU cụ thể
+- **tip**: 1 mẹo actionable để cải thiện ngay
+
+### Luồng kỹ thuật
+
+```
+core-backend (ReportGenerationService)      llm-orchestrator
+       │                                          │
+       │  POST /internal/scoring/final            │
+       │  {targetRole, level, turns[],            │
+       │   speechMetrics, visionMetrics}          │
+       │─────────────────────────────────────────→│
+       │                                          │  Gemini analyze:
+       │                                          │  - Score 5 sections
+       │                                          │  - Identify strength/weakness
+       │                                          │  - Generate tips
+       │  {overallScore, sections: [              │
+       │    {name, score, weight, feedback,       │
+       │     strength, weakness, tip}             │
+       │  ], top3Actions, summary}                │
+       │←─────────────────────────────────────────│
+```
+
+### Files cần tạo/sửa
+
+**llm-orchestrator-service**:
+- Sửa `src/routes/scoring.ts` — Final report prompt: yêu cầu Gemini chấm 5 tiêu chí + mạnh/yếu/mẹo
+- Sửa `src/schemas/report.schema.ts` — Thêm `sections[]` schema với strength/weakness/tip
+- Sửa turn scoring: tag mỗi turn với tiêu chí chính nó đánh giá
+
+**core-backend**:
+- Sửa `ReportGenerationService.java` — Truyền speechMetrics + visionMetrics vào scoring request
+- Report entity `reportData` JSONB lưu sections[] thay vì categories[]
+
+**web-app**:
+- Sửa report page — Hiển thị 5 tiêu chí: score bar + mạnh + yếu + tip
 
 ---
 

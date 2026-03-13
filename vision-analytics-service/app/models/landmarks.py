@@ -12,3 +12,4 @@ class LandmarkFrame(BaseModel):
     timestamp: float
     face_landmarks: list[Landmark]
     pose_landmarks: list[Landmark] | None = None
+    face_blendshapes: dict[str, float] | None = None

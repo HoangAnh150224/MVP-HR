@@ -58,9 +58,19 @@ export interface SpeechMetricsSummary {
   totalUtteranceSeconds: number;
 }
 
+export interface ExpressionBreakdown {
+  happy: number;
+  neutral: number;
+  surprised: number;
+  concerned: number;
+  confused: number;
+}
+
 export interface VisionMetricsSummary {
   eyeContactPercent: number;
   postureWarnings: number;
   avgSentiment: number;
   totalFrames: number;
+  expressionBreakdown?: ExpressionBreakdown;
+  expressionWarnings?: number;
 }

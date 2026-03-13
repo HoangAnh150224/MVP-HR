@@ -45,6 +45,7 @@ public class CVService {
 
     private final CVProfileRepository cvProfileRepository;
     private final SessionService sessionService;
+    private final KnowledgeBaseService knowledgeBaseService;
     private final LlmOrchestratorConfig llmConfig;
     private final ObjectMapper objectMapper;
     private final HttpClient httpClient = HttpClient.newHttpClient();
@@ -157,11 +158,24 @@ public class CVService {
         String url = llmConfig.getUrl() + "/internal/question-plans/generate";
         try {
             Object cvProfile = objectMapper.readValue(cvProfileJson, Object.class);
-            Map<String, Object> body = Map.of(
-                    "cvProfile", cvProfile,
-                    "targetRole", targetRole,
-                    "difficulty", difficulty != null ? difficulty : "mid"
-            );
+            Map<String, Object> body = new java.util.HashMap<>();
+            body.put("cvProfile", cvProfile);
+            body.put("targetRole", targetRole);
+            body.put("difficulty", difficulty != null ? difficulty : "mid");
+
+            // Enrich with KB context (reference questions, role template, scoring criteria)
+            try {
+                Map<String, Object> kbContext = knowledgeBaseService.buildQuestionGenerationContext(
+                        targetRole, difficulty != null ? difficulty : "mid");
+                body.put("referenceQuestions", kbContext.get("referenceQuestions"));
+                body.put("roleTemplate", kbContext.get("roleTemplate"));
+                body.put("scoringCriteria", kbContext.get("scoringCriteria"));
+                log.info("Enriched question generation with KB: {} reference questions",
+                        kbContext.get("referenceQuestions") instanceof java.util.List<?> l ? l.size() : 0);
+            } catch (Exception e) {
+                log.warn("Failed to load KB context for question generation: {}", e.getMessage());
+            }
+
             return callLlm(url, body);
         } catch (IOException e) {
             throw new RuntimeException("Failed to parse CV profile JSON", e);

@@ -34,7 +34,6 @@ RUN addgroup -S app && adduser -S app -G app
 # Copy standalone output
 COPY --from=build /app/.next/standalone ./
 COPY --from=build /app/.next/static ./.next/static
-COPY --from=build /app/public ./public 2>/dev/null || true
 
 RUN chown -R app:app /app
 USER app

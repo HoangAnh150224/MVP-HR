@@ -3,14 +3,51 @@
 > Mục tiêu MVP: User hoàn thành 1 interview từ đầu đến cuối, nhận report actionable, và thấy tiến bộ.
 > Target: 500 users đầu tiên (SOM từ business plan)
 > B2B: Bắt đầu sau khi có 500+ users B2C
+>
+> **🔴 DEADLINE: Demo cho thầy Thắng — Chủ Nhật 7/3/2026**
+> → Xem kịch bản demo: `13-DEMO-PREPARATION-7MAR.md`
 
 ## Nguyên tắc ưu tiên
 
-1. **End-to-end flow trước** — Nối service lại thành flow hoàn chỉnh
-2. **Feedback chất lượng** — Report phải actionable, không chung chung (pain #1 từ khảo sát)
-3. **Trải nghiệm "giống thật"** — Video call tự nhiên, vặn hỏi sâu (62.6% mong muốn)
-4. **Freemium model** — Free Trial chất lượng, upsell gói 49k/3 ngày
-5. **B2B sau MVP** — HR dashboard, invite link, so sánh ứng viên (future)
+1. **Demo deadline 7/3** — Ưu tiên tuyệt đối cho demo features (xem `13-DEMO-PREPARATION-7MAR.md`)
+2. **End-to-end flow trước** — Nối service lại thành flow hoàn chỉnh
+3. **AI conversational** — Trò chuyện tự nhiên, KHÔNG phỏng vấn cứng (feedback thầy)
+4. **Chấm điểm 5 tiêu chí** — Tự tin, giao tiếp, GQVĐ, chuyên môn, thái độ + mạnh/yếu
+5. **Feedback chất lượng** — Report phải actionable, không chung chung
+6. **Freemium model** — Free Trial chất lượng, upsell gói 49k/3 ngày
+7. **B2B sau MVP** — HR dashboard, invite link, so sánh ứng viên (future)
+
+---
+
+## 🔴 DEMO SPRINT: 2/3 → 7/3/2026
+
+> **Ưu tiên #1**: Hoàn thành demo để gửi thầy Thắng trước Chủ Nhật 7/3/2026.
+> Chi tiết kịch bản: `13-DEMO-PREPARATION-7MAR.md`
+
+| Ngày | Task | Priority |
+|------|------|----------|
+| 2/3 (T2) | Sửa system prompt: conversational + 10 câu hỏi + trả lời ngắn | P0 |
+| 2/3 (T2) | Sửa scoring prompt: 5 tiêu chí + mạnh/yếu/mẹo | P0 |
+| 3/3 (T3) | Nâng cấp report page: 5 tiêu chí + mạnh/yếu + bars | P0 |
+| 3/3 (T3) | Fix bugs E2E flow (session → interview → report) | P0 |
+| 4/3 (T4) | Speech metrics: voice-agent → core-backend → report | P1 |
+| 4/3 (T4) | Vision aggregate: collect → report (eye contact %) | P1 |
+| 5/3 (T5) | Transcript panel real-time + AI follow-up | P1 |
+| 6/3 (T6) | Test E2E + fix bugs + polish UI | P0 |
+| 7/3 (CN) | Gửi demo cho thầy Thắng qua Zalo | DEADLINE |
+
+### Demo features (from teacher feedback)
+
+| Feature | Plan task | Cần làm |
+|---------|-----------|---------|
+| AI conversational (không phỏng vấn cứng) | Phase 3 task 3.A | Sửa system prompt |
+| 10 câu hỏi đa dạng chủ đề | 13-DEMO §2 | Sửa system prompt |
+| AI trả lời ngắn (1-2 câu) | Phase 3 task 3.A | Sửa system prompt + Gemini config |
+| Chấm 5 tiêu chí: tự tin/giao tiếp/GQVĐ/chuyên môn/thái độ | Phase 2 task 2.0 | Sửa scoring prompt |
+| Mạnh/yếu từng phần | Phase 2 task 2.0 | Sửa scoring prompt + report page |
+| AI adaptive (điều chỉnh theo ứng viên) | Phase 3 task 3.A | Sửa system prompt |
+| Biểu cảm khuôn mặt | Phase 2 task 2.4 | Vision aggregate endpoint |
+| Câu trả lời mẫu | Phase 2 task 2.3 | Sửa scoring prompt |
 
 ---
 
@@ -39,6 +76,7 @@
 
 | Task | Service | Chi tiết |
 |------|---------|----------|
+| **2.0 Rubric 5 tiêu chí (MỚI)** | **llm-orchestrator + core-backend** | **Tự tin/giao tiếp/GQVĐ/chuyên môn/thái độ + mạnh/yếu/mẹo** |
 | 2.1 Speech metrics trong report | voice-agent + core-backend | WPM, filler words count, silence duration |
 | 2.2 STAR analysis | llm-orchestrator | Identify missing S/T/A/R components per answer |
 | 2.3 Sample answers | llm-orchestrator | Gợi ý câu trả lời mẫu tốt hơn cho mỗi câu |
@@ -58,6 +96,7 @@
 
 | Task | Service | Chi tiết |
 |------|---------|----------|
+| **3.A Conversational AI tuning** | **voice-agent** | **AI trò chuyện tự nhiên, trả lời ngắn, đa dạng chủ đề, adaptive** |
 | 3.0 Onboarding flow | web-app + core-backend | B2C: role + level + CV. B2B: invite link → tên/email |
 | 3.1 Interview multi-step flow | web-app | Tách: upload → consent → room → report |
 | 3.2 Interview timer + progress | web-app + voice-agent | Timer + "Câu 2/6" indicator |
@@ -148,22 +187,26 @@ B2B Dependencies (future, sau 500+ users B2C):
 
 ## Mapping features với khảo sát
 
-| Nhu cầu khảo sát | Phase | Task |
-|-------------------|-------|------|
-| Vặn hỏi xoáy sâu (62.6%) | Đã có | voice-agent system prompt đã hỗ trợ |
-| Chấm điểm (60.2%) | Phase 1 | 1.3 + 1.5 |
-| Sửa câu trả lời (59.3%) | Phase 2 | 2.3 Sample answers |
-| Soi lỗi cơ thể (43.1%) | Phase 2 | 2.4 Vision metrics |
-| Feedback cụ thể, số liệu | Phase 2 | 2.1 + 2.2 + 2.5 |
-| Giao diện giống video call thật | Phase 3 | 3.1 + 3.5 + 3.6 |
-| Onboarding nhanh, ít friction | Phase 3 | 3.0 Onboarding flow |
-| Progress tracking | Phase 4 | 4.3 |
-| Giá 49k/3 ngày | Phase 5 | 5.1 + 5.2 |
-| Free Trial | Phase 5 | 5.1 |
-| Privacy/consent | Phase 1 | 1.6 |
-| STAR method | Phase 2 | 2.2 |
-| Minh bạch tiêu chí chấm điểm | Phase 1 | 1.5 Report page (rubric link) |
-| So sánh với ChatGPT | Phase 5 | 5.5 Landing page comparison |
+| Nhu cầu | Nguồn | Phase | Task |
+|---------|-------|-------|------|
+| Vặn hỏi xoáy sâu (62.6%) | Khảo sát | Đã có | voice-agent system prompt |
+| Chấm điểm (60.2%) | Khảo sát | Phase 1 | 1.3 + 1.5 |
+| Sửa câu trả lời (59.3%) | Khảo sát | Phase 2 | 2.3 Sample answers |
+| Soi lỗi cơ thể (43.1%) | Khảo sát | Phase 2 | 2.4 Vision metrics |
+| Feedback cụ thể, số liệu | Khảo sát | Phase 2 | 2.0 + 2.1 + 2.2 + 2.5 |
+| Giao diện giống video call thật | Khảo sát | Phase 3 | 3.1 + 3.5 + 3.6 |
+| Onboarding nhanh | Khảo sát | Phase 3 | 3.0 |
+| Progress tracking | Khảo sát | Phase 4 | 4.3 |
+| Giá 49k/3 ngày | Khảo sát | Phase 5 | 5.1 + 5.2 |
+| STAR method | Khảo sát | Phase 2 | 2.2 |
+| So sánh với ChatGPT | Khảo sát | Phase 5 | 5.5 |
+| **AI trò chuyện tự nhiên** | **Thầy** | **Phase 3** | **3.A Conversational AI** |
+| **10 câu hỏi đa dạng chủ đề** | **Thầy** | **Phase 3** | **3.A + 13-DEMO** |
+| **AI trả lời ngắn (1-2 câu)** | **Thầy** | **Phase 3** | **3.A** |
+| **Chấm 5 tiêu chí + mạnh/yếu** | **Thầy** | **Phase 2** | **2.0 Rubric 5 tiêu chí** |
+| **AI adaptive theo ứng viên** | **Thầy** | **Phase 3** | **3.A** |
+| **Biểu cảm khuôn mặt** | **Thầy** | **Phase 2** | **2.4 mở rộng** |
+| **Kịch bản demo 10 câu** | **Thầy** | **Demo** | **13-DEMO-PREPARATION** |
 
 ## Mapping với Customer Journey Map
 
@@ -188,8 +231,10 @@ B2B Dependencies (future, sau 500+ users B2C):
 | Review Report | "Xem kết quả, so sánh" | HR report + comparison | 4.6, 4.8 |
 | Buy | "Đề xuất công ty mua gói" | Standard/Enterprise pricing | 5.6 |
 
-## UX Design Documents
+## Documents
 
-Chi tiết trải nghiệm từng màn hình, mockups, cảm xúc user:
-→ **B2C (Sinh viên)**: `08-UX-STUDENT-B2C.md` — 13 màn hình từ landing → report → progress
-→ **B2B (Doanh nghiệp/HR)**: `12-UX-BUSINESS-B2B.md` — 7 màn hình HR dashboard + ứng viên
+| File | Nội dung |
+|------|----------|
+| `08-UX-STUDENT-B2C.md` | UX B2C: 13 màn hình từ landing → report → progress |
+| `12-UX-BUSINESS-B2B.md` | UX B2B: 7 màn hình HR dashboard + ứng viên |
+| `13-DEMO-PREPARATION-7MAR.md` | **Demo deadline 7/3**: kịch bản, 10 câu hỏi, rubric 5 tiêu chí, checklist |

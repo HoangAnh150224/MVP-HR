@@ -12,6 +12,8 @@ target/
 *.class
 *.jar
 
+.plan/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -20,6 +22,7 @@ __pycache__/
 venv/
 *.egg-info/
 
+.claude/
 # Environment files
 .env
 .env.local

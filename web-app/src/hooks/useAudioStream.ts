@@ -50,7 +50,7 @@ export function useAudioStream({
   const playbackQueueRef = useRef<AudioBuffer[]>([]);
   const isPlayingRef = useRef(false);
   const reconnectAttemptsRef = useRef(0);
-  const lastMetadataRef = useRef<object | undefined>();
+  const lastMetadataRef = useRef<object | undefined>(undefined);
   const intentionalCloseRef = useRef(false);
 
   // Playback audio queue

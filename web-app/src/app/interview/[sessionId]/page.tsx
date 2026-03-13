@@ -165,6 +165,7 @@ export default function InterviewPage() {
             onEnd={handleEnd}
             micEnabled={audioStream.micEnabled}
             onToggleMic={audioStream.toggleMic}
+            onVisionWarning={setVisionWarning}
           />
         </div>
 

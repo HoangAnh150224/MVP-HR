@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  # --- Infrastructure ---
+  # ===================== Infrastructure =====================
   postgres:
     image: postgres:16-alpine
     environment:
@@ -19,6 +19,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
 
   redis:
     image: redis:7-alpine
@@ -33,8 +34,9 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
 
-  # --- Application Services ---
+  # ===================== Backend (Java) =====================
   hr-backend:
     build:
       context: ./HR-backend
@@ -51,7 +53,7 @@ services:
       LLM_ORCHESTRATOR_URL: http://llm-orchestrator-service:8082
       VISION_ANALYTICS_URL: http://vision-analytics-service:8083
       JWT_SECRET: ${JWT_SECRET:-dev-secret-change-in-production}
-      APP_CORS_ORIGINS: http://localhost:3000,http://web-app:3000
+      APP_CORS_ORIGINS: http://${SERVER_HOST:-localhost}:3000
     depends_on:
       postgres:
         condition: service_healthy
@@ -59,23 +61,28 @@ services:
         condition: service_healthy
     networks:
       - interviewpro-net
+    restart: unless-stopped
 
+  # ===================== Frontend (Next.js) =====================
   web-app:
     build:
       context: ./web-app
       dockerfile: Dockerfile
       args:
-        NEXT_PUBLIC_API_URL: http://localhost:8080
-        NEXT_PUBLIC_WS_URL: ws://localhost:8080
-        NEXT_PUBLIC_VOICE_AGENT_WS_URL: ws://localhost:8081
-        NEXT_PUBLIC_VISION_WS_URL: ws://localhost:8083
+        # NEXT_PUBLIC_* are inlined at build time — must point to SERVER_HOST
+        NEXT_PUBLIC_API_URL: http://${SERVER_HOST:-localhost}:8080
+        NEXT_PUBLIC_WS_URL: ws://${SERVER_HOST:-localhost}:8080
+        NEXT_PUBLIC_VOICE_AGENT_WS_URL: ws://${SERVER_HOST:-localhost}:8081
+        NEXT_PUBLIC_VISION_WS_URL: ws://${SERVER_HOST:-localhost}:8083
     ports:
       - "3000:3000"
-    depends_on:
-      - hr-backend
+    # depends_on:
+    #   - hr-backend  # backend runs outside Docker
     networks:
       - interviewpro-net
+    restart: unless-stopped
 
+  # ===================== Voice Agent (Node.js) =====================
   voice-agent-service:
     build:
       context: ./voice-agent-service
@@ -84,13 +91,13 @@ services:
       - "8081:8081"
     environment:
       PORT: 8081
-      CORE_BACKEND_URL: http://hr-backend:8080
+      CORE_BACKEND_URL: http://host.docker.internal:8080
       GEMINI_API_KEY: ${GEMINI_API_KEY}
-    depends_on:
-      - hr-backend
     networks:
       - interviewpro-net
+    restart: unless-stopped
 
+  # ===================== LLM Orchestrator (Node.js) =====================
   llm-orchestrator-service:
     build:
       context: ./llm-orchestrator-service
@@ -103,7 +110,9 @@ services:
       GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.5-flash}
     networks:
       - interviewpro-net
+    restart: unless-stopped
 
+  # ===================== Vision Analytics (Python) =====================
   vision-analytics-service:
     build:
       context: ./vision-analytics-service
@@ -113,9 +122,10 @@ services:
     environment:
       VISION_HOST: 0.0.0.0
       VISION_PORT: 8083
-      VISION_CORS_ORIGINS: '["http://localhost:3000"]'
+      VISION_CORS_ORIGINS: '["http://${SERVER_HOST:-localhost}:3000"]'
     networks:
       - interviewpro-net
+    restart: unless-stopped
 
 volumes:
   postgres-data:
